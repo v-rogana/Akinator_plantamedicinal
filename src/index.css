@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lora', Georgia, serif;
+  color: #3d2b1f;
+  background-color: #f5f0e8;
+  background-image:
+    radial-gradient(rgba(61, 43, 31, 0.05) 1px, transparent 1px),
+    radial-gradient(rgba(61, 43, 31, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px, 48px 48px;
+  background-position: 0 0, 12px 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .btn-primary {
+    @apply w-full min-h-[56px] rounded-xl bg-folha px-5 py-3 text-papel font-display text-lg
+           shadow-caderno transition active:scale-[0.98] active:bg-folhaEscura hover:bg-folhaEscura;
+  }
+  .btn-option {
+    @apply w-full min-h-[56px] rounded-xl border-2 border-tinta/20 bg-papel px-5 py-3
+           text-left font-serif text-base text-tinta shadow-caderno transition
+           active:scale-[0.98] active:border-folha hover:border-folha;
+  }
+  .btn-ghost {
+    @apply w-full min-h-[48px] rounded-xl px-4 py-2 font-serif italic text-tinta/70
+           underline underline-offset-4 decoration-tinta/30 transition active:text-tinta;
+  }
+  .card-paper {
+    @apply rounded-2xl bg-papel/80 backdrop-blur border border-tinta/10 shadow-caderno p-5;
+  }
+  .chip {
+    @apply inline-block rounded-full border border-folha/40 bg-folha/10 px-3 py-1
+           text-xs font-serif text-folhaEscura;
+  }
+  .scientific {
+    @apply italic font-serif;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 280ms ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.reveal {
+  animation: reveal 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes reveal {
+  0% { opacity: 0; transform: scale(0.94); }
+  60% { opacity: 1; transform: scale(1.02); }
+  100% { transform: scale(1); }
+}

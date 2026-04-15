@@ -1,0 +1,480 @@
+[
+  {
+    "id": "barbatimao",
+    "nomeCientifico": "Stryphnodendron adstringens",
+    "nomePopular": ["Barbatimão", "Barba-de-timão"],
+    "familia": "Fabaceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["casca"],
+    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "habitatEspecifico": "Cerrado sensu stricto e campos cerrados",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Taninos condensados (proantocianidinas)", "Flavonoides", "Ácidos fenólicos"],
+      "destaques": [
+        "Casca com até 30% de taninos — responsáveis pela ação adstringente e cicatrizante",
+        "Prodelfinidinas e procianidinas"
+      ]
+    },
+    "curiosidade": "A casca do barbatimão tem até 30% de taninos, o que explica seu poder cicatrizante. É uma das plantas do cerrado mais estudadas cientificamente e aprovada pela ANVISA como fitoterápico.",
+    "imagem": "barbatimao.webp"
+  },
+  {
+    "id": "arnica_cerrado",
+    "nomeCientifico": "Lychnophora ericoides",
+    "nomePopular": ["Arnica-do-cerrado", "Arnica-da-serra", "Candeia"],
+    "familia": "Asteraceae",
+    "bioma": "cerrado",
+    "porte": "arbusto",
+    "parteUsada": ["folha", "flor"],
+    "categoriaUso": ["anti-inflamatorio", "analgesico", "cicatrizante"],
+    "habitatEspecifico": "Campos rupestres em altitude, especialmente na Serra do Cipó e Serra do Espinhaço",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": false,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Lactonas sesquiterpênicas", "Flavonoides", "Ácidos fenólicos"],
+      "destaques": [
+        "Licnofolídeo e goiazensolídeo (sesquiterpenos anti-inflamatórios)",
+        "Ácido clorogênico e luteolina"
+      ]
+    },
+    "curiosidade": "Endêmica dos campos rupestres mineiros, é usada tradicionalmente em forma de tintura alcoólica para dores musculares e contusões. Está na lista de espécies ameaçadas por extração predatória.",
+    "imagem": "arnica_cerrado.webp"
+  },
+  {
+    "id": "carqueja",
+    "nomeCientifico": "Baccharis trimera",
+    "nomePopular": ["Carqueja", "Carqueja-amarga"],
+    "familia": "Asteraceae",
+    "bioma": "ambos",
+    "porte": "arbusto",
+    "parteUsada": ["planta_inteira"],
+    "categoriaUso": ["digestivo", "hepatoprotetor", "diuretico"],
+    "habitatEspecifico": "Campos, pastagens e beira de estradas",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Diterpenos clerodânicos", "Flavonoides", "Óleo essencial (monoterpenos e sesquiterpenos)"],
+      "destaques": [
+        "Bacrispina e bacrisposídeo (amargos característicos)",
+        "Apigenina, luteolina, quercetina",
+        "Carquejol, carquejilacetato"
+      ]
+    },
+    "curiosidade": "A carqueja tem caules alados achatados que fazem fotossíntese no lugar das folhas quase ausentes. É uma das plantas mais amargas usadas em chá no Brasil, famosa por 'limpar o fígado'.",
+    "imagem": "carqueja.webp"
+  },
+  {
+    "id": "espinheira_santa",
+    "nomeCientifico": "Maytenus ilicifolia",
+    "nomePopular": ["Espinheira-santa", "Cancorosa"],
+    "familia": "Celastraceae",
+    "bioma": "mata_atlantica",
+    "porte": "arbusto",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["digestivo", "anti-inflamatorio"],
+    "habitatEspecifico": "Sub-bosque de Mata Atlântica e Mata de Araucária",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": true,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Triterpenos", "Taninos", "Flavonoides"],
+      "destaques": [
+        "Maitenina e pristimerina (triterpenos com ação antitumoral in vitro)",
+        "Friedelina, friedelinol",
+        "Epicatequina"
+      ]
+    },
+    "curiosidade": "Chamada 'santa' porque curava males do estômago que pareciam incuráveis. Tem folhas com margens espinhosas, lembrando azevinho, e é um dos fitoterápicos para gastrite mais reconhecidos pelo SUS.",
+    "imagem": "espinheira_santa.webp"
+  },
+  {
+    "id": "guaco",
+    "nomeCientifico": "Mikania glomerata",
+    "nomePopular": ["Guaco", "Erva-cobra"],
+    "familia": "Asteraceae",
+    "bioma": "mata_atlantica",
+    "porte": "trepadeira",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["respiratorio", "anti-inflamatorio"],
+    "habitatEspecifico": "Bordas de mata e capoeiras da Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Cumarinas", "Diterpenos (ácidos caurenoicos)", "Óleo essencial"],
+      "destaques": [
+        "Cumarina — marcador oficial na Farmacopeia Brasileira (mínimo 0,1%)",
+        "Ácido caurenoico (broncodilatador)",
+        "o-cumárico"
+      ]
+    },
+    "curiosidade": "É a planta medicinal mais usada contra tosse e bronquite no Brasil. Contém cumarina, que dá aroma característico de baunilha quando as folhas são amassadas, e é base de vários xaropes oficiais.",
+    "imagem": "guaco.webp"
+  },
+  {
+    "id": "aroeira",
+    "nomeCientifico": "Schinus terebinthifolia",
+    "nomePopular": ["Aroeira", "Aroeira-vermelha", "Aroeira-mansa"],
+    "familia": "Anacardiaceae",
+    "bioma": "ambos",
+    "porte": "arvore",
+    "parteUsada": ["casca", "folha", "fruto"],
+    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "habitatEspecifico": "Beira de rios, capoeiras e áreas alteradas",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": true,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial (monoterpenos e sesquiterpenos)", "Taninos hidrolisáveis", "Flavonoides", "Triterpenos"],
+      "destaques": [
+        "α-pineno, β-pineno, limoneno, cariofileno",
+        "Ácido gálico, ácido elágico",
+        "Masticadienônico (triterpeno)"
+      ]
+    },
+    "curiosidade": "Seus frutos são comercializados mundialmente como 'pimenta-rosa' na alta gastronomia. A casca é usada tradicionalmente em banhos de assento para inflamações ginecológicas.",
+    "imagem": "aroeira.webp"
+  },
+  {
+    "id": "ipe_roxo",
+    "nomeCientifico": "Handroanthus impetiginosus",
+    "nomePopular": ["Ipê-roxo", "Pau-d'arco"],
+    "familia": "Bignoniaceae",
+    "bioma": "ambos",
+    "porte": "arvore",
+    "parteUsada": ["casca"],
+    "categoriaUso": ["anti-inflamatorio", "antisseptico", "cicatrizante"],
+    "habitatEspecifico": "Cerradão, matas semideciduais e bordas de Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Naftoquinonas", "Antraquinonas", "Iridoides"],
+      "destaques": [
+        "Lapachol — naftoquinona estudada por ação antitumoral e antimicrobiana",
+        "β-lapachona",
+        "Desidro-α-lapachona"
+      ]
+    },
+    "curiosidade": "Floresce intensamente no fim do inverno sem folhas, cobrindo a árvore inteira de roxo. A entrecasca contém lapachol, estudado por sua ação antitumoral e antimicrobiana.",
+    "imagem": "ipe_roxo.webp"
+  },
+  {
+    "id": "embauba",
+    "nomeCientifico": "Cecropia pachystachya",
+    "nomePopular": ["Embaúba", "Imbaúba", "Árvore-da-preguiça"],
+    "familia": "Urticaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arvore",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["respiratorio", "diuretico", "hepatoprotetor"],
+    "habitatEspecifico": "Capoeiras e bordas de mata, espécie pioneira",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": true,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Flavonoides (C-glicosilados)", "Taninos", "Ácidos fenólicos", "Alcaloides (traços)"],
+      "destaques": [
+        "Orientina e isoorientina",
+        "Ácido clorogênico",
+        "Procianidinas"
+      ]
+    },
+    "curiosidade": "Árvore oca em toda sua extensão, abriga uma espécie de formiga-azteca que a defende de herbívoros — um clássico de mutualismo ensinado em ecologia. As folhas em forma de mão são inconfundíveis.",
+    "imagem": "embauba.webp"
+  },
+  {
+    "id": "catuaba",
+    "nomeCientifico": "Anemopaegma arvense",
+    "nomePopular": ["Catuaba", "Catuaba-mirim"],
+    "familia": "Bignoniaceae",
+    "bioma": "cerrado",
+    "porte": "arbusto",
+    "parteUsada": ["raiz", "casca"],
+    "categoriaUso": ["calmante", "analgesico"],
+    "habitatEspecifico": "Cerrado sensu stricto e campos cerrados",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Alcaloides", "Flavonoides", "Taninos", "Terpenos"],
+      "destaques": [
+        "Catuabinas A, B e C (alcaloides característicos)",
+        "Ioimbina (em traços)",
+        "Catequinas"
+      ]
+    },
+    "curiosidade": "Conhecida popularmente como estimulante e afrodisíaco na medicina tradicional do cerrado. Possui xilopódio subterrâneo lenhoso que rebrota após queimadas — adaptação clássica do cerrado.",
+    "imagem": "catuaba.webp"
+  },
+  {
+    "id": "cavalinha",
+    "nomeCientifico": "Equisetum arvense",
+    "nomePopular": ["Cavalinha", "Rabo-de-cavalo"],
+    "familia": "Equisetaceae",
+    "bioma": "mata_atlantica",
+    "porte": "herbacea",
+    "parteUsada": ["planta_inteira"],
+    "categoriaUso": ["diuretico", "cicatrizante"],
+    "habitatEspecifico": "Áreas úmidas, beira de riachos e brejos",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Sais minerais (sílica)", "Flavonoides", "Saponinas", "Alcaloides (traços)"],
+      "destaques": [
+        "Ácido silícico (até 10% da planta seca) — fortalece tecidos conjuntivos",
+        "Equisetrina, isoquercetina",
+        "Palustrina (alcaloide)"
+      ]
+    },
+    "curiosidade": "É uma 'planta fóssil viva' — pertence a um grupo de plantas sem flores que dominou a Terra há 350 milhões de anos. É riquíssima em sílica, o que a torna famosa por fortalecer cabelos e unhas.",
+    "imagem": "cavalinha.webp"
+  },
+  {
+    "id": "chapeu_couro",
+    "nomeCientifico": "Echinodorus grandiflorus",
+    "nomePopular": ["Chapéu-de-couro", "Erva-do-pântano"],
+    "familia": "Alismataceae",
+    "bioma": "cerrado",
+    "porte": "herbacea",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["diuretico", "anti-inflamatorio"],
+    "habitatEspecifico": "Veredas, brejos e áreas alagadas do cerrado",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Diterpenos", "Flavonoides", "Taninos", "Saponinas"],
+      "destaques": [
+        "Equinodolídeo (diterpeno característico)",
+        "Isovitexina, swertisina",
+        "Ácido trans-aconítico"
+      ]
+    },
+    "curiosidade": "As folhas enormes em forma de coração lembram chapéus de couro dos vaqueiros do sertão — daí o nome. Cresce com os pés n'água nas veredas de buriti, ecossistema típico do cerrado.",
+    "imagem": "chapeu_couro.webp"
+  },
+  {
+    "id": "pacari",
+    "nomeCientifico": "Lafoensia pacari",
+    "nomePopular": ["Pacari", "Mangaba-brava", "Dedaleira"],
+    "familia": "Lythraceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["casca"],
+    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "febrífugo"],
+    "habitatEspecifico": "Cerrado sensu stricto e cerradão",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Taninos hidrolisáveis (elagitaninos)", "Ácidos fenólicos", "Saponinas", "Flavonoides"],
+      "destaques": [
+        "Ácido elágico — marcador principal com ação antiulcerogênica",
+        "Ácido gálico",
+        "Lafoensianina"
+      ]
+    },
+    "curiosidade": "Suas flores brancas e grandes abrem à noite e são polinizadas por morcegos. A casca é usada tradicionalmente para tratar úlceras e gastrite — pesquisas da UFMG confirmam ação cicatrizante.",
+    "imagem": "pacari.webp"
+  },
+  {
+    "id": "sucupira",
+    "nomeCientifico": "Pterodon emarginatus",
+    "nomePopular": ["Sucupira", "Sucupira-branca", "Faveira"],
+    "familia": "Fabaceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["semente", "fruto"],
+    "categoriaUso": ["anti-inflamatorio", "analgesico"],
+    "habitatEspecifico": "Cerrado sensu stricto e cerradão",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": false,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Diterpenos furânicos (vouacapanos)", "Isoflavonoides", "Óleo essencial"],
+      "destaques": [
+        "6α-hidroxivouacapano e 6α,7β-diidroxivouacapano (anti-inflamatórios)",
+        "Geranilgeraniol",
+        "β-cariofileno"
+      ]
+    },
+    "curiosidade": "Os frutos são usados em garrafadas e óleo medicinal tradicional contra dores reumáticas e artrite. Rico em diterpenos, é uma das plantas mais estudadas pela EMBRAPA Cerrados.",
+    "imagem": "sucupira.webp"
+  },
+  {
+    "id": "poejo",
+    "nomeCientifico": "Mentha pulegium",
+    "nomePopular": ["Poejo", "Poejo-real"],
+    "familia": "Lamiaceae",
+    "bioma": "mata_atlantica",
+    "porte": "herbacea",
+    "parteUsada": ["folha", "planta_inteira"],
+    "categoriaUso": ["respiratorio", "digestivo"],
+    "habitatEspecifico": "Cultivada em hortas e quintais, naturalizada em áreas úmidas",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial (monoterpenos cetônicos)", "Flavonoides"],
+      "destaques": [
+        "Pulegona — compõe 60-90% do óleo essencial (expectorante, porém hepatotóxica em excesso)",
+        "Mentona, isomentona",
+        "Hesperidina, diosmina"
+      ]
+    },
+    "curiosidade": "Clássico da avó mineira: o chá de poejo com mel é remédio tradicional para gripe e tosse. O aroma intensíssimo vem do pulegon, composto que também afasta insetos — por isso era espalhado pelo chão das casas antigas.",
+    "imagem": "poejo.webp"
+  },
+  {
+    "id": "stevia",
+    "nomeCientifico": "Stevia rebaudiana",
+    "nomePopular": ["Stévia", "Erva-doce-do-paraguai", "Capim-doce"],
+    "familia": "Asteraceae",
+    "bioma": "ambos",
+    "porte": "herbacea",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["digestivo", "hepatoprotetor"],
+    "habitatEspecifico": "Cultivada; naturalizada em áreas abertas e hortas",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Glicosídeos diterpênicos (ent-caurenos)", "Flavonoides"],
+      "destaques": [
+        "Esteviosídeo — principal edulcorante, ~250× mais doce que a sacarose",
+        "Rebaudiosídeo A (o mais doce e menos amargo)",
+        "Dulcosídeo A"
+      ]
+    },
+    "curiosidade": "Suas folhas são cerca de 300 vezes mais doces que o açúcar, sem calorias — usada há séculos pelos indígenas Guarani. Estudos investigam efeitos auxiliares no controle da glicemia em diabéticos.",
+    "imagem": "stevia.webp"
+  }
+]
