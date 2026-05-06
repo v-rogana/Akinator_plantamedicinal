@@ -1,4 +1,4 @@
-import plantsData from '../data/plants.json';
+import plantsData from '../data/plants.json' with { type: 'json' };
 
 const BIOMA_OPTIONS = [
   { id: 'cerrado', label: 'Cerrado' },
@@ -46,6 +46,21 @@ const CAT_LABELS = {
   'febrífugo': 'febrífugo',
   hepatoprotetor: 'hepatoprotetor',
   diuretico: 'diurético'
+};
+
+const QUIM_LABELS = {
+  taninos: 'taninos',
+  flavonoides: 'flavonoides',
+  alcaloides: 'alcaloides',
+  oleos_essenciais: 'óleos essenciais',
+  saponinas: 'saponinas',
+  cumarinas: 'cumarinas',
+  mucilagens: 'mucilagens',
+  naftoquinonas: 'naftoquinonas',
+  glicosideos: 'glicosídeos',
+  terpenos: 'terpenos',
+  iridoides: 'iridoides',
+  fenois_simples: 'fenóis simples'
 };
 
 function buildQuestions() {
@@ -102,6 +117,19 @@ function buildQuestions() {
     });
   }
 
+  for (const q of Object.keys(QUIM_LABELS)) {
+    qs.push({
+      id: `quim:${q}`,
+      tipo: 'bool',
+      phase: 2,
+      texto: `Ela contém ${QUIM_LABELS[q]} entre seus princípios ativos?`,
+      match: (p, ans) =>
+        ans === 'sim'
+          ? (p.classesQuimicas || []).includes(q)
+          : !(p.classesQuimicas || []).includes(q)
+    });
+  }
+
   return qs;
 }
 
@@ -112,18 +140,27 @@ function entropy(n) {
 }
 
 function expectedEntropy(q, candidates) {
+  const N = candidates.length;
+  if (N === 0) return 0;
   if (q.tipo === 'single') {
-    const answers = q.opcoes.map((o) => o.id);
-    let total = 0;
-    for (const a of answers) {
-      const sub = candidates.filter((p) => q.match(p, a));
-      total += entropy(sub.length);
+    let countSum = 0;
+    const subs = [];
+    for (const o of q.opcoes) {
+      const sub = candidates.filter((p) => q.match(p, o.id));
+      subs.push(sub);
+      countSum += sub.length;
     }
-    return total / answers.length;
+    if (countSum === 0) return entropy(N);
+    let total = 0;
+    for (const sub of subs) {
+      const p = sub.length / countSum;
+      total += p * entropy(sub.length);
+    }
+    return total;
   }
   const yes = candidates.filter((p) => q.match(p, 'sim'));
   const no = candidates.filter((p) => q.match(p, 'nao'));
-  return 0.5 * entropy(yes.length) + 0.5 * entropy(no.length);
+  return (yes.length / N) * entropy(yes.length) + (no.length / N) * entropy(no.length);
 }
 
 function findQuestion(id) {
@@ -142,7 +179,7 @@ export function createGame(plants = plantsData) {
 
 export function getNextQuestion(state) {
   if (state.candidates.length <= 1) return null;
-  if (state.questionCount >= 10) return null;
+  if (state.questionCount >= 12) return null;
 
   const baseH = entropy(state.candidates.length);
   let best = null;
@@ -231,7 +268,7 @@ export function getResult(state) {
 
 export function shouldStop(state) {
   if (state.candidates.length <= 1) return true;
-  if (state.questionCount >= 10) return true;
+  if (state.questionCount >= 12) return true;
   return getNextQuestion(state) === null;
 }
 

@@ -27,6 +27,7 @@
         "Prodelfinidinas e procianidinas"
       ]
     },
+    "classesQuimicas": ["taninos", "flavonoides", "fenois_simples"],
     "curiosidade": "A casca do barbatimão tem até 30% de taninos, o que explica seu poder cicatrizante. É uma das plantas do cerrado mais estudadas cientificamente e aprovada pela ANVISA como fitoterápico.",
     "imagem": "barbatimao.webp"
   },
@@ -58,6 +59,7 @@
         "Ácido clorogênico e luteolina"
       ]
     },
+    "classesQuimicas": ["terpenos", "flavonoides", "fenois_simples"],
     "curiosidade": "Endêmica dos campos rupestres mineiros, é usada tradicionalmente em forma de tintura alcoólica para dores musculares e contusões. Está na lista de espécies ameaçadas por extração predatória.",
     "imagem": "arnica_cerrado.webp"
   },
@@ -90,6 +92,7 @@
         "Carquejol, carquejilacetato"
       ]
     },
+    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
     "curiosidade": "A carqueja tem caules alados achatados que fazem fotossíntese no lugar das folhas quase ausentes. É uma das plantas mais amargas usadas em chá no Brasil, famosa por 'limpar o fígado'.",
     "imagem": "carqueja.webp"
   },
@@ -122,6 +125,7 @@
         "Epicatequina"
       ]
     },
+    "classesQuimicas": ["terpenos", "taninos", "flavonoides"],
     "curiosidade": "Chamada 'santa' porque curava males do estômago que pareciam incuráveis. Tem folhas com margens espinhosas, lembrando azevinho, e é um dos fitoterápicos para gastrite mais reconhecidos pelo SUS.",
     "imagem": "espinheira_santa.webp"
   },
@@ -154,6 +158,7 @@
         "o-cumárico"
       ]
     },
+    "classesQuimicas": ["cumarinas", "terpenos", "oleos_essenciais"],
     "curiosidade": "É a planta medicinal mais usada contra tosse e bronquite no Brasil. Contém cumarina, que dá aroma característico de baunilha quando as folhas são amassadas, e é base de vários xaropes oficiais.",
     "imagem": "guaco.webp"
   },
@@ -186,6 +191,7 @@
         "Masticadienônico (triterpeno)"
       ]
     },
+    "classesQuimicas": ["oleos_essenciais", "taninos", "flavonoides", "terpenos"],
     "curiosidade": "Seus frutos são comercializados mundialmente como 'pimenta-rosa' na alta gastronomia. A casca é usada tradicionalmente em banhos de assento para inflamações ginecológicas.",
     "imagem": "aroeira.webp"
   },
@@ -218,6 +224,7 @@
         "Desidro-α-lapachona"
       ]
     },
+    "classesQuimicas": ["naftoquinonas", "iridoides"],
     "curiosidade": "Floresce intensamente no fim do inverno sem folhas, cobrindo a árvore inteira de roxo. A entrecasca contém lapachol, estudado por sua ação antitumoral e antimicrobiana.",
     "imagem": "ipe_roxo.webp"
   },
@@ -250,6 +257,7 @@
         "Procianidinas"
       ]
     },
+    "classesQuimicas": ["flavonoides", "taninos", "fenois_simples", "alcaloides"],
     "curiosidade": "Árvore oca em toda sua extensão, abriga uma espécie de formiga-azteca que a defende de herbívoros — um clássico de mutualismo ensinado em ecologia. As folhas em forma de mão são inconfundíveis.",
     "imagem": "embauba.webp"
   },
@@ -282,6 +290,7 @@
         "Catequinas"
       ]
     },
+    "classesQuimicas": ["alcaloides", "flavonoides", "taninos", "terpenos"],
     "curiosidade": "Conhecida popularmente como estimulante e afrodisíaco na medicina tradicional do cerrado. Possui xilopódio subterrâneo lenhoso que rebrota após queimadas — adaptação clássica do cerrado.",
     "imagem": "catuaba.webp"
   },
@@ -314,6 +323,7 @@
         "Palustrina (alcaloide)"
       ]
     },
+    "classesQuimicas": ["flavonoides", "saponinas", "alcaloides"],
     "curiosidade": "É uma 'planta fóssil viva' — pertence a um grupo de plantas sem flores que dominou a Terra há 350 milhões de anos. É riquíssima em sílica, o que a torna famosa por fortalecer cabelos e unhas.",
     "imagem": "cavalinha.webp"
   },
@@ -346,6 +356,7 @@
         "Ácido trans-aconítico"
       ]
     },
+    "classesQuimicas": ["terpenos", "flavonoides", "taninos", "saponinas"],
     "curiosidade": "As folhas enormes em forma de coração lembram chapéus de couro dos vaqueiros do sertão — daí o nome. Cresce com os pés n'água nas veredas de buriti, ecossistema típico do cerrado.",
     "imagem": "chapeu_couro.webp"
   },
@@ -378,6 +389,7 @@
         "Lafoensianina"
       ]
     },
+    "classesQuimicas": ["taninos", "fenois_simples", "saponinas", "flavonoides"],
     "curiosidade": "Suas flores brancas e grandes abrem à noite e são polinizadas por morcegos. A casca é usada tradicionalmente para tratar úlceras e gastrite — pesquisas da UFMG confirmam ação cicatrizante.",
     "imagem": "pacari.webp"
   },
@@ -410,6 +422,7 @@
         "β-cariofileno"
       ]
     },
+    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
     "curiosidade": "Os frutos são usados em garrafadas e óleo medicinal tradicional contra dores reumáticas e artrite. Rico em diterpenos, é uma das plantas mais estudadas pela EMBRAPA Cerrados.",
     "imagem": "sucupira.webp"
   },
@@ -442,6 +455,7 @@
         "Hesperidina, diosmina"
       ]
     },
+    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides"],
     "curiosidade": "Clássico da avó mineira: o chá de poejo com mel é remédio tradicional para gripe e tosse. O aroma intensíssimo vem do pulegon, composto que também afasta insetos — por isso era espalhado pelo chão das casas antigas.",
     "imagem": "poejo.webp"
   },
@@ -474,7 +488,833 @@
         "Dulcosídeo A"
       ]
     },
+    "classesQuimicas": ["glicosideos", "terpenos", "flavonoides"],
     "curiosidade": "Suas folhas são cerca de 300 vezes mais doces que o açúcar, sem calorias — usada há séculos pelos indígenas Guarani. Estudos investigam efeitos auxiliares no controle da glicemia em diabéticos.",
     "imagem": "stevia.webp"
+  },
+  {
+    "id": "copaiba",
+    "nomeCientifico": "Copaifera langsdorffii",
+    "nomePopular": ["Copaíba", "Pau-d'óleo", "Copaibeira"],
+    "familia": "Fabaceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["resina", "casca"],
+    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "habitatEspecifico": "Cerradão, matas de galeria e cerrado sensu stricto",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": true,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": false,
+      "usoTopico": true,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Diterpenos (ácidos copálicos e caurenoicos)", "Sesquiterpenos", "Óleo-resina"],
+      "destaques": [
+        "Ácido copálico — anti-inflamatório característico",
+        "β-cariofileno — fitocannabinoide",
+        "Cariofileno-óxido"
+      ]
+    },
+    "classesQuimicas": ["terpenos", "oleos_essenciais"],
+    "curiosidade": "A copaíba produz óleo-resina extraído por furo no tronco — uma única árvore pode fornecer dezenas de litros ao longo da vida sem morrer. O β-cariofileno é o primeiro fitocannabinoide registrado fora da Cannabis.",
+    "imagem": "copaiba.webp"
+  },
+  {
+    "id": "jatoba_cerrado",
+    "nomeCientifico": "Hymenaea stigonocarpa",
+    "nomePopular": ["Jatobá-do-cerrado", "Jatobá-do-campo"],
+    "familia": "Fabaceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["casca", "fruto", "resina"],
+    "categoriaUso": ["digestivo", "hepatoprotetor", "respiratorio"],
+    "habitatEspecifico": "Cerrado sensu stricto e cerradão",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": true,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": true,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Taninos hidrolisáveis", "Terpenoides", "Ácidos fenólicos"],
+      "destaques": [
+        "Astilbina e neoastilbina (di-hidroflavonois)",
+        "β-cariofileno na resina",
+        "Ácidos copálicos"
+      ]
+    },
+    "classesQuimicas": ["taninos", "terpenos", "fenois_simples"],
+    "curiosidade": "A polpa amarelada do fruto é farinhenta e adocicada, base de pão tradicional sertanejo. A resina amber-fóssil ('jutaicica') foi exportada por séculos como verniz de luxo.",
+    "imagem": "jatoba_cerrado.webp"
+  },
+  {
+    "id": "pequi",
+    "nomeCientifico": "Caryocar brasiliense",
+    "nomePopular": ["Pequi", "Piqui", "Suari"],
+    "familia": "Caryocaraceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["fruto", "folha"],
+    "categoriaUso": ["anti-inflamatorio", "cicatrizante"],
+    "habitatEspecifico": "Cerrado sensu stricto e cerradão",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": true,
+      "flores_vistosas": true,
+      "frutoComestivel": true,
+      "folhasCompostas": true,
+      "usoCha": false,
+      "usoTopico": true,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Carotenoides (β-caroteno, licopeno)", "Óleo (ácidos graxos)", "Compostos fenólicos"],
+      "destaques": [
+        "β-caroteno e licopeno na polpa amarela",
+        "Ácido oleico e palmítico no óleo",
+        "Quercetina e ácido gálico"
+      ]
+    },
+    "classesQuimicas": ["terpenos", "fenois_simples", "oleos_essenciais"],
+    "curiosidade": "O caroço espinhoso protege a semente: morder distraído gera um drama mineiro. O óleo amarelo-ouro é tradição em arroz com pequi e tem efeito anti-inflamatório comprovado em atletas.",
+    "imagem": "pequi.webp"
+  },
+  {
+    "id": "gabiroba",
+    "nomeCientifico": "Campomanesia adamantium",
+    "nomePopular": ["Gabiroba", "Guabiroba", "Guavira"],
+    "familia": "Myrtaceae",
+    "bioma": "cerrado",
+    "porte": "arbusto",
+    "parteUsada": ["folha", "fruto"],
+    "categoriaUso": ["digestivo", "anti-inflamatorio", "diuretico"],
+    "habitatEspecifico": "Cerrado sensu stricto e campo cerrado",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial (β-cariofileno, mirceno)", "Flavonoides", "Taninos"],
+      "destaques": [
+        "β-cariofileno e α-pineno no óleo",
+        "Quercetina e miricetina",
+        "Galotaninos"
+      ]
+    },
+    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides", "taninos"],
+    "curiosidade": "Prima da goiabeira no Cerrado: o fruto verde-amarelado é doce e perfumado, base de licores e geleias regionais. As folhas têm forte aroma cítrico quando esfregadas.",
+    "imagem": "gabiroba.webp"
+  },
+  {
+    "id": "velame_campo",
+    "nomeCientifico": "Macrosiphonia velame",
+    "nomePopular": ["Velame-do-campo", "Velame-branco"],
+    "familia": "Apocynaceae",
+    "bioma": "cerrado",
+    "porte": "herbacea",
+    "parteUsada": ["raiz"],
+    "categoriaUso": ["diuretico", "anti-inflamatorio", "antisseptico"],
+    "habitatEspecifico": "Campo limpo e campo sujo do cerrado",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": true,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Saponinas triterpênicas", "Alcaloides", "Flavonoides"],
+      "destaques": [
+        "Saponinas triterpênicas pentacíclicas",
+        "Alcaloides indólicos (em traços)",
+        "Quercitrina"
+      ]
+    },
+    "classesQuimicas": ["saponinas", "alcaloides", "flavonoides"],
+    "curiosidade": "Conhecida como 'remédio de vaqueiro do sertão', usada como depurativo do sangue. Floresce com flores brancas longo-tubulares polinizadas por mariposas noturnas.",
+    "imagem": "velame_campo.webp"
+  },
+  {
+    "id": "assa_peixe",
+    "nomeCientifico": "Vernonia polysphaera",
+    "nomePopular": ["Assa-peixe", "Assa-peixe-roxo"],
+    "familia": "Asteraceae",
+    "bioma": "cerrado",
+    "porte": "arbusto",
+    "parteUsada": ["folha", "raiz"],
+    "categoriaUso": ["respiratorio", "anti-inflamatorio"],
+    "habitatEspecifico": "Cerrado, campos sujos e áreas alteradas",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Lactonas sesquiterpênicas (glaucolídeos)", "Flavonoides", "Óleo essencial"],
+      "destaques": [
+        "Glaucolídeos (sesquiterpenos amargos característicos)",
+        "Luteolina e apigenina",
+        "α-pineno e β-cariofileno"
+      ]
+    },
+    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
+    "curiosidade": "Apesar do nome, não tem nada com peixe — vem de tradição mineira de 'assar' tosse e bronquite. As inflorescências roxas atraem abelhas e beija-flores e produzem mel medicinal.",
+    "imagem": "assa_peixe.webp"
+  },
+  {
+    "id": "mama_cadela",
+    "nomeCientifico": "Brosimum gaudichaudii",
+    "nomePopular": ["Mama-cadela", "Algodãozinho-do-cerrado", "Inharé"],
+    "familia": "Moraceae",
+    "bioma": "cerrado",
+    "porte": "arbusto",
+    "parteUsada": ["casca", "raiz"],
+    "categoriaUso": ["anti-inflamatorio", "cicatrizante"],
+    "habitatEspecifico": "Cerrado sensu stricto e cerradão",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": true,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": false,
+      "usoTopico": true,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Furanocumarinas (psoraleno e bergapteno)", "Cumarinas", "Flavonoides"],
+      "destaques": [
+        "Psoraleno — fotossensibilizante usado em vitiligo",
+        "Bergapteno",
+        "Marmesina"
+      ]
+    },
+    "classesQuimicas": ["cumarinas", "flavonoides"],
+    "curiosidade": "É a única planta brasileira aprovada pela ANVISA para tratamento de vitiligo: o psoraleno reage à luz ultravioleta repigmentando a pele. O látex doce dá nome aos frutos amamentadores.",
+    "imagem": "mama_cadela.webp"
+  },
+  {
+    "id": "murici",
+    "nomeCientifico": "Byrsonima crassifolia",
+    "nomePopular": ["Murici", "Murici-do-cerrado", "Murici-amarelo"],
+    "familia": "Malpighiaceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["casca", "folha", "fruto"],
+    "categoriaUso": ["digestivo", "antisseptico", "cicatrizante"],
+    "habitatEspecifico": "Cerrado sensu stricto e campos cerrados",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Taninos condensados (proantocianidinas)", "Flavonoides", "Triterpenos"],
+      "destaques": [
+        "Procianidinas e prodelfinidinas",
+        "Quercetina e amentoflavona",
+        "Ácido betulínico"
+      ]
+    },
+    "classesQuimicas": ["taninos", "flavonoides", "terpenos"],
+    "curiosidade": "Os frutos amarelos têm aroma forte de queijo curado e fazem doce, licor e sorvete típicos do Cerrado. A casca rica em taninos é tradicional contra feridas e diarreia infantil.",
+    "imagem": "murici.webp"
+  },
+  {
+    "id": "fruta_lobo",
+    "nomeCientifico": "Solanum lycocarpum",
+    "nomePopular": ["Fruta-do-lobo", "Lobeira"],
+    "familia": "Solanaceae",
+    "bioma": "cerrado",
+    "porte": "arbusto",
+    "parteUsada": ["fruto"],
+    "categoriaUso": ["hepatoprotetor", "digestivo"],
+    "habitatEspecifico": "Cerrado, áreas perturbadas e bordas",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": true,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": false,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Glicoalcaloides esteroidais (solamargina, solasonina)", "Saponinas esteroidais"],
+      "destaques": [
+        "Solamargina — estudada por ação antitumoral",
+        "Solasonina",
+        "Solasodina (aglicona)"
+      ]
+    },
+    "classesQuimicas": ["alcaloides", "glicosideos", "saponinas"],
+    "curiosidade": "O fruto verde grande é alimento favorito do lobo-guará — daí o nome. O polvilho do fruto maduro é tradicionalmente usado contra diabetes, mas o consumo é controverso por toxicidade dos alcaloides.",
+    "imagem": "fruta_lobo.webp"
+  },
+  {
+    "id": "jurubeba",
+    "nomeCientifico": "Solanum paniculatum",
+    "nomePopular": ["Jurubeba", "Jurubeba-verdadeira"],
+    "familia": "Solanaceae",
+    "bioma": "cerrado",
+    "porte": "arbusto",
+    "parteUsada": ["folha", "raiz", "fruto"],
+    "categoriaUso": ["hepatoprotetor", "digestivo"],
+    "habitatEspecifico": "Cerrado, capoeiras e áreas alteradas",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": true,
+      "flores_vistosas": true,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Alcaloides esteroidais (jurubina, jurubidina)", "Saponinas esteroidais", "Flavonoides"],
+      "destaques": [
+        "Jurubina e jurubidina (glicoalcaloides)",
+        "Solasodina",
+        "Quercetina"
+      ]
+    },
+    "classesQuimicas": ["alcaloides", "saponinas", "flavonoides"],
+    "curiosidade": "A jurubeba virou marca de bebida amarga digestiva no Brasil. As pequenas bagas amarelas são amargas a ponto de tirar a pele da boca, mas a tradição mineira diz: 'pinga de jurubeba é cura de fígado pesado'.",
+    "imagem": "jurubeba.webp"
+  },
+  {
+    "id": "tingui",
+    "nomeCientifico": "Magonia pubescens",
+    "nomePopular": ["Tingui", "Tinguí-do-cerrado", "Timbó"],
+    "familia": "Sapindaceae",
+    "bioma": "cerrado",
+    "porte": "arvore",
+    "parteUsada": ["casca", "semente"],
+    "categoriaUso": ["antisseptico", "cicatrizante"],
+    "habitatEspecifico": "Cerrado sensu stricto e cerradão",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": false,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Saponinas triterpênicas", "Cumarinas", "Taninos"],
+      "destaques": [
+        "Saponinas tipo timbol — ictiotóxicas",
+        "Magonol (cumarina)",
+        "Galotaninos"
+      ]
+    },
+    "classesQuimicas": ["saponinas", "cumarinas", "taninos"],
+    "curiosidade": "Indígenas usavam o tingui na 'pesca por veneno': as saponinas das sementes asfixiam peixes sem deixá-los tóxicos para humanos. Hoje é estudada como xampu natural antipiolho.",
+    "imagem": "tingui.webp"
+  },
+  {
+    "id": "cipo_cravo",
+    "nomeCientifico": "Tynanthus fasciculatus",
+    "nomePopular": ["Cipó-cravo", "Cravo-do-mato"],
+    "familia": "Bignoniaceae",
+    "bioma": "mata_atlantica",
+    "porte": "trepadeira",
+    "parteUsada": ["casca", "planta_inteira"],
+    "categoriaUso": ["digestivo", "analgesico"],
+    "habitatEspecifico": "Sub-bosque e bordas de Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial rico em eugenol", "Sesquiterpenos", "Cumarinas"],
+      "destaques": [
+        "Eugenol — analgésico responsável pelo aroma de cravo",
+        "β-cariofileno",
+        "Escopoletina"
+      ]
+    },
+    "classesQuimicas": ["oleos_essenciais", "terpenos", "cumarinas"],
+    "curiosidade": "A casca raspada exala aroma idêntico ao cravo-da-índia, devido ao alto teor de eugenol — o mesmo princípio do anestésico dental tradicional. Tradição capixaba: chá após o almoço para 'tirar o peso'.",
+    "imagem": "cipo_cravo.webp"
+  },
+  {
+    "id": "pata_vaca",
+    "nomeCientifico": "Bauhinia forficata",
+    "nomePopular": ["Pata-de-vaca", "Unha-de-vaca"],
+    "familia": "Fabaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arvore",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["diuretico", "hepatoprotetor"],
+    "habitatEspecifico": "Bordas de mata e mata semidecídua atlântica",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": true,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Flavonoides (kaempferitrina)", "Taninos", "Saponinas"],
+      "destaques": [
+        "Kaempferitrina — flavonoide hipoglicemiante",
+        "Quercitrina",
+        "Astragalina"
+      ]
+    },
+    "classesQuimicas": ["flavonoides", "taninos", "saponinas"],
+    "curiosidade": "As folhas em forma de pata bovina (bilobadas) são marca da Bauhinia. Tradicional no controle auxiliar do diabetes — kaempferitrina simula ação da insulina em estudos com camundongos.",
+    "imagem": "pata_vaca.webp"
+  },
+  {
+    "id": "jaborandi",
+    "nomeCientifico": "Pilocarpus pennatifolius",
+    "nomePopular": ["Jaborandi", "Jaborandi-do-sul"],
+    "familia": "Rutaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arbusto",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["respiratorio", "diuretico"],
+    "habitatEspecifico": "Sub-bosque de Mata Atlântica do sul e sudeste",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Alcaloides imidazólicos (pilocarpina)", "Óleo essencial"],
+      "destaques": [
+        "Pilocarpina — colinérgico, base de colírios para glaucoma",
+        "Isopilocarpina",
+        "Pilosina"
+      ]
+    },
+    "classesQuimicas": ["alcaloides", "oleos_essenciais"],
+    "curiosidade": "A pilocarpina extraída das folhas é base do principal colírio mundial contra glaucoma. O nome tupi 'yaborã-i' significa 'planta que faz babar' — o alcaloide estimula salivação intensamente.",
+    "imagem": "jaborandi.webp"
+  },
+  {
+    "id": "pitanga",
+    "nomeCientifico": "Eugenia uniflora",
+    "nomePopular": ["Pitanga", "Pitangueira"],
+    "familia": "Myrtaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arvore",
+    "parteUsada": ["folha", "fruto"],
+    "categoriaUso": ["digestivo", "anti-inflamatorio", "antisseptico"],
+    "habitatEspecifico": "Mata Atlântica, restinga e cultivada em quintais",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial (curzereno, selineno)", "Flavonoides", "Taninos"],
+      "destaques": [
+        "Curzereno e selineno (sesquiterpenos do óleo)",
+        "Mirciafenona",
+        "Ácido elágico"
+      ]
+    },
+    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides", "taninos"],
+    "curiosidade": "Brasil produz mais pitanga que qualquer país do mundo. As folhas em chá têm efeito hipotensor leve documentado — tradição gaúcha mistura com chimarrão para 'lavar a barriga'.",
+    "imagem": "pitanga.webp"
+  },
+  {
+    "id": "goiabeira",
+    "nomeCientifico": "Psidium guajava",
+    "nomePopular": ["Goiabeira", "Goiaba"],
+    "familia": "Myrtaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arvore",
+    "parteUsada": ["folha", "fruto", "casca"],
+    "categoriaUso": ["digestivo", "anti-inflamatorio", "antisseptico"],
+    "habitatEspecifico": "Cultivada; espontânea em capoeiras de Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Taninos (galotaninos)", "Flavonoides (quercetina, guaijaverina)", "Óleo essencial"],
+      "destaques": [
+        "Guaijaverina — flavonoide antidiarreico",
+        "Ácido elágico",
+        "β-cariofileno e nerolidol"
+      ]
+    },
+    "classesQuimicas": ["taninos", "flavonoides", "oleos_essenciais", "fenois_simples"],
+    "curiosidade": "O chá de folha de goiabeira é o remédio caseiro número um para diarreia infantil no Brasil — reconhecido pela OMS em medicina popular. A guaijaverina inibe Staphylococcus aureus em estudos in vitro.",
+    "imagem": "goiabeira.webp"
+  },
+  {
+    "id": "jambolao",
+    "nomeCientifico": "Syzygium cumini",
+    "nomePopular": ["Jambolão", "Azeitona-roxa", "Jamelão"],
+    "familia": "Myrtaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arvore",
+    "parteUsada": ["folha", "casca", "fruto", "semente"],
+    "categoriaUso": ["hepatoprotetor", "digestivo"],
+    "habitatEspecifico": "Cultivada e naturalizada em Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": true,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Taninos (ácido elágico)", "Flavonoides (miricetina)", "Alcaloides (jambosina)"],
+      "destaques": [
+        "Jambosina — alcaloide hipoglicemiante",
+        "Ácido elágico",
+        "Cianidina-3-glicosídeo (cor roxa do fruto)"
+      ]
+    },
+    "classesQuimicas": ["taninos", "flavonoides", "alcaloides", "fenois_simples"],
+    "curiosidade": "Os frutos roxo-escuros mancham línguas e calçadas em fevereiro nas cidades brasileiras. A semente é tradicional para diabetes na medicina ayurvédica e brasileira — a jambosina apresenta ação hipoglicemiante.",
+    "imagem": "jambolao.webp"
+  },
+  {
+    "id": "capim_cidreira",
+    "nomeCientifico": "Cymbopogon citratus",
+    "nomePopular": ["Capim-cidreira", "Capim-santo", "Capim-limão"],
+    "familia": "Poaceae",
+    "bioma": "mata_atlantica",
+    "porte": "herbacea",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["calmante", "digestivo"],
+    "habitatEspecifico": "Cultivada em hortas e quintais",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial (citral)", "Flavonoides"],
+      "destaques": [
+        "Citral (geranial + neral) — 70-85% do óleo, calmante",
+        "Mirceno",
+        "Luteolina"
+      ]
+    },
+    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides"],
+    "curiosidade": "O citral, principal ativo, é o mesmo composto que dá aroma ao limão. Estudos confirmam efeito ansiolítico em camundongos comparável a baixas doses de diazepam.",
+    "imagem": "capim_cidreira.webp"
+  },
+  {
+    "id": "erva_baleeira",
+    "nomeCientifico": "Varronia curassavica",
+    "nomePopular": ["Erva-baleeira", "Maria-preta"],
+    "familia": "Boraginaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arbusto",
+    "parteUsada": ["folha"],
+    "categoriaUso": ["anti-inflamatorio", "analgesico", "cicatrizante"],
+    "habitatEspecifico": "Restinga e bordas de Mata Atlântica litorânea",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": false,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial (α-humuleno, β-cariofileno)", "Flavonoides", "Sesquiterpenos"],
+      "destaques": [
+        "α-humuleno — anti-inflamatório principal",
+        "trans-cariofileno",
+        "Artemetina"
+      ]
+    },
+    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides"],
+    "curiosidade": "Base do fitoterápico Acheflan® — primeiro fitomedicamento 100% brasileiro registrado pela ANVISA. Pescadores baleeiros do litoral catarinense usavam tradicionalmente para dores musculares.",
+    "imagem": "erva_baleeira.webp"
+  },
+  {
+    "id": "cordao_frade",
+    "nomeCientifico": "Leonotis nepetifolia",
+    "nomePopular": ["Cordão-de-frade", "Cordão-de-são-francisco"],
+    "familia": "Lamiaceae",
+    "bioma": "mata_atlantica",
+    "porte": "herbacea",
+    "parteUsada": ["planta_inteira", "folha", "flor"],
+    "categoriaUso": ["respiratorio", "diuretico"],
+    "habitatEspecifico": "Áreas alteradas e ruderais de Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Diterpenos labdânicos (leonotinina)", "Flavonoides", "Óleo essencial"],
+      "destaques": [
+        "Leonotinina — diterpeno bioativo",
+        "Apigenina e luteolina",
+        "β-cariofileno"
+      ]
+    },
+    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
+    "curiosidade": "As flores laranjas dispostas em verticilos ao longo do caule lembram cordões de frade carmelita — daí o nome. Atrai colibris e tem leve ação relaxante relatada na medicina africana.",
+    "imagem": "cordao_frade.webp"
+  },
+  {
+    "id": "cambara",
+    "nomeCientifico": "Lantana camara",
+    "nomePopular": ["Cambará", "Cambará-de-espinho", "Lantana"],
+    "familia": "Verbenaceae",
+    "bioma": "mata_atlantica",
+    "porte": "arbusto",
+    "parteUsada": ["folha", "flor"],
+    "categoriaUso": ["respiratorio", "antisseptico"],
+    "habitatEspecifico": "Bordas de mata, pastagens e áreas alteradas",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": true,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Triterpenos (lantadenos)", "Óleo essencial", "Flavonoides"],
+      "destaques": [
+        "Lantadeno A — hepatotóxico em altas doses",
+        "β-cariofileno e p-cimeno",
+        "Linarina"
+      ]
+    },
+    "classesQuimicas": ["terpenos", "oleos_essenciais", "flavonoides"],
+    "curiosidade": "As flores mudam de cor (amarelo → laranja → vermelho) conforme envelhecem, sinalizando para os polinizadores. Apesar de medicinal em pequenas doses, os lantadenos são hepatotóxicos para o gado.",
+    "imagem": "cambara.webp"
+  },
+  {
+    "id": "unha_gato",
+    "nomeCientifico": "Uncaria tomentosa",
+    "nomePopular": ["Unha-de-gato", "Vincaria"],
+    "familia": "Rubiaceae",
+    "bioma": "mata_atlantica",
+    "porte": "trepadeira",
+    "parteUsada": ["casca"],
+    "categoriaUso": ["anti-inflamatorio", "cicatrizante"],
+    "habitatEspecifico": "Mata Atlântica e Amazônia, sub-bosque sombreado",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": true,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Alcaloides oxindólicos (mitrafilina, isomitrafilina)", "Glicosídeos do ácido quinóvico", "Taninos"],
+      "destaques": [
+        "Mitrafilina — imunomoduladora",
+        "Isopteropodina",
+        "Ácido quinóvico"
+      ]
+    },
+    "classesQuimicas": ["alcaloides", "glicosideos", "taninos"],
+    "curiosidade": "Os espinhos curvos lembram garras de gato e ajudam a planta a escalar até 30 metros. A casca é um dos imunomoduladores naturais mais estudados e foi usada na medicina inca contra inflamações há mais de 2000 anos.",
+    "imagem": "unha_gato.webp"
+  },
+  {
+    "id": "alecrim_campo",
+    "nomeCientifico": "Baccharis dracunculifolia",
+    "nomePopular": ["Alecrim-do-campo", "Vassoura"],
+    "familia": "Asteraceae",
+    "bioma": "ambos",
+    "porte": "arbusto",
+    "parteUsada": ["folha", "flor"],
+    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "habitatEspecifico": "Campos sujos, cerrado e bordas de Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": true,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Óleo essencial (nerolidol, espatulenol)", "Flavonoides (artepelina C)", "Ácidos fenólicos"],
+      "destaques": [
+        "Artepelina C — marcador da própolis verde",
+        "Nerolidol e β-pineno",
+        "Ácido p-cumárico"
+      ]
+    },
+    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides", "fenois_simples"],
+    "curiosidade": "É a planta-fonte da famosa 'própolis verde brasileira': abelhas Apis coletam exsudatos das gemas e produzem própolis com altíssimo teor de artepelina C, exportada por preços premium.",
+    "imagem": "alecrim_campo.webp"
+  },
+  {
+    "id": "picao_preto",
+    "nomeCientifico": "Bidens pilosa",
+    "nomePopular": ["Picão-preto", "Picão", "Carrapichinho"],
+    "familia": "Asteraceae",
+    "bioma": "ambos",
+    "porte": "herbacea",
+    "parteUsada": ["planta_inteira"],
+    "categoriaUso": ["anti-inflamatorio", "hepatoprotetor"],
+    "habitatEspecifico": "Áreas alteradas, cerrado e Mata Atlântica",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": false,
+      "frutoComestivel": false,
+      "folhasCompostas": true,
+      "usoCha": true,
+      "usoTopico": false,
+      "sabor_amargo": true
+    },
+    "principiosAtivos": {
+      "classes": ["Poliacetilenos (fenilheptatriíno)", "Flavonoides (centaureína)", "Iridoides"],
+      "destaques": [
+        "Fenilheptatriíno — antifúngico fototóxico",
+        "Centaureidina e centaureína",
+        "Loganina"
+      ]
+    },
+    "classesQuimicas": ["flavonoides", "iridoides"],
+    "curiosidade": "Os frutos com farpas grudam nas roupas e pelos — estratégia evolutiva de dispersão. Tradicional contra hepatite e icterícia em toda África e América Latina; estudos confirmam ação hepatoprotetora.",
+    "imagem": "picao_preto.webp"
+  },
+  {
+    "id": "malva",
+    "nomeCientifico": "Malva sylvestris",
+    "nomePopular": ["Malva", "Malva-comum"],
+    "familia": "Malvaceae",
+    "bioma": "ambos",
+    "porte": "herbacea",
+    "parteUsada": ["folha", "flor"],
+    "categoriaUso": ["respiratorio", "anti-inflamatorio"],
+    "habitatEspecifico": "Cultivada em quintais; naturalizada em áreas urbanas",
+    "caracteristicas": {
+      "aromaForte": false,
+      "latex": false,
+      "espinhos": false,
+      "flores_vistosas": true,
+      "frutoComestivel": false,
+      "folhasCompostas": false,
+      "usoCha": true,
+      "usoTopico": true,
+      "sabor_amargo": false
+    },
+    "principiosAtivos": {
+      "classes": ["Mucilagens (~10%)", "Antocianinas (malvidina)", "Flavonoides", "Cumarinas"],
+      "destaques": [
+        "Mucilagens — emolientes e demulcentes",
+        "Malvina e malvidina (antocianinas)",
+        "Escopoletina (cumarina)"
+      ]
+    },
+    "classesQuimicas": ["mucilagens", "flavonoides", "cumarinas"],
+    "curiosidade": "As flores azul-violáceas mudam de cor em chá frio (rosa) ou quente (azul) por sensibilidade ao pH das antocianinas. As mucilagens criam camada protetora em garganta inflamada — base de xaropes europeus desde a Idade Média.",
+    "imagem": "malva.webp"
   }
 ]
