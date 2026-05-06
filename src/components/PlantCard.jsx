@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { parseFootnotes, formatReferencia } from '../utils/parseFootnotes.js';
 
 const BIOMA_LABEL = {
   cerrado: 'Cerrado',
@@ -123,9 +124,63 @@ export default function PlantCard({ plant, compact = false }) {
           Do caderno de campo
         </p>
         <p className="mt-1 font-serif text-sm italic text-tinta">
-          {plant.curiosidade}
+          {plant.referencias && plant.referencias.length > 0
+            ? parseFootnotes(plant.curiosidade).map((seg, i) =>
+                seg.type === 'text' ? (
+                  <span key={i}>{seg.value}</span>
+                ) : (
+                  <a
+                    key={i}
+                    href={`#ref-${plant.id}-${seg.n}`}
+                    className="not-italic font-mono text-[10px] align-super text-folhaEscura no-underline hover:underline"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const el = document.getElementById(`ref-${plant.id}-${seg.n}`);
+                      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }}
+                  >
+                    [{seg.n}]
+                  </a>
+                )
+              )
+            : plant.curiosidade}
         </p>
       </div>
+
+      {plant.referencias && plant.referencias.length > 0 && (
+        <div className="mt-3 rounded-xl border border-tinta/15 bg-papel/60 p-4">
+          <p className="font-serif text-xs uppercase tracking-widest text-folha">
+            Referências
+          </p>
+          <ol className="mt-2 space-y-2 font-serif text-xs text-tinta/85">
+            {plant.referencias.map((ref, i) => (
+              <li
+                key={ref.id || i}
+                id={`ref-${plant.id}-${i + 1}`}
+                className="flex gap-2 scroll-mt-20"
+              >
+                <span className="font-mono text-folha">[{i + 1}]</span>
+                <span className="leading-snug">
+                  {formatReferencia(ref)}
+                  {ref.url && (
+                    <>
+                      {' '}
+                      <a
+                        href={ref.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-folha underline underline-offset-2 break-all"
+                      >
+                        {ref.url}
+                      </a>
+                    </>
+                  )}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
     </article>
   );
 }

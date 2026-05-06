@@ -1,4 +1,10 @@
-export default function StartScreen({ onStart, onCatalog, total }) {
+export default function StartScreen({
+  onStart,
+  onCatalog,
+  onChallenge,
+  onReferences,
+  total
+}) {
   return (
     <section className="fade-in flex min-h-[80vh] flex-col items-center justify-center text-center">
       <div className="mb-4 text-5xl">🌿</div>
@@ -18,10 +24,20 @@ export default function StartScreen({ onStart, onCatalog, total }) {
         <button className="btn-primary" onClick={onStart}>
           Começar a adivinhação
         </button>
+        <button className="btn-option" onClick={onChallenge}>
+          🎯 Modo Desafio — escolha a planta-alvo
+        </button>
         <button className="btn-ghost" onClick={onCatalog}>
           Ver catálogo das {total} plantas
         </button>
+        <button className="btn-ghost" onClick={onReferences}>
+          Referências bibliográficas
+        </button>
       </div>
+      <p className="mt-4 max-w-sm font-serif text-xs italic text-tinta/60">
+        No Desafio você escolhe uma planta em segredo, responde como se ela
+        estivesse na sua cabeça e vê se o naturalista chega na mesma.
+      </p>
     </section>
   );
 }

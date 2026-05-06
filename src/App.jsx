@@ -10,17 +10,31 @@ import StartScreen from './components/StartScreen.jsx';
 import QuestionScreen from './components/QuestionScreen.jsx';
 import ResultScreen from './components/ResultScreen.jsx';
 import CatalogScreen from './components/CatalogScreen.jsx';
+import ChallengeSelectScreen from './components/ChallengeSelectScreen.jsx';
+import ChallengeResultScreen from './components/ChallengeResultScreen.jsx';
+import ReferencesScreen from './components/ReferencesScreen.jsx';
 
 export default function App() {
   const [screen, setScreen] = useState('start');
   const [state, setState] = useState(() => createGame(plantsData));
+  const [mode, setMode] = useState('normal');
+  const [targetPlant, setTargetPlant] = useState(null);
 
   const question = useMemo(
     () => (screen === 'question' ? getNextQuestion(state) : null),
     [screen, state]
   );
 
-  const startGame = () => {
+  const startNormal = () => {
+    setMode('normal');
+    setTargetPlant(null);
+    setState(createGame(plantsData));
+    setScreen('question');
+  };
+
+  const startChallenge = (plant) => {
+    setMode('challenge');
+    setTargetPlant(plant);
     setState(createGame(plantsData));
     setScreen('question');
   };
@@ -35,13 +49,28 @@ export default function App() {
     }
   };
 
+  const goHome = () => {
+    setMode('normal');
+    setTargetPlant(null);
+    setScreen('start');
+  };
+
   return (
     <main className="mx-auto min-h-full max-w-xl px-5 py-6 sm:py-10">
       {screen === 'start' && (
         <StartScreen
-          onStart={startGame}
+          onStart={startNormal}
+          onChallenge={() => setScreen('challenge-select')}
           onCatalog={() => setScreen('catalog')}
+          onReferences={() => setScreen('references')}
           total={plantsData.length}
+        />
+      )}
+      {screen === 'challenge-select' && (
+        <ChallengeSelectScreen
+          plants={plantsData}
+          onPick={startChallenge}
+          onBack={goHome}
         />
       )}
       {screen === 'question' && question && (
@@ -49,18 +78,31 @@ export default function App() {
           question={question}
           state={state}
           onAnswer={onAnswer}
-          onRestart={() => setScreen('start')}
+          onRestart={goHome}
         />
       )}
-      {screen === 'result' && (
+      {screen === 'result' && mode === 'normal' && (
         <ResultScreen
           result={getResult(state)}
-          onRestart={startGame}
+          onRestart={startNormal}
           onCatalog={() => setScreen('catalog')}
         />
       )}
+      {screen === 'result' && mode === 'challenge' && targetPlant && (
+        <ChallengeResultScreen
+          target={targetPlant}
+          result={getResult(state)}
+          history={state.history}
+          onReplay={() => startChallenge(targetPlant)}
+          onChooseAnother={() => setScreen('challenge-select')}
+          onHome={goHome}
+        />
+      )}
       {screen === 'catalog' && (
-        <CatalogScreen plants={plantsData} onBack={() => setScreen('start')} />
+        <CatalogScreen plants={plantsData} onBack={goHome} />
+      )}
+      {screen === 'references' && (
+        <ReferencesScreen plants={plantsData} onBack={goHome} />
       )}
     </main>
   );

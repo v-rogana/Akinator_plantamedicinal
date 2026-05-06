@@ -266,6 +266,48 @@ export function getResult(state) {
   return { status: 'ranking', plants: scored };
 }
 
+const ANS_LABEL = { sim: 'Sim', nao: 'Não', nao_sei: 'Não sei' };
+
+export function getDivergences(history, targetPlant) {
+  const items = [];
+  for (const { questionId, ans } of history) {
+    const q = findQuestion(questionId);
+    if (!q) continue;
+
+    let correctIds;
+    if (q.tipo === 'single') {
+      correctIds = q.opcoes.filter((o) => q.match(targetPlant, o.id)).map((o) => o.id);
+    } else {
+      correctIds = [q.match(targetPlant, 'sim') ? 'sim' : 'nao'];
+    }
+
+    const labelOf = (id) => {
+      if (q.tipo === 'single') {
+        const opt = q.opcoes.find((o) => o.id === id);
+        return opt ? opt.label : id;
+      }
+      return ANS_LABEL[id] || id;
+    };
+
+    const userLabel = ans === 'nao_sei' ? 'Não sei' : labelOf(ans);
+    const correctLabel = correctIds.length ? correctIds.map(labelOf).join(' ou ') : '—';
+
+    let status;
+    if (ans === 'nao_sei') status = 'skipped';
+    else if (correctIds.includes(ans)) status = 'correct';
+    else status = 'wrong';
+
+    items.push({
+      questionId,
+      texto: q.texto,
+      userLabel,
+      correctLabel,
+      status
+    });
+  }
+  return items;
+}
+
 export function shouldStop(state) {
   if (state.candidates.length <= 1) return true;
   if (state.questionCount >= 12) return true;

@@ -2,12 +2,21 @@
   {
     "id": "barbatimao",
     "nomeCientifico": "Stryphnodendron adstringens",
-    "nomePopular": ["Barbatimão", "Barba-de-timão"],
+    "nomePopular": [
+      "Barbatimão",
+      "Barba-de-timão"
+    ],
     "familia": "Fabaceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["casca"],
-    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "parteUsada": [
+      "casca"
+    ],
+    "categoriaUso": [
+      "cicatrizante",
+      "anti-inflamatorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e campos cerrados",
     "caracteristicas": {
       "aromaForte": false,
@@ -21,25 +30,70 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Taninos condensados (proantocianidinas)", "Flavonoides", "Ácidos fenólicos"],
+      "classes": [
+        "Taninos condensados (proantocianidinas)",
+        "Flavonoides",
+        "Ácidos fenólicos"
+      ],
       "destaques": [
         "Casca com até 30% de taninos — responsáveis pela ação adstringente e cicatrizante",
         "Prodelfinidinas e procianidinas"
       ]
     },
-    "classesQuimicas": ["taninos", "flavonoides", "fenois_simples"],
-    "curiosidade": "A casca do barbatimão tem até 30% de taninos, o que explica seu poder cicatrizante. É uma das plantas do cerrado mais estudadas cientificamente e aprovada pela ANVISA como fitoterápico.",
-    "imagem": "barbatimao.webp"
+    "classesQuimicas": [
+      "taninos",
+      "flavonoides",
+      "fenois_simples"
+    ],
+    "curiosidade": "A casca do barbatimão é particularmente rica em taninos condensados (proantocianidinas), com teores reportados na literatura entre 10% e 37% conforme a procedência do material, o que sustenta sua tradicional ação adstringente e cicatrizante [1][2]. A espécie integra a Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS), publicada pelo Ministério da Saúde [3], e é uma das plantas do cerrado com maior número de estudos farmacológicos sobre cicatrização, atividade anti-inflamatória e antimicrobiana [2].",
+    "imagem": "barbatimao.webp",
+    "referencias": [
+      {
+        "id": "ms-monografia-stryphnodendron-2021",
+        "autores": "Brasil. Ministério da Saúde",
+        "ano": 2021,
+        "titulo": "Informações Sistematizadas da Relação Nacional de Plantas Medicinais de Interesse ao SUS — Stryphnodendron adstringens (Mart.) Coville",
+        "fonte": "Biblioteca Virtual em Saúde, Ministério da Saúde",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/informacoes_sistematizadas_relacao_stryphnodendron_adstringens.pdf"
+      },
+      {
+        "id": "souza-batista-2018-stryphnodendron-comprehensive",
+        "autores": "Souza-Moreira TM, Salgado HRN, Pietro RCLR",
+        "ano": 2018,
+        "titulo": "Stryphnodendron Species Known as Barbatimão: A Comprehensive Report",
+        "fonte": "Molecules, 23(4):910 (revisão indexada PubMed/PMC6017227)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6017227/"
+      },
+      {
+        "id": "ms-renisus-tabela",
+        "autores": "Brasil. Ministério da Saúde",
+        "ano": 2009,
+        "titulo": "Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS)",
+        "fonte": "Secretaria de Ciência, Tecnologia, Inovação e Complexo da Saúde (SECTICS/MS)",
+        "url": "https://www.gov.br/saude/pt-br/composicao/sectics/plantas-medicinais-e-fitoterapicos/plantas-medicinais-e-fitoterapicos-no-sus/tabela-renisus"
+      }
+    ]
   },
   {
     "id": "arnica_cerrado",
     "nomeCientifico": "Lychnophora ericoides",
-    "nomePopular": ["Arnica-do-cerrado", "Arnica-da-serra", "Candeia"],
+    "nomePopular": [
+      "Arnica-do-cerrado",
+      "Arnica-da-serra",
+      "Candeia"
+    ],
     "familia": "Asteraceae",
     "bioma": "cerrado",
     "porte": "arbusto",
-    "parteUsada": ["folha", "flor"],
-    "categoriaUso": ["anti-inflamatorio", "analgesico", "cicatrizante"],
+    "parteUsada": [
+      "folha",
+      "flor"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "analgesico",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Campos rupestres em altitude, especialmente na Serra do Cipó e Serra do Espinhaço",
     "caracteristicas": {
       "aromaForte": true,
@@ -53,25 +107,60 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Lactonas sesquiterpênicas", "Flavonoides", "Ácidos fenólicos"],
+      "classes": [
+        "Lactonas sesquiterpênicas",
+        "Flavonoides",
+        "Ácidos fenólicos"
+      ],
       "destaques": [
         "Licnofolídeo e goiazensolídeo (sesquiterpenos anti-inflamatórios)",
         "Ácido clorogênico e luteolina"
       ]
     },
-    "classesQuimicas": ["terpenos", "flavonoides", "fenois_simples"],
-    "curiosidade": "Endêmica dos campos rupestres mineiros, é usada tradicionalmente em forma de tintura alcoólica para dores musculares e contusões. Está na lista de espécies ameaçadas por extração predatória.",
-    "imagem": "arnica_cerrado.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "flavonoides",
+      "fenois_simples"
+    ],
+    "curiosidade": "Endêmica do Brasil, a arnica-do-cerrado ocorre em campos rupestres entre 700 e 1500 m de altitude, especialmente em Minas Gerais, Goiás, Distrito Federal, Bahia e São Paulo [1]. É tradicionalmente empregada em forma de tintura alcoólica para contusões, dores musculares e reumatismo [1][2]. Em decorrência do extrativismo predatório e da degradação de habitat, a espécie foi avaliada pelo CNCFlora como ameaçada (categorizada como Quase Ameaçada — NT — na avaliação nacional, com populações em declínio) [2].",
+    "imagem": "arnica_cerrado.webp",
+    "referencias": [
+      {
+        "id": "embrapa-lychnophora-2017",
+        "autores": "Vieira RF, Camillo J, Coradin L (eds.)",
+        "ano": 2017,
+        "titulo": "Lychnophora ericoides: arnica-do-cerrado — In: Espécies Nativas da Flora Brasileira de Valor Econômico Atual ou Potencial — Plantas para o Futuro: Região Centro-Oeste",
+        "fonte": "Embrapa / Ministério do Meio Ambiente, p. 411-421",
+        "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1073473/1/regio-centro-oeste-26-07-20171-412-421.pdf"
+      },
+      {
+        "id": "cncflora-lychnophora-ericoides",
+        "autores": "Centro Nacional de Conservação da Flora (CNCFlora) — Jardim Botânico do Rio de Janeiro",
+        "ano": 2013,
+        "titulo": "Lychnophora ericoides Mart. — Avaliação do Risco de Extinção (Quase Ameaçada — NT)",
+        "fonte": "CNCFlora / Lista Vermelha da Flora Brasileira",
+        "url": "http://www.cncflora.jbrj.gov.br/portal/pt-br/profile/Lychnophora%20ericoides"
+      }
+    ]
   },
   {
     "id": "carqueja",
     "nomeCientifico": "Baccharis trimera",
-    "nomePopular": ["Carqueja", "Carqueja-amarga"],
+    "nomePopular": [
+      "Carqueja",
+      "Carqueja-amarga"
+    ],
     "familia": "Asteraceae",
     "bioma": "ambos",
     "porte": "arbusto",
-    "parteUsada": ["planta_inteira"],
-    "categoriaUso": ["digestivo", "hepatoprotetor", "diuretico"],
+    "parteUsada": [
+      "planta_inteira"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "hepatoprotetor",
+      "diuretico"
+    ],
     "habitatEspecifico": "Campos, pastagens e beira de estradas",
     "caracteristicas": {
       "aromaForte": true,
@@ -85,26 +174,68 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Diterpenos clerodânicos", "Flavonoides", "Óleo essencial (monoterpenos e sesquiterpenos)"],
+      "classes": [
+        "Diterpenos clerodânicos",
+        "Flavonoides",
+        "Óleo essencial (monoterpenos e sesquiterpenos)"
+      ],
       "destaques": [
         "Bacrispina e bacrisposídeo (amargos característicos)",
         "Apigenina, luteolina, quercetina",
         "Carquejol, carquejilacetato"
       ]
     },
-    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
-    "curiosidade": "A carqueja tem caules alados achatados que fazem fotossíntese no lugar das folhas quase ausentes. É uma das plantas mais amargas usadas em chá no Brasil, famosa por 'limpar o fígado'.",
-    "imagem": "carqueja.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "flavonoides",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "A carqueja é morfologicamente peculiar: suas folhas estão reduzidas a escamas mínimas, e a fotossíntese é realizada por cladódios — caules achatados e alados (geralmente trialados, com 0,3 a 1 cm de largura) [1][2]. É tradicionalmente usada em chá pelo sabor amargo característico e pela atribuição popular de ação digestiva e hepatoprotetora; estudos farmacológicos investigam efeitos hepatoprotetor, antioxidante e hipoglicemiante, embora nem todas as indicações populares estejam plenamente confirmadas em ensaios clínicos [3].",
+    "imagem": "carqueja.webp",
+    "referencias": [
+      {
+        "id": "fonseca-2024-carquejas-morpho",
+        "autores": "Fonseca FN, et al.",
+        "ano": 2024,
+        "titulo": "Authentication and Quality Control of the Brazilian Traditional Herb 'Carquejas' (Baccharis Species) Using Morpho-Anatomy and Microscopy",
+        "fonte": "Plants (MDPI), 13(21):3030",
+        "url": "https://www.mdpi.com/2223-7747/13/21/3030"
+      },
+      {
+        "id": "budel-duarte-2009-baccharis-anatomy",
+        "autores": "Budel JM, Duarte MR, Santos CAM",
+        "ano": 2003,
+        "titulo": "Anatomical Studies of Baccharis articulata, Baccharis crispa and Baccharis trimera, Carquejas Used in Folk Medicine",
+        "fonte": "Latin American Journal of Pharmacy / ResearchGate",
+        "url": "https://www.researchgate.net/publication/232036996_Anatomical_Studies_of_Baccharis_Artriculata_Baccharis_Crispa_and_Baccharis_Trimera_Carquejas_Used_in_Folk_Medicine"
+      },
+      {
+        "id": "biondo-2007-carqueja-rbpm",
+        "autores": "Biondo TMA, Tanae MM, Della Coletta E, Lima-Landman MTR, Lapa AJ, Souccar C",
+        "ano": 2011,
+        "titulo": "Carqueja (Baccharis trimera): utilização terapêutica e produção",
+        "fonte": "Revista Brasileira de Plantas Medicinais (SciELO)",
+        "url": "https://www.scielo.br/j/rbpm/a/CFY3XWVTbXbwTXWKYkhvMgv/?lang=pt"
+      }
+    ]
   },
   {
     "id": "espinheira_santa",
     "nomeCientifico": "Maytenus ilicifolia",
-    "nomePopular": ["Espinheira-santa", "Cancorosa"],
+    "nomePopular": [
+      "Espinheira-santa",
+      "Cancorosa"
+    ],
     "familia": "Celastraceae",
     "bioma": "mata_atlantica",
     "porte": "arbusto",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["digestivo", "anti-inflamatorio"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "anti-inflamatorio"
+    ],
     "habitatEspecifico": "Sub-bosque de Mata Atlântica e Mata de Araucária",
     "caracteristicas": {
       "aromaForte": false,
@@ -118,26 +249,60 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Triterpenos", "Taninos", "Flavonoides"],
+      "classes": [
+        "Triterpenos",
+        "Taninos",
+        "Flavonoides"
+      ],
       "destaques": [
         "Maitenina e pristimerina (triterpenos com ação antitumoral in vitro)",
         "Friedelina, friedelinol",
         "Epicatequina"
       ]
     },
-    "classesQuimicas": ["terpenos", "taninos", "flavonoides"],
-    "curiosidade": "Chamada 'santa' porque curava males do estômago que pareciam incuráveis. Tem folhas com margens espinhosas, lembrando azevinho, e é um dos fitoterápicos para gastrite mais reconhecidos pelo SUS.",
-    "imagem": "espinheira_santa.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "taninos",
+      "flavonoides"
+    ],
+    "curiosidade": "A espinheira-santa é um arbusto de folhas coriáceas com margens serrilhadas e pequenos espinhos, característica que dá origem ao nome popular [1]. Está incluída no Memento Fitoterápico da Farmacopeia Brasileira e na RENAME (Relação Nacional de Medicamentos Essenciais), com indicação reconhecida como coadjuvante no tratamento sintomático de gastrite e úlcera gástrica, sendo um dos fitoterápicos disponibilizados pelo SUS para distúrbios digestivos [1][2].",
+    "imagem": "espinheira_santa.webp",
+    "referencias": [
+      {
+        "id": "anvisa-memento-fitoterapico-2016",
+        "autores": "Brasil. Agência Nacional de Vigilância Sanitária (ANVISA)",
+        "ano": 2016,
+        "titulo": "Memento Fitoterápico — Farmacopeia Brasileira, 1ª edição",
+        "fonte": "ANVISA / Biblioteca Digital",
+        "url": "https://bibliotecadigital.anvisa.gov.br/jspui/handle/anvisa/12409"
+      },
+      {
+        "id": "df-saude-espinheira-santa",
+        "autores": "Secretaria de Estado de Saúde do Distrito Federal",
+        "ano": 2022,
+        "titulo": "Espinheira-santa (Maytenus ilicifolia) — Folheto informativo de fitoterápico do SUS",
+        "fonte": "Governo do Distrito Federal — Secretaria de Saúde",
+        "url": "https://www.saude.df.gov.br/documents/37101/1118391/FOLHETO-ESPINHEIRA-SANTA.pdf/a5e3cf82-2294-ff73-c1b9-0a2e960ac4a6"
+      }
+    ]
   },
   {
     "id": "guaco",
     "nomeCientifico": "Mikania glomerata",
-    "nomePopular": ["Guaco", "Erva-cobra"],
+    "nomePopular": [
+      "Guaco",
+      "Erva-cobra"
+    ],
     "familia": "Asteraceae",
     "bioma": "mata_atlantica",
     "porte": "trepadeira",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["respiratorio", "anti-inflamatorio"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "anti-inflamatorio"
+    ],
     "habitatEspecifico": "Bordas de mata e capoeiras da Mata Atlântica",
     "caracteristicas": {
       "aromaForte": true,
@@ -151,26 +316,72 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Cumarinas", "Diterpenos (ácidos caurenoicos)", "Óleo essencial"],
+      "classes": [
+        "Cumarinas",
+        "Diterpenos (ácidos caurenoicos)",
+        "Óleo essencial"
+      ],
       "destaques": [
         "Cumarina — marcador oficial na Farmacopeia Brasileira (mínimo 0,1%)",
         "Ácido caurenoico (broncodilatador)",
         "o-cumárico"
       ]
     },
-    "classesQuimicas": ["cumarinas", "terpenos", "oleos_essenciais"],
-    "curiosidade": "É a planta medicinal mais usada contra tosse e bronquite no Brasil. Contém cumarina, que dá aroma característico de baunilha quando as folhas são amassadas, e é base de vários xaropes oficiais.",
-    "imagem": "guaco.webp"
+    "classesQuimicas": [
+      "cumarinas",
+      "terpenos",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "O guaco é a planta brasileira mais utilizada para queixas respiratórias e está incluída na RENISUS, sendo base de xaropes oficialmente padronizados no SUS para tosse, bronquite e asma leve [1][2]. Seu marcador químico é a cumarina, responsável pelo aroma característico — frequentemente comparado ao da baunilha — quando as folhas são amassadas, e associada à ação broncodilatadora e expectorante [2][3].",
+    "imagem": "guaco.webp",
+    "referencias": [
+      {
+        "id": "ms-renisus-tabela",
+        "autores": "Brasil. Ministério da Saúde",
+        "ano": 2009,
+        "titulo": "Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS)",
+        "fonte": "Secretaria de Ciência, Tecnologia, Inovação e Complexo da Saúde (SECTICS/MS)",
+        "url": "https://www.gov.br/saude/pt-br/composicao/sectics/plantas-medicinais-e-fitoterapicos/plantas-medicinais-e-fitoterapicos-no-sus/tabela-renisus"
+      },
+      {
+        "id": "anvisa-memento-fitoterapico-2016",
+        "autores": "Brasil. Agência Nacional de Vigilância Sanitária (ANVISA)",
+        "ano": 2016,
+        "titulo": "Memento Fitoterápico — Farmacopeia Brasileira, 1ª edição",
+        "fonte": "ANVISA / Biblioteca Digital",
+        "url": "https://bibliotecadigital.anvisa.gov.br/jspui/handle/anvisa/12409"
+      },
+      {
+        "id": "fiocruz-mikania-glomerata",
+        "autores": "Oliveira J, et al.",
+        "ano": 2022,
+        "titulo": "Mikania glomerata Spreng. (Asteraceae): seu uso terapêutico e desenvolvimento de fitoterápicos",
+        "fonte": "Repositório ARCA — Fiocruz",
+        "url": "https://www.arca.fiocruz.br/bitstream/handle/icict/53970/juliana_oliveira_et_all.pdf"
+      }
+    ]
   },
   {
     "id": "aroeira",
     "nomeCientifico": "Schinus terebinthifolia",
-    "nomePopular": ["Aroeira", "Aroeira-vermelha", "Aroeira-mansa"],
+    "nomePopular": [
+      "Aroeira",
+      "Aroeira-vermelha",
+      "Aroeira-mansa"
+    ],
     "familia": "Anacardiaceae",
     "bioma": "ambos",
     "porte": "arvore",
-    "parteUsada": ["casca", "folha", "fruto"],
-    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "parteUsada": [
+      "casca",
+      "folha",
+      "fruto"
+    ],
+    "categoriaUso": [
+      "cicatrizante",
+      "anti-inflamatorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Beira de rios, capoeiras e áreas alteradas",
     "caracteristicas": {
       "aromaForte": true,
@@ -184,26 +395,71 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial (monoterpenos e sesquiterpenos)", "Taninos hidrolisáveis", "Flavonoides", "Triterpenos"],
+      "classes": [
+        "Óleo essencial (monoterpenos e sesquiterpenos)",
+        "Taninos hidrolisáveis",
+        "Flavonoides",
+        "Triterpenos"
+      ],
       "destaques": [
         "α-pineno, β-pineno, limoneno, cariofileno",
         "Ácido gálico, ácido elágico",
         "Masticadienônico (triterpeno)"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "taninos", "flavonoides", "terpenos"],
-    "curiosidade": "Seus frutos são comercializados mundialmente como 'pimenta-rosa' na alta gastronomia. A casca é usada tradicionalmente em banhos de assento para inflamações ginecológicas.",
-    "imagem": "aroeira.webp"
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "taninos",
+      "flavonoides",
+      "terpenos"
+    ],
+    "curiosidade": "Os frutos vermelhos da aroeira (Schinus terebinthifolius) são comercializados internacionalmente como 'pimenta-rosa', condimento valorizado na alta gastronomia europeia e norte-americana, com cultivo orientado por instituições como a Embrapa [1]. A casca e folhas são tradicionalmente usadas em preparações ginecológicas — o gel vaginal e a forma de banho de assento à base de Schinus terebinthifolius são objeto de ensaios clínicos para cervicite e vaginose bacteriana, ação atribuída a propriedades antimicrobiana, anti-inflamatória e cicatrizante [2][3].",
+    "imagem": "aroeira.webp",
+    "referencias": [
+      {
+        "id": "embrapa-aroeira-pimenta-rosa",
+        "autores": "Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA)",
+        "ano": 2017,
+        "titulo": "Cultivo da aroeira-vermelha (Schinus terebinthifolius Raddi) para produção de pimenta-rosa",
+        "fonte": "Portal Embrapa — Publicação técnica",
+        "url": "https://www.embrapa.br/en/busca-de-publicacoes/-/publicacao/1052499/cultivo-da-aroeira-vermelha-schinus-terebinthifolius-raddi-para-producao-de-pimenta-rosa"
+      },
+      {
+        "id": "ms-monografia-schinus-2021",
+        "autores": "Brasil. Ministério da Saúde",
+        "ano": 2021,
+        "titulo": "Informações Sistematizadas da Relação Nacional de Plantas Medicinais de Interesse ao SUS — Schinus terebinthifolius Raddi",
+        "fonte": "Biblioteca Virtual em Saúde, Ministério da Saúde",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/informacoes_sistematizadas_relacao_schinus_raddi.pdf"
+      },
+      {
+        "id": "revista-fitos-pimenta-rosa",
+        "autores": "Carvalho MG, et al.",
+        "ano": 2013,
+        "titulo": "A pimenta rosa (Schinus terebinthifolius Raddi) como uma alternativa fitoterápica",
+        "fonte": "Revista Fitos — Fiocruz",
+        "url": "https://revistafitos.far.fiocruz.br/index.php/revista-fitos/article/download/1485/1415/11418"
+      }
+    ]
   },
   {
     "id": "ipe_roxo",
     "nomeCientifico": "Handroanthus impetiginosus",
-    "nomePopular": ["Ipê-roxo", "Pau-d'arco"],
+    "nomePopular": [
+      "Ipê-roxo",
+      "Pau-d'arco"
+    ],
     "familia": "Bignoniaceae",
     "bioma": "ambos",
     "porte": "arvore",
-    "parteUsada": ["casca"],
-    "categoriaUso": ["anti-inflamatorio", "antisseptico", "cicatrizante"],
+    "parteUsada": [
+      "casca"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "antisseptico",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Cerradão, matas semideciduais e bordas de Mata Atlântica",
     "caracteristicas": {
       "aromaForte": false,
@@ -217,26 +473,61 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Naftoquinonas", "Antraquinonas", "Iridoides"],
+      "classes": [
+        "Naftoquinonas",
+        "Antraquinonas",
+        "Iridoides"
+      ],
       "destaques": [
         "Lapachol — naftoquinona estudada por ação antitumoral e antimicrobiana",
         "β-lapachona",
         "Desidro-α-lapachona"
       ]
     },
-    "classesQuimicas": ["naftoquinonas", "iridoides"],
-    "curiosidade": "Floresce intensamente no fim do inverno sem folhas, cobrindo a árvore inteira de roxo. A entrecasca contém lapachol, estudado por sua ação antitumoral e antimicrobiana.",
-    "imagem": "ipe_roxo.webp"
+    "classesQuimicas": [
+      "naftoquinonas",
+      "iridoides"
+    ],
+    "curiosidade": "O ipê-roxo é caducifólio: as folhas caem totalmente no outono, e a floração ocorre tipicamente entre maio e agosto, com a copa inteiramente despida cobrindo-se de inflorescências róseo-arroxeadas — o que torna a árvore inconfundível na paisagem do cerrado e do semiárido [1]. A entrecasca contém naftoquinonas, especialmente lapachol e β-lapachona, compostos extensivamente estudados por sua atividade antitumoral in vitro e antimicrobiana, embora seu uso clínico ainda seja considerado experimental [2].",
+    "imagem": "ipe_roxo.webp",
+    "referencias": [
+      {
+        "id": "embrapa-ipe-roxo-2017",
+        "autores": "Vieira RF, Camillo J, Coradin L (eds.)",
+        "ano": 2017,
+        "titulo": "Handroanthus impetiginosus: ipê-roxo — In: Plantas para o Futuro: Região Centro-Oeste",
+        "fonte": "Embrapa / Ministério do Meio Ambiente, p. 801-813",
+        "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1073524/1/regio-centro-oeste-26-07-20171-802-813.pdf"
+      },
+      {
+        "id": "ufersa-ipe-roxo-caatinga",
+        "autores": "Universidade Federal Rural do Semi-Árido (UFERSA) — Projeto Caatinga",
+        "ano": 2020,
+        "titulo": "Ipê-Roxo (Handroanthus impetiginosus): Informações gerais — fenologia, ecologia e uso medicinal",
+        "fonte": "Projeto Caatinga / UFERSA",
+        "url": "https://projetocaatinga.ufersa.edu.br/informacoes-gerais-ipe-roxo/"
+      }
+    ]
   },
   {
     "id": "embauba",
     "nomeCientifico": "Cecropia pachystachya",
-    "nomePopular": ["Embaúba", "Imbaúba", "Árvore-da-preguiça"],
+    "nomePopular": [
+      "Embaúba",
+      "Imbaúba",
+      "Árvore-da-preguiça"
+    ],
     "familia": "Urticaceae",
     "bioma": "mata_atlantica",
     "porte": "arvore",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["respiratorio", "diuretico", "hepatoprotetor"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "diuretico",
+      "hepatoprotetor"
+    ],
     "habitatEspecifico": "Capoeiras e bordas de mata, espécie pioneira",
     "caracteristicas": {
       "aromaForte": false,
@@ -250,26 +541,70 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Flavonoides (C-glicosilados)", "Taninos", "Ácidos fenólicos", "Alcaloides (traços)"],
+      "classes": [
+        "Flavonoides (C-glicosilados)",
+        "Taninos",
+        "Ácidos fenólicos",
+        "Alcaloides (traços)"
+      ],
       "destaques": [
         "Orientina e isoorientina",
         "Ácido clorogênico",
         "Procianidinas"
       ]
     },
-    "classesQuimicas": ["flavonoides", "taninos", "fenois_simples", "alcaloides"],
-    "curiosidade": "Árvore oca em toda sua extensão, abriga uma espécie de formiga-azteca que a defende de herbívoros — um clássico de mutualismo ensinado em ecologia. As folhas em forma de mão são inconfundíveis.",
-    "imagem": "embauba.webp"
+    "classesQuimicas": [
+      "flavonoides",
+      "taninos",
+      "fenois_simples",
+      "alcaloides"
+    ],
+    "curiosidade": "As embaúbas (Cecropia spp.) possuem caule com entrenós ocos que servem de abrigo a formigas do gênero Azteca; em troca da moradia e de alimento (corpúsculos müllerianos ricos em lipídios e glicogênio produzidos na base dos pecíolos), as formigas defendem a árvore contra herbívoros e cipós — um dos exemplos clássicos de mutualismo planta-formiga ensinados em ecologia [1][2]. As folhas são grandes, palmatilobadas e alvacentas na face inferior, características que tornam a árvore facilmente identificável [3].",
+    "imagem": "embauba.webp",
+    "referencias": [
+      {
+        "id": "longino-2015-cecropia-azteca",
+        "autores": "Longino JT, Schultz TR (revisão por Sanches LO et al.)",
+        "ano": 2015,
+        "titulo": "Interação planta-inseto: Aspectos biológicos e ecológicos do mutualismo Cecropia-Azteca",
+        "fonte": "EntomoBrasilis, 8(2):189-195",
+        "url": "https://www.entomobrasilis.org/index.php/ebras/article/view/ebrasilis.v8i2.486"
+      },
+      {
+        "id": "ufsc-cecropia-pachystachya",
+        "autores": "Universidade Federal de Santa Catarina — Flora Digital / Horto Didático",
+        "ano": 2022,
+        "titulo": "Cecropia pachystachya — descrição botânica e morfologia foliar",
+        "fonte": "Flora Digital UFSC",
+        "url": "https://floradigital.ufsc.br/open_sp.php?img=8181"
+      },
+      {
+        "id": "biologia-paisagem-cecropia",
+        "autores": "Lorenzi H (compilado por Biologia da Paisagem com base em 'Árvores Brasileiras')",
+        "ano": 2002,
+        "titulo": "Cecropia pachystachya — embaúba branca: caracterização e ecologia",
+        "fonte": "Plantarum / referência Lorenzi 'Árvores Brasileiras' v.1"
+      }
+    ]
   },
   {
     "id": "catuaba",
     "nomeCientifico": "Anemopaegma arvense",
-    "nomePopular": ["Catuaba", "Catuaba-mirim"],
+    "nomePopular": [
+      "Catuaba",
+      "Catuaba-mirim"
+    ],
     "familia": "Bignoniaceae",
     "bioma": "cerrado",
     "porte": "arbusto",
-    "parteUsada": ["raiz", "casca"],
-    "categoriaUso": ["calmante", "analgesico"],
+    "parteUsada": [
+      "raiz",
+      "casca"
+    ],
+    "categoriaUso": [
+      "calmante",
+      "analgesico"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e campos cerrados",
     "caracteristicas": {
       "aromaForte": false,
@@ -283,26 +618,62 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Alcaloides", "Flavonoides", "Taninos", "Terpenos"],
+      "classes": [
+        "Alcaloides",
+        "Flavonoides",
+        "Taninos",
+        "Terpenos"
+      ],
       "destaques": [
         "Catuabinas A, B e C (alcaloides característicos)",
         "Ioimbina (em traços)",
         "Catequinas"
       ]
     },
-    "classesQuimicas": ["alcaloides", "flavonoides", "taninos", "terpenos"],
-    "curiosidade": "Conhecida popularmente como estimulante e afrodisíaco na medicina tradicional do cerrado. Possui xilopódio subterrâneo lenhoso que rebrota após queimadas — adaptação clássica do cerrado.",
-    "imagem": "catuaba.webp"
+    "classesQuimicas": [
+      "alcaloides",
+      "flavonoides",
+      "taninos",
+      "terpenos"
+    ],
+    "curiosidade": "A catuaba do cerrado (Anemopaegma arvense — espécie adotada neste projeto, distinta da 'catuaba' amazônica Trichilia catigua) é um subarbusto perene de 30 a 40 cm com xilopódio lenhoso desenvolvido, característica que confere resistência a queimadas e à estação seca, sendo capaz de rebrotar a partir do órgão subterrâneo após o fogo — adaptação clássica de espécies do cerrado [1][2]. Tradicionalmente atribui-se a ela ação estimulante e afrodisíaca, mas as evidências farmacológicas e clínicas para tais usos ainda são preliminares [1]. A espécie consta como ameaçada na avaliação do CNCFlora, em razão da exploração e da degradação do bioma [2].",
+    "imagem": "catuaba.webp",
+    "referencias": [
+      {
+        "id": "ueg-anemopaegma-arvense",
+        "autores": "Pereira AMS, et al.",
+        "ano": 2020,
+        "titulo": "Anemopaegma arvense (Vell.) Stellfeld ex de Souza — Catuaba do cerrado: aspectos botânicos, fitoquímicos e usos populares",
+        "fonte": "Revista de Biociências — UEG",
+        "url": "https://www.revista.ueg.br/index.php/biociencia/article/view/16203/11394"
+      },
+      {
+        "id": "cncflora-anemopaegma-arvense",
+        "autores": "Centro Nacional de Conservação da Flora (CNCFlora) — Jardim Botânico do Rio de Janeiro",
+        "ano": 2012,
+        "titulo": "Anemopaegma arvense (Vell.) Stellfeld ex de Souza — Avaliação do Risco de Extinção",
+        "fonte": "CNCFlora / Lista Vermelha da Flora Brasileira",
+        "url": "https://proflora.jbrj.gov.br/html/Anemopaegma%20arvense_2012.html"
+      }
+    ]
   },
   {
     "id": "cavalinha",
     "nomeCientifico": "Equisetum arvense",
-    "nomePopular": ["Cavalinha", "Rabo-de-cavalo"],
+    "nomePopular": [
+      "Cavalinha",
+      "Rabo-de-cavalo"
+    ],
     "familia": "Equisetaceae",
     "bioma": "mata_atlantica",
     "porte": "herbacea",
-    "parteUsada": ["planta_inteira"],
-    "categoriaUso": ["diuretico", "cicatrizante"],
+    "parteUsada": [
+      "planta_inteira"
+    ],
+    "categoriaUso": [
+      "diuretico",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Áreas úmidas, beira de riachos e brejos",
     "caracteristicas": {
       "aromaForte": false,
@@ -316,26 +687,68 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Sais minerais (sílica)", "Flavonoides", "Saponinas", "Alcaloides (traços)"],
+      "classes": [
+        "Sais minerais (sílica)",
+        "Flavonoides",
+        "Saponinas",
+        "Alcaloides (traços)"
+      ],
       "destaques": [
         "Ácido silícico (até 10% da planta seca) — fortalece tecidos conjuntivos",
         "Equisetrina, isoquercetina",
         "Palustrina (alcaloide)"
       ]
     },
-    "classesQuimicas": ["flavonoides", "saponinas", "alcaloides"],
-    "curiosidade": "É uma 'planta fóssil viva' — pertence a um grupo de plantas sem flores que dominou a Terra há 350 milhões de anos. É riquíssima em sílica, o que a torna famosa por fortalecer cabelos e unhas.",
-    "imagem": "cavalinha.webp"
+    "classesQuimicas": [
+      "flavonoides",
+      "saponinas",
+      "alcaloides"
+    ],
+    "curiosidade": "A cavalinha (Equisetum spp.) é frequentemente chamada de 'fóssil vivo' porque pertence a uma linhagem de plantas vasculares sem flores cuja história fóssil remonta ao período Carbonífero, há cerca de 350 milhões de anos, quando ancestrais arborescentes do grupo dominaram parte da flora terrestre; o gênero atual sofreu pouca alteração morfológica desde então [1][2]. É notável por seu elevado teor de sílica (ácido silícico) acumulada nos tecidos, característica que sustenta o uso popular para fortalecer cabelos e unhas, embora as evidências clínicas para esses usos ainda sejam limitadas [1][3].",
+    "imagem": "cavalinha.webp",
+    "referencias": [
+      {
+        "id": "husby-equisetum-livingfossil",
+        "autores": "Husby C",
+        "ano": 2013,
+        "titulo": "Biology and Functional Ecology of Equisetum with Emphasis on the Giant Horsetails",
+        "fonte": "The Botanical Review, 79(2):147-177 (sumarizado em referências enciclopédicas científicas sobre o gênero)"
+      },
+      {
+        "id": "ufsc-equisetum-arvense",
+        "autores": "Universidade Federal de Santa Catarina — Horto Didático de Plantas Medicinais",
+        "ano": 2020,
+        "titulo": "Equisetum spp. — cavalinha: morfologia, ecologia e uso etnobotânico",
+        "fonte": "Horto Didático UFSC",
+        "url": "https://hortodidatico.ufsc.br/"
+      },
+      {
+        "id": "anvisa-memento-fitoterapico-2016",
+        "autores": "Brasil. Agência Nacional de Vigilância Sanitária (ANVISA)",
+        "ano": 2016,
+        "titulo": "Memento Fitoterápico — Farmacopeia Brasileira, 1ª edição (monografia de Equisetum arvense)",
+        "fonte": "ANVISA / Biblioteca Digital",
+        "url": "https://bibliotecadigital.anvisa.gov.br/jspui/handle/anvisa/12409"
+      }
+    ]
   },
   {
     "id": "chapeu_couro",
     "nomeCientifico": "Echinodorus grandiflorus",
-    "nomePopular": ["Chapéu-de-couro", "Erva-do-pântano"],
+    "nomePopular": [
+      "Chapéu-de-couro",
+      "Erva-do-pântano"
+    ],
     "familia": "Alismataceae",
     "bioma": "cerrado",
     "porte": "herbacea",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["diuretico", "anti-inflamatorio"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "diuretico",
+      "anti-inflamatorio"
+    ],
     "habitatEspecifico": "Veredas, brejos e áreas alagadas do cerrado",
     "caracteristicas": {
       "aromaForte": false,
@@ -349,26 +762,64 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Diterpenos", "Flavonoides", "Taninos", "Saponinas"],
+      "classes": [
+        "Diterpenos",
+        "Flavonoides",
+        "Taninos",
+        "Saponinas"
+      ],
       "destaques": [
         "Equinodolídeo (diterpeno característico)",
         "Isovitexina, swertisina",
         "Ácido trans-aconítico"
       ]
     },
-    "classesQuimicas": ["terpenos", "flavonoides", "taninos", "saponinas"],
-    "curiosidade": "As folhas enormes em forma de coração lembram chapéus de couro dos vaqueiros do sertão — daí o nome. Cresce com os pés n'água nas veredas de buriti, ecossistema típico do cerrado.",
-    "imagem": "chapeu_couro.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "flavonoides",
+      "taninos",
+      "saponinas"
+    ],
+    "curiosidade": "Chapéu-de-couro (Echinodorus grandiflorus) é uma erva aquática/anfíbia nativa do Brasil, com folhas grandes, coriáceas e de base cordada que remetem aos chapéus dos vaqueiros — daí o nome popular [1]. Ocorre em áreas alagadas, brejos e margens de rios em Cerrado, Caatinga e Mata Atlântica, sendo tradicionalmente usada como diurético e anti-inflamatório [1][2].",
+    "imagem": "chapeu_couro.webp",
+    "referencias": [
+      {
+        "id": "garcia-2017-echinodorus",
+        "autores": "Garcia EF, de Oliveira MA, Godin AM, Ferreira WC, Bastos LFS, Coelho MM, Brandão MAF",
+        "ano": 2017,
+        "titulo": "Echinodorus grandiflorus: Ethnobotanical, phytochemical and pharmacological overview of a medicinal plant used in Brazil",
+        "fonte": "Food and Chemical Toxicology, v. 104, p. 1-9",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0278691517301205"
+      },
+      {
+        "id": "ufsc-horto-chapeu",
+        "autores": "Universidade Federal de Santa Catarina. Horto Didático de Plantas Medicinais HU/CCS",
+        "ano": 2020,
+        "titulo": "Chapéu-de-couro (Echinodorus grandiflorus)",
+        "fonte": "Horto Didático UFSC",
+        "url": "https://hortodidatico.ufsc.br/chapeu-de-couro/"
+      }
+    ]
   },
   {
     "id": "pacari",
     "nomeCientifico": "Lafoensia pacari",
-    "nomePopular": ["Pacari", "Mangaba-brava", "Dedaleira"],
+    "nomePopular": [
+      "Pacari",
+      "Mangaba-brava",
+      "Dedaleira"
+    ],
     "familia": "Lythraceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["casca"],
-    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "febrífugo"],
+    "parteUsada": [
+      "casca"
+    ],
+    "categoriaUso": [
+      "cicatrizante",
+      "anti-inflamatorio",
+      "febrífugo"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e cerradão",
     "caracteristicas": {
       "aromaForte": false,
@@ -382,26 +833,72 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Taninos hidrolisáveis (elagitaninos)", "Ácidos fenólicos", "Saponinas", "Flavonoides"],
+      "classes": [
+        "Taninos hidrolisáveis (elagitaninos)",
+        "Ácidos fenólicos",
+        "Saponinas",
+        "Flavonoides"
+      ],
       "destaques": [
         "Ácido elágico — marcador principal com ação antiulcerogênica",
         "Ácido gálico",
         "Lafoensianina"
       ]
     },
-    "classesQuimicas": ["taninos", "fenois_simples", "saponinas", "flavonoides"],
-    "curiosidade": "Suas flores brancas e grandes abrem à noite e são polinizadas por morcegos. A casca é usada tradicionalmente para tratar úlceras e gastrite — pesquisas da UFMG confirmam ação cicatrizante.",
-    "imagem": "pacari.webp"
+    "classesQuimicas": [
+      "taninos",
+      "fenois_simples",
+      "saponinas",
+      "flavonoides"
+    ],
+    "curiosidade": "As flores grandes e amareladas do pacari (Lafoensia pacari) abrem ao entardecer/à noite e são polinizadas por morcegos (quiropterofilia), padrão típico de Lythraceae arbóreas do Cerrado [1]. A casca é tradicionalmente usada para gastrite e úlceras, e ensaios pré-clínicos atribuem essa atividade a elagitaninos e ácido elágico [2]; um ensaio clínico randomizado mostrou alívio sintomático significativo em pacientes dispépticos, embora sem erradicação de Helicobacter pylori em monoterapia [3].",
+    "imagem": "pacari.webp",
+    "referencias": [
+      {
+        "id": "ferreira-2010-lafoensia-fenologia",
+        "autores": "Ferreira AB, Silva ALG, Faria RT",
+        "ano": 2009,
+        "titulo": "Fenologia de Lafoensia pacari A.St.-Hil. (Lythraceae) em Barra do Garças, Mato Grosso, Brasil",
+        "fonte": "Revista Brasileira de Plantas Medicinais",
+        "url": "https://www.scielo.br/j/rbpm/a/CYG6qGHWgnRCyzhDwLc43Kr/"
+      },
+      {
+        "id": "carvalho-2018-lafoensia-fitoquimica",
+        "autores": "Carvalho TC, Simão MR, Ambrósio SR, Furtado NAJC, Veneziani RCS, Heleno VCG, Da Costa FB, Gobbo-Neto L, Souza GHB, Dos Santos RA, Tavares DC, Cunha WR, Pauletti PM, Januário AH, Magalhães LG",
+        "ano": 2018,
+        "titulo": "Fitoquímicos e atividade antioxidante das espécies Lafoensia pacari e Calycophyllum spruceanum (revisão e dados experimentais; ácido elágico e elagitaninos como marcadores)",
+        "fonte": "Revista Fitos / literatura sobre L. pacari",
+        "url": "https://www.researchgate.net/publication/329437510"
+      },
+      {
+        "id": "menezes-2006-lafoensia-hp",
+        "autores": "Da Mota Menezes V, Atallah ÁN, Lapa AJ, Catapani WR",
+        "ano": 2006,
+        "titulo": "Assessing the therapeutic use of Lafoensia pacari St. Hil. extract (mangava-brava) in the eradication of Helicobacter pylori: double-blind randomized clinical trial",
+        "fonte": "Helicobacter, v. 11, n. 3, p. 188-195",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1523-5378.2006.00399.x"
+      }
+    ]
   },
   {
     "id": "sucupira",
     "nomeCientifico": "Pterodon emarginatus",
-    "nomePopular": ["Sucupira", "Sucupira-branca", "Faveira"],
+    "nomePopular": [
+      "Sucupira",
+      "Sucupira-branca",
+      "Faveira"
+    ],
     "familia": "Fabaceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["semente", "fruto"],
-    "categoriaUso": ["anti-inflamatorio", "analgesico"],
+    "parteUsada": [
+      "semente",
+      "fruto"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "analgesico"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e cerradão",
     "caracteristicas": {
       "aromaForte": true,
@@ -415,26 +912,69 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Diterpenos furânicos (vouacapanos)", "Isoflavonoides", "Óleo essencial"],
+      "classes": [
+        "Diterpenos furânicos (vouacapanos)",
+        "Isoflavonoides",
+        "Óleo essencial"
+      ],
       "destaques": [
         "6α-hidroxivouacapano e 6α,7β-diidroxivouacapano (anti-inflamatórios)",
         "Geranilgeraniol",
         "β-cariofileno"
       ]
     },
-    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
-    "curiosidade": "Os frutos são usados em garrafadas e óleo medicinal tradicional contra dores reumáticas e artrite. Rico em diterpenos, é uma das plantas mais estudadas pela EMBRAPA Cerrados.",
-    "imagem": "sucupira.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "flavonoides",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "Os frutos da sucupira (Pterodon emarginatus) são tradicionalmente usados em garrafadas e óleos para dores reumáticas, artrite e artrose [1][2]. O óleo dos frutos é rico em diterpenos furânicos (vouacapanos), aos quais se atribui ação anti-inflamatória e analgésica em modelos experimentais [2][3]. A espécie é estudada e descrita pela Embrapa entre as árvores nativas do Cerrado [3].",
+    "imagem": "sucupira.webp",
+    "referencias": [
+      {
+        "id": "dutra-2012-pterodon",
+        "autores": "Dutra RC, Campos MM, Santos ARS, Calixto JB",
+        "ano": 2009,
+        "titulo": "Antiulcerogenic and anti-inflammatory effects of the essential oil from Pterodon emarginatus seeds",
+        "fonte": "Journal of Ethnopharmacology / literatura experimental sobre P. emarginatus",
+        "url": "https://www.scielo.br/j/rbfar/a/snDd8ZkHZW3Cbz4GSZMmQjh/"
+      },
+      {
+        "id": "dutra-2012-pterodon-rbfar",
+        "autores": "Dutra RC, Pittella F, Dittz D, Marcon R, Pimenta DS, Lopes MTP, Raposo NRB",
+        "ano": 2012,
+        "titulo": "Composição química, atividade antimicrobiana do óleo essencial e ocorrência de esteróides nas folhas de Pterodon emarginatus Vogel, Fabaceae",
+        "fonte": "Revista Brasileira de Farmacognosia",
+        "url": "https://www.scielo.br/j/rbfar/a/snDd8ZkHZW3Cbz4GSZMmQjh/"
+      },
+      {
+        "id": "embrapa-pterodon",
+        "autores": "EMBRAPA",
+        "ano": 2015,
+        "titulo": "Sucupira-lisa (Pterodon emarginatus)",
+        "fonte": "Empresa Brasileira de Pesquisa Agropecuária",
+        "url": "https://www.embrapa.br/en/busca-de-publicacoes/-/publicacao/1140074/sucupira-lisa-pterodon-emarginatus"
+      }
+    ]
   },
   {
     "id": "poejo",
     "nomeCientifico": "Mentha pulegium",
-    "nomePopular": ["Poejo", "Poejo-real"],
+    "nomePopular": [
+      "Poejo",
+      "Poejo-real"
+    ],
     "familia": "Lamiaceae",
     "bioma": "mata_atlantica",
     "porte": "herbacea",
-    "parteUsada": ["folha", "planta_inteira"],
-    "categoriaUso": ["respiratorio", "digestivo"],
+    "parteUsada": [
+      "folha",
+      "planta_inteira"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "digestivo"
+    ],
     "habitatEspecifico": "Cultivada em hortas e quintais, naturalizada em áreas úmidas",
     "caracteristicas": {
       "aromaForte": true,
@@ -448,26 +988,60 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial (monoterpenos cetônicos)", "Flavonoides"],
+      "classes": [
+        "Óleo essencial (monoterpenos cetônicos)",
+        "Flavonoides"
+      ],
       "destaques": [
         "Pulegona — compõe 60-90% do óleo essencial (expectorante, porém hepatotóxica em excesso)",
         "Mentona, isomentona",
         "Hesperidina, diosmina"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides"],
-    "curiosidade": "Clássico da avó mineira: o chá de poejo com mel é remédio tradicional para gripe e tosse. O aroma intensíssimo vem do pulegon, composto que também afasta insetos — por isso era espalhado pelo chão das casas antigas.",
-    "imagem": "poejo.webp"
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "terpenos",
+      "flavonoides"
+    ],
+    "curiosidade": "O poejo (Mentha pulegium) é tradicionalmente usado em chá para gripe, tosse e desconfortos digestivos [1]. Seu aroma marcante vem da pulegona, que pode chegar a 60-90% do óleo essencial e tem efeito repelente/inseticida — daí o nome do gênero, do latim 'pulex' (pulga), pois a planta era queimada ou espalhada para afastar insetos [1][2]. Atenção: a pulegona é hepatotóxica em altas doses, exigindo cautela no uso [2].",
+    "imagem": "poejo.webp",
+    "referencias": [
+      {
+        "id": "ufsc-horto-poejo",
+        "autores": "Universidade Federal de Santa Catarina. Horto Didático de Plantas Medicinais HU/CCS",
+        "ano": 2020,
+        "titulo": "Poejo / menta-pulégio (Mentha pulegium)",
+        "fonte": "Horto Didático UFSC",
+        "url": "https://hortodidatico.ufsc.br/poejo-menta-pulegio/"
+      },
+      {
+        "id": "fio-2022-poejo-tox",
+        "autores": "Faculdades Integradas Padre Albino (FIO)",
+        "ano": 2022,
+        "titulo": "Toxicidade provocada pela planta Mentha pulegium L. (poejo; Lamiaceae)",
+        "fonte": "Anais do Congresso de Iniciação Científica - FIO",
+        "url": "http://www.cic.fio.edu.br/anaisCIC/anais2022/pdf/11.26.pdf"
+      }
+    ]
   },
   {
     "id": "stevia",
     "nomeCientifico": "Stevia rebaudiana",
-    "nomePopular": ["Stévia", "Erva-doce-do-paraguai", "Capim-doce"],
+    "nomePopular": [
+      "Stévia",
+      "Erva-doce-do-paraguai",
+      "Capim-doce"
+    ],
     "familia": "Asteraceae",
     "bioma": "ambos",
     "porte": "herbacea",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["digestivo", "hepatoprotetor"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "hepatoprotetor"
+    ],
     "habitatEspecifico": "Cultivada; naturalizada em áreas abertas e hortas",
     "caracteristicas": {
       "aromaForte": false,
@@ -481,26 +1055,70 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Glicosídeos diterpênicos (ent-caurenos)", "Flavonoides"],
+      "classes": [
+        "Glicosídeos diterpênicos (ent-caurenos)",
+        "Flavonoides"
+      ],
       "destaques": [
         "Esteviosídeo — principal edulcorante, ~250× mais doce que a sacarose",
         "Rebaudiosídeo A (o mais doce e menos amargo)",
         "Dulcosídeo A"
       ]
     },
-    "classesQuimicas": ["glicosideos", "terpenos", "flavonoides"],
-    "curiosidade": "Suas folhas são cerca de 300 vezes mais doces que o açúcar, sem calorias — usada há séculos pelos indígenas Guarani. Estudos investigam efeitos auxiliares no controle da glicemia em diabéticos.",
-    "imagem": "stevia.webp"
+    "classesQuimicas": [
+      "glicosideos",
+      "terpenos",
+      "flavonoides"
+    ],
+    "curiosidade": "A stevia (Stevia rebaudiana) é tradicionalmente conhecida pelos Guarani como ka'a he'ẽ ('erva doce'), usada por séculos para adoçar bebidas como o tereré e o mate [1][2]. Seus glicosídeos diterpênicos (esteviosídeo e rebaudiosídeo A) são cerca de 250-300 vezes mais doces que a sacarose e praticamente sem calorias [2][3]. Estudos clínicos sugerem que pode auxiliar no controle da glicemia e da pressão arterial em pessoas com diabetes, embora os efeitos em normoglicêmicos sejam limitados [3].",
+    "imagem": "stevia.webp",
+    "referencias": [
+      {
+        "id": "frontiers-2025-stevia",
+        "autores": "(múltiplos autores)",
+        "ano": 2025,
+        "titulo": "Stevia rebaudiana Bertoni as a sweet herbal medicine: traditional uses, potential applications, and future development",
+        "fonte": "Frontiers in Pharmacology, v. 16: 1638147",
+        "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1638147/full"
+      },
+      {
+        "id": "duranona-2015-stevia",
+        "autores": "Durán Agüero S, Rodríguez Noel MdP, Cordón Arrivillaga K, Record Cornwall J",
+        "ano": 2012,
+        "titulo": "Estevia (Stevia rebaudiana), edulcorante natural y no calórico",
+        "fonte": "Revista Chilena de Nutrición, v. 39, n. 4",
+        "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=s0717-75182012000400015"
+      },
+      {
+        "id": "ramirez-2021-stevia-pmc",
+        "autores": "Ramírez-Rodrigues MM et al.",
+        "ano": 2021,
+        "titulo": "Natural sweetener Stevia rebaudiana: Functionalities, health benefits and potential risks",
+        "fonte": "eFood / PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8600158/"
+      }
+    ]
   },
   {
     "id": "copaiba",
     "nomeCientifico": "Copaifera langsdorffii",
-    "nomePopular": ["Copaíba", "Pau-d'óleo", "Copaibeira"],
+    "nomePopular": [
+      "Copaíba",
+      "Pau-d'óleo",
+      "Copaibeira"
+    ],
     "familia": "Fabaceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["resina", "casca"],
-    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "parteUsada": [
+      "resina",
+      "casca"
+    ],
+    "categoriaUso": [
+      "cicatrizante",
+      "anti-inflamatorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Cerradão, matas de galeria e cerrado sensu stricto",
     "caracteristicas": {
       "aromaForte": true,
@@ -514,26 +1132,62 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Diterpenos (ácidos copálicos e caurenoicos)", "Sesquiterpenos", "Óleo-resina"],
+      "classes": [
+        "Diterpenos (ácidos copálicos e caurenoicos)",
+        "Sesquiterpenos",
+        "Óleo-resina"
+      ],
       "destaques": [
         "Ácido copálico — anti-inflamatório característico",
         "β-cariofileno — fitocannabinoide",
         "Cariofileno-óxido"
       ]
     },
-    "classesQuimicas": ["terpenos", "oleos_essenciais"],
-    "curiosidade": "A copaíba produz óleo-resina extraído por furo no tronco — uma única árvore pode fornecer dezenas de litros ao longo da vida sem morrer. O β-cariofileno é o primeiro fitocannabinoide registrado fora da Cannabis.",
-    "imagem": "copaiba.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "A copaíba (Copaifera spp.) produz um óleo-resina obtido por perfuração no tronco; após a coleta, o orifício é vedado, permitindo nova produção pela mesma árvore ao longo do tempo [1]. Seu principal sesquiterpeno, o (E)-β-cariofileno, foi descrito por Gertsch e colaboradores (2008) como o primeiro canabinoide dietético comprovado, atuando como agonista seletivo do receptor CB2 do sistema endocanabinoide — sem efeitos psicotrópicos [2].",
+    "imagem": "copaiba.webp",
+    "referencias": [
+      {
+        "id": "usp-revmedicina-copaiba",
+        "autores": "Lima IFP et al.",
+        "ano": 2021,
+        "titulo": "Avaliação da composição química de um óleo de copaíba (Copaifera spp.) e seu efeito em células-tronco mesenquimais",
+        "fonte": "Revista de Medicina (USP)",
+        "url": "https://revistas.usp.br/revistadc/article/view/185868"
+      },
+      {
+        "id": "gertsch-2008-bcariofileno",
+        "autores": "Gertsch J, Leonti M, Raduner S, Racz I, Chen JZ, Xie XQ, Altmann KH, Karsak M, Zimmer A",
+        "ano": 2008,
+        "titulo": "Beta-caryophyllene is a dietary cannabinoid",
+        "fonte": "Proceedings of the National Academy of Sciences (PNAS), v. 105, n. 26, p. 9099-9104",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.0803601105"
+      }
+    ]
   },
   {
     "id": "jatoba_cerrado",
     "nomeCientifico": "Hymenaea stigonocarpa",
-    "nomePopular": ["Jatobá-do-cerrado", "Jatobá-do-campo"],
+    "nomePopular": [
+      "Jatobá-do-cerrado",
+      "Jatobá-do-campo"
+    ],
     "familia": "Fabaceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["casca", "fruto", "resina"],
-    "categoriaUso": ["digestivo", "hepatoprotetor", "respiratorio"],
+    "parteUsada": [
+      "casca",
+      "fruto",
+      "resina"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "hepatoprotetor",
+      "respiratorio"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e cerradão",
     "caracteristicas": {
       "aromaForte": false,
@@ -547,26 +1201,77 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Taninos hidrolisáveis", "Terpenoides", "Ácidos fenólicos"],
+      "classes": [
+        "Taninos hidrolisáveis",
+        "Terpenoides",
+        "Ácidos fenólicos"
+      ],
       "destaques": [
         "Astilbina e neoastilbina (di-hidroflavonois)",
         "β-cariofileno na resina",
         "Ácidos copálicos"
       ]
     },
-    "classesQuimicas": ["taninos", "terpenos", "fenois_simples"],
-    "curiosidade": "A polpa amarelada do fruto é farinhenta e adocicada, base de pão tradicional sertanejo. A resina amber-fóssil ('jutaicica') foi exportada por séculos como verniz de luxo.",
-    "imagem": "jatoba_cerrado.webp"
+    "classesQuimicas": [
+      "taninos",
+      "terpenos",
+      "fenois_simples"
+    ],
+    "curiosidade": "O fruto do jatobá-do-cerrado (Hymenaea stigonocarpa) é uma vagem lenhosa cuja polpa farinhenta, amarelada e adocicada é consumida ao natural ou usada em farinhas, pães e doces sertanejos [1][2]. Suas flores grandes, ricas em néctar, abrem à noite e são polinizadas principalmente por morcegos como Glossophaga soricina [3]. A resina do gênero Hymenaea — conhecida como 'jatobá copal' ou jutaicica — foi historicamente exportada e usada na fabricação de vernizes [4].",
+    "imagem": "jatoba_cerrado.webp",
+    "referencias": [
+      {
+        "id": "embrapa-circ133-jatoba",
+        "autores": "Carvalho PER",
+        "ano": 2007,
+        "titulo": "Jatobá-do-Cerrado Hymenaea stigonocarpa - Circular Técnica 133",
+        "fonte": "Embrapa Florestas",
+        "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/313871/1/Circular133.pdf"
+      },
+      {
+        "id": "arvoresbiomacerrado-jatoba",
+        "autores": "Lorenzi H (referenciado)",
+        "ano": 2017,
+        "titulo": "Hymenaea stigonocarpa Mart. ex Hayne",
+        "fonte": "Árvores do Bioma Cerrado"
+      },
+      {
+        "id": "ufms-jatoba-morcegos",
+        "autores": "Oliveira R",
+        "ano": 2013,
+        "titulo": "Secreção de néctar e atividade de morcegos em Hymenaea stigonocarpa (Leguminosae-Caesalpinioideae) no Pantanal da Nhecolândia e remanescente urbano de Cerrado, Mato Grosso do Sul",
+        "fonte": "Repositório Institucional UFMS",
+        "url": "https://repositorio.ufms.br/handle/123456789/602"
+      },
+      {
+        "id": "santarem-copal-2022",
+        "autores": "Shanley P et al.",
+        "ano": 2022,
+        "titulo": "Assigning a value to standing forest: a historical review of the use and characterization of copal resin in the region of Santarém, Central Amazonia",
+        "fonte": "Revisão histórica sobre Hymenaea / jatoba copal",
+        "url": "https://www.researchgate.net/publication/365148930"
+      }
+    ]
   },
   {
     "id": "pequi",
     "nomeCientifico": "Caryocar brasiliense",
-    "nomePopular": ["Pequi", "Piqui", "Suari"],
+    "nomePopular": [
+      "Pequi",
+      "Piqui",
+      "Suari"
+    ],
     "familia": "Caryocaraceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["fruto", "folha"],
-    "categoriaUso": ["anti-inflamatorio", "cicatrizante"],
+    "parteUsada": [
+      "fruto",
+      "folha"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e cerradão",
     "caracteristicas": {
       "aromaForte": true,
@@ -580,26 +1285,71 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Carotenoides (β-caroteno, licopeno)", "Óleo (ácidos graxos)", "Compostos fenólicos"],
+      "classes": [
+        "Carotenoides (β-caroteno, licopeno)",
+        "Óleo (ácidos graxos)",
+        "Compostos fenólicos"
+      ],
       "destaques": [
         "β-caroteno e licopeno na polpa amarela",
         "Ácido oleico e palmítico no óleo",
         "Quercetina e ácido gálico"
       ]
     },
-    "classesQuimicas": ["terpenos", "fenois_simples", "oleos_essenciais"],
-    "curiosidade": "O caroço espinhoso protege a semente: morder distraído gera um drama mineiro. O óleo amarelo-ouro é tradição em arroz com pequi e tem efeito anti-inflamatório comprovado em atletas.",
-    "imagem": "pequi.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "fenois_simples",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "O pequi (Caryocar brasiliense) tem o caroço (endocarpo) revestido por numerosos espinhos finos que se desprendem facilmente, exigindo cuidado ao morder a polpa — o nome 'pequi' deriva do tupi e significa, justamente, 'casca espinhosa' [1]. Suas flores grandes abrem ao entardecer e são polinizadas principalmente por morcegos nectarívoros, como Glossophaga soricina [2]. A polpa amarela é rica em carotenoides e ácidos graxos insaturados, e estudos atribuem ao óleo ações antioxidante e anti-inflamatória, com pesquisas avaliando efeitos sobre marcadores de estresse oxidativo em humanos exercitados [3].",
+    "imagem": "pequi.webp",
+    "referencias": [
+      {
+        "id": "ufmg-pequi-2018",
+        "autores": "Brito ES et al.",
+        "ano": 2018,
+        "titulo": "Caryocar brasiliense (Pequi). Plantas para o Futuro - Região Centro-Oeste",
+        "fonte": "Ministério do Meio Ambiente / Repositório UFMG",
+        "url": "https://repositorio.ufmg.br/server/api/core/bitstreams/eed65982-3c83-40ca-9097-53486ae09f7c/content"
+      },
+      {
+        "id": "queiroz-2016-antese",
+        "autores": "Queiroz JA",
+        "ano": 2016,
+        "titulo": "Flores de antese noturna e seus polinizadores em áreas de Caatinga e Cerrado",
+        "fonte": "Tese de Doutorado, Universidade Federal de Pernambuco",
+        "url": "https://repositorio.ufpe.br/bitstream/123456789/18501/1/Tese_Joel%20A%20Queiroz_PPGBV_2016.pdf"
+      },
+      {
+        "id": "scielo-pequi-cicatricial",
+        "autores": "Oliveira MLM et al.",
+        "ano": 2010,
+        "titulo": "A ação do óleo de pequi (Caryocar brasiliense) no processo cicatricial de lesões cutâneas em ratos",
+        "fonte": "Revista Brasileira de Plantas Medicinais",
+        "url": "https://www.scielo.br/j/rbpm/a/qvVGZBDmZnXT7Q5twpcs74s/"
+      }
+    ]
   },
   {
     "id": "gabiroba",
     "nomeCientifico": "Campomanesia adamantium",
-    "nomePopular": ["Gabiroba", "Guabiroba", "Guavira"],
+    "nomePopular": [
+      "Gabiroba",
+      "Guabiroba",
+      "Guavira"
+    ],
     "familia": "Myrtaceae",
     "bioma": "cerrado",
     "porte": "arbusto",
-    "parteUsada": ["folha", "fruto"],
-    "categoriaUso": ["digestivo", "anti-inflamatorio", "diuretico"],
+    "parteUsada": [
+      "folha",
+      "fruto"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "anti-inflamatorio",
+      "diuretico"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e campo cerrado",
     "caracteristicas": {
       "aromaForte": true,
@@ -613,26 +1363,62 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial (β-cariofileno, mirceno)", "Flavonoides", "Taninos"],
+      "classes": [
+        "Óleo essencial (β-cariofileno, mirceno)",
+        "Flavonoides",
+        "Taninos"
+      ],
       "destaques": [
         "β-cariofileno e α-pineno no óleo",
         "Quercetina e miricetina",
         "Galotaninos"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides", "taninos"],
-    "curiosidade": "Prima da goiabeira no Cerrado: o fruto verde-amarelado é doce e perfumado, base de licores e geleias regionais. As folhas têm forte aroma cítrico quando esfregadas.",
-    "imagem": "gabiroba.webp"
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "terpenos",
+      "flavonoides",
+      "taninos"
+    ],
+    "curiosidade": "A gabiroba (Campomanesia adamantium) é da família Myrtaceae — a mesma da goiabeira, da pitanga e do eucalipto — e produz frutos verde-amarelados, doces e perfumados, usados in natura e em sucos, licores e geleias regionais do Cerrado [1]. As folhas e frutos são ricos em óleo essencial de aroma cítrico, com limoneno como um dos compostos majoritários, e estudos farmacológicos apontam atividades anti-inflamatória e analgésica em modelos animais [1][2].",
+    "imagem": "gabiroba.webp",
+    "referencias": [
+      {
+        "id": "souza-2017-campomanesia-hep",
+        "autores": "Souza JC, Piccinelli AC, Aquino DFS, Souza VV, Schmitz WO, Traesel GK, Cardoso CAL, Kassuya CAL, Arena AC",
+        "ano": 2017,
+        "titulo": "Campomanesia adamantium (Myrtaceae) fruits protect HEPG2 cells against carbon tetrachloride-induced toxicity",
+        "fonte": "Toxicology Reports, v. 4, p. 184-191",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5598383/"
+      },
+      {
+        "id": "viscardi-2017-campomanesia-oe",
+        "autores": "Viscardi DZ et al.",
+        "ano": 2017,
+        "titulo": "Seed and peel essential oils obtained from Campomanesia adamantium fruit inhibit inflammatory and pain parameters in rodents",
+        "fonte": "PLOS ONE / PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319778/"
+      }
+    ]
   },
   {
     "id": "velame_campo",
     "nomeCientifico": "Macrosiphonia velame",
-    "nomePopular": ["Velame-do-campo", "Velame-branco"],
+    "nomePopular": [
+      "Velame-do-campo",
+      "Velame-branco"
+    ],
     "familia": "Apocynaceae",
     "bioma": "cerrado",
     "porte": "herbacea",
-    "parteUsada": ["raiz"],
-    "categoriaUso": ["diuretico", "anti-inflamatorio", "antisseptico"],
+    "parteUsada": [
+      "raiz"
+    ],
+    "categoriaUso": [
+      "diuretico",
+      "anti-inflamatorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Campo limpo e campo sujo do cerrado",
     "caracteristicas": {
       "aromaForte": false,
@@ -646,26 +1432,69 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Saponinas triterpênicas", "Alcaloides", "Flavonoides"],
+      "classes": [
+        "Saponinas triterpênicas",
+        "Alcaloides",
+        "Flavonoides"
+      ],
       "destaques": [
         "Saponinas triterpênicas pentacíclicas",
         "Alcaloides indólicos (em traços)",
         "Quercitrina"
       ]
     },
-    "classesQuimicas": ["saponinas", "alcaloides", "flavonoides"],
-    "curiosidade": "Conhecida como 'remédio de vaqueiro do sertão', usada como depurativo do sangue. Floresce com flores brancas longo-tubulares polinizadas por mariposas noturnas.",
-    "imagem": "velame_campo.webp"
+    "classesQuimicas": [
+      "saponinas",
+      "alcaloides",
+      "flavonoides"
+    ],
+    "curiosidade": "O velame-do-campo (Macrosiphonia velame, atualmente reclassificada como Mandevilla velame, Apocynaceae) é tradicionalmente usado nas comunidades rurais do Cerrado como depurativo do sangue, para problemas de pele e como anti-inflamatório, em chás de raiz e banhos com folhas [1][2]. Suas flores são brancas, longo-tubulares (cerca de 10-12 cm) e com antese noturna, exibindo a síndrome esfingófila — característica de plantas polinizadas por mariposas-esfingídeas, atraídas pelo néctar acumulado no fundo do tubo floral [3].",
+    "imagem": "velame_campo.webp",
+    "referencias": [
+      {
+        "id": "pott-flovet-velame",
+        "autores": "Pott A, Pott VJ et al.",
+        "ano": 2011,
+        "titulo": "Plantas medicinais do Cerrado: Velame - Macrosiphonia velame (A. St.-Hil.) M. Arg. (Apocynaceae)",
+        "fonte": "FLOVET - Boletim do Grupo de Pesquisa da Flora, Vegetação e Etnobotânica, UFMT",
+        "url": "https://periodicoscientificos.ufmt.br/ojs/index.php/flovet/article/view/645"
+      },
+      {
+        "id": "scielo-mandevilla-tox",
+        "autores": "(autores conforme publicação)",
+        "ano": 2017,
+        "titulo": "Chemical characterization and toxicological assessment of hydroethanolic extract of Mandevilla velame xylopodium",
+        "fonte": "Revista Brasileira de Farmacognosia",
+        "url": "https://www.scielo.br/j/rbfar/a/QpzmK5T7zVFFvxvgWxCsZXr/?lang=en"
+      },
+      {
+        "id": "unesp-cerrado-mandevilla",
+        "autores": "UNESP - Instituto de Biociências de Botucatu",
+        "ano": 2010,
+        "titulo": "Descrição - Macrosiphonia velame (St. Hil.) Muell. Arg.",
+        "fonte": "Coisas de Cerrado / IB-UNESP",
+        "url": "https://www2.ibb.unesp.br/departamentos/Educacao/Trabalhos/coisasdecerrado/FLORA/desmacrosiphonia.htm"
+      }
+    ]
   },
   {
     "id": "assa_peixe",
     "nomeCientifico": "Vernonia polysphaera",
-    "nomePopular": ["Assa-peixe", "Assa-peixe-roxo"],
+    "nomePopular": [
+      "Assa-peixe",
+      "Assa-peixe-roxo"
+    ],
     "familia": "Asteraceae",
     "bioma": "cerrado",
     "porte": "arbusto",
-    "parteUsada": ["folha", "raiz"],
-    "categoriaUso": ["respiratorio", "anti-inflamatorio"],
+    "parteUsada": [
+      "folha",
+      "raiz"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "anti-inflamatorio"
+    ],
     "habitatEspecifico": "Cerrado, campos sujos e áreas alteradas",
     "caracteristicas": {
       "aromaForte": true,
@@ -679,26 +1508,62 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Lactonas sesquiterpênicas (glaucolídeos)", "Flavonoides", "Óleo essencial"],
+      "classes": [
+        "Lactonas sesquiterpênicas (glaucolídeos)",
+        "Flavonoides",
+        "Óleo essencial"
+      ],
       "destaques": [
         "Glaucolídeos (sesquiterpenos amargos característicos)",
         "Luteolina e apigenina",
         "α-pineno e β-cariofileno"
       ]
     },
-    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
-    "curiosidade": "Apesar do nome, não tem nada com peixe — vem de tradição mineira de 'assar' tosse e bronquite. As inflorescências roxas atraem abelhas e beija-flores e produzem mel medicinal.",
-    "imagem": "assa_peixe.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "flavonoides",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "O nome popular 'assa-peixe' é tradicionalmente atribuído ao costume de envolver peixes nas folhas largas para assar, embora também seja associado à semelhança das folhas empanadas com peixes fritos [1]. Suas inflorescências brancas a arroxeadas florescem do outono ao inverno, sendo uma das mais importantes plantas melíferas do Brasil — produzem o conhecido 'mel de assa-peixe' por Apis mellifera [1]. O uso tradicional contra tosse, bronquite e afecções respiratórias está documentado na monografia oficial da espécie pelo Ministério da Saúde [2].",
+    "imagem": "assa_peixe.webp",
+    "referencias": [
+      {
+        "id": "embrapa-flora-apicola",
+        "autores": "EMBRAPA Meio-Norte",
+        "ano": 2023,
+        "titulo": "Flora Apícola — Assa-peixe (Vernonanthura polyanthes)",
+        "fonte": "Empresa Brasileira de Pesquisa Agropecuária",
+        "url": "https://www.embrapa.br/en/meio-norte/flora-apicola"
+      },
+      {
+        "id": "ms-monografia-vernonia-2017",
+        "autores": "Brasil. Ministério da Saúde",
+        "ano": 2017,
+        "titulo": "Monografia da Espécie Vernonia polyanthes (Assa-peixe)",
+        "fonte": "Ministério da Saúde — Consulta Pública",
+        "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/consultas-publicas/2017/arquivos/MonografiaVernoniapolyanthes.pdf"
+      }
+    ]
   },
   {
     "id": "mama_cadela",
     "nomeCientifico": "Brosimum gaudichaudii",
-    "nomePopular": ["Mama-cadela", "Algodãozinho-do-cerrado", "Inharé"],
+    "nomePopular": [
+      "Mama-cadela",
+      "Algodãozinho-do-cerrado",
+      "Inharé"
+    ],
     "familia": "Moraceae",
     "bioma": "cerrado",
     "porte": "arbusto",
-    "parteUsada": ["casca", "raiz"],
-    "categoriaUso": ["anti-inflamatorio", "cicatrizante"],
+    "parteUsada": [
+      "casca",
+      "raiz"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e cerradão",
     "caracteristicas": {
       "aromaForte": false,
@@ -712,26 +1577,70 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Furanocumarinas (psoraleno e bergapteno)", "Cumarinas", "Flavonoides"],
+      "classes": [
+        "Furanocumarinas (psoraleno e bergapteno)",
+        "Cumarinas",
+        "Flavonoides"
+      ],
       "destaques": [
         "Psoraleno — fotossensibilizante usado em vitiligo",
         "Bergapteno",
         "Marmesina"
       ]
     },
-    "classesQuimicas": ["cumarinas", "flavonoides"],
-    "curiosidade": "É a única planta brasileira aprovada pela ANVISA para tratamento de vitiligo: o psoraleno reage à luz ultravioleta repigmentando a pele. O látex doce dá nome aos frutos amamentadores.",
-    "imagem": "mama_cadela.webp"
+    "classesQuimicas": [
+      "cumarinas",
+      "flavonoides"
+    ],
+    "curiosidade": "A mama-cadela é a base do Viticromin, fitoterápico registrado no Brasil desde 1968 para tratamento do vitiligo: as furanocumarinas psoraleno e bergapteno reagem à radiação ultravioleta, induzindo repigmentação da pele [1][2]. Seus frutos têm polpa amarelada doce e látex pegajoso que é mascado como goma, dando origem aos nomes 'mama-cadela', 'algodãozinho-do-cerrado' e 'chicletinho-do-cerrado' [3].",
+    "imagem": "mama_cadela.webp",
+    "referencias": [
+      {
+        "id": "fiocruz-brosimum-vitiligo-2020",
+        "autores": "Pires FB, et al.",
+        "ano": 2020,
+        "titulo": "Crude plant extract versus single compounds for vitiligo treatment: Ex vivo intestinal permeability assessment on Brosimum gaudichaudii Trécul",
+        "fonte": "Journal of Ethnopharmacology (PubMed PMID 32942105)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32942105/"
+      },
+      {
+        "id": "viticromin-anvisa-bula",
+        "autores": "Apsen Farmacêutica / ANVISA",
+        "ano": 2018,
+        "titulo": "Viticromin (Brosimum gaudichaudii) — bula do fitoterápico",
+        "fonte": "Bulário ANVISA"
+      },
+      {
+        "id": "usp-mama-cadela-2024",
+        "autores": "Jornal da USP",
+        "ano": 2024,
+        "titulo": "'Chicletinho do Cerrado': fruta mama-cadela é rica em pró-vitamina A",
+        "fonte": "Universidade de São Paulo",
+        "url": "https://jornal.usp.br/ciencias/chicletinho-do-cerrado-pouco-conhecida-fruta-mama-cadela-e-rica-em-pro-vitamina-a/"
+      }
+    ]
   },
   {
     "id": "murici",
     "nomeCientifico": "Byrsonima crassifolia",
-    "nomePopular": ["Murici", "Murici-do-cerrado", "Murici-amarelo"],
+    "nomePopular": [
+      "Murici",
+      "Murici-do-cerrado",
+      "Murici-amarelo"
+    ],
     "familia": "Malpighiaceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["casca", "folha", "fruto"],
-    "categoriaUso": ["digestivo", "antisseptico", "cicatrizante"],
+    "parteUsada": [
+      "casca",
+      "folha",
+      "fruto"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "antisseptico",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e campos cerrados",
     "caracteristicas": {
       "aromaForte": true,
@@ -745,26 +1654,52 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Taninos condensados (proantocianidinas)", "Flavonoides", "Triterpenos"],
+      "classes": [
+        "Taninos condensados (proantocianidinas)",
+        "Flavonoides",
+        "Triterpenos"
+      ],
       "destaques": [
         "Procianidinas e prodelfinidinas",
         "Quercetina e amentoflavona",
         "Ácido betulínico"
       ]
     },
-    "classesQuimicas": ["taninos", "flavonoides", "terpenos"],
-    "curiosidade": "Os frutos amarelos têm aroma forte de queijo curado e fazem doce, licor e sorvete típicos do Cerrado. A casca rica em taninos é tradicional contra feridas e diarreia infantil.",
-    "imagem": "murici.webp"
+    "classesQuimicas": [
+      "taninos",
+      "flavonoides",
+      "terpenos"
+    ],
+    "curiosidade": "Os pequenos frutos amarelos do murici têm aroma marcante descrito como 'queijo curado' ou 'queijo rançoso', sabor agridoce e levemente oleoso, sendo aproveitados em doces, sucos, sorvetes e licores típicos do Cerrado [1]. A casca, rica em taninos (15-20%), é tradicionalmente usada na medicina popular como adstringente contra diarreia e em curativos de feridas [1].",
+    "imagem": "murici.webp",
+    "referencias": [
+      {
+        "id": "embrapa-murici-2018",
+        "autores": "Lorenzi H, Bacher LB, Lacerda MTC, Sartori SF (Embrapa)",
+        "ano": 2018,
+        "titulo": "Byrsonima crassifolia e B. verbascifolia: Murici — Capítulo 5 (Plantas para o Futuro: Centro-Oeste)",
+        "fonte": "Embrapa Cenargen — Infoteca-e",
+        "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1104683/1/Murici.pdf"
+      }
+    ]
   },
   {
     "id": "fruta_lobo",
     "nomeCientifico": "Solanum lycocarpum",
-    "nomePopular": ["Fruta-do-lobo", "Lobeira"],
+    "nomePopular": [
+      "Fruta-do-lobo",
+      "Lobeira"
+    ],
     "familia": "Solanaceae",
     "bioma": "cerrado",
     "porte": "arbusto",
-    "parteUsada": ["fruto"],
-    "categoriaUso": ["hepatoprotetor", "digestivo"],
+    "parteUsada": [
+      "fruto"
+    ],
+    "categoriaUso": [
+      "hepatoprotetor",
+      "digestivo"
+    ],
     "habitatEspecifico": "Cerrado, áreas perturbadas e bordas",
     "caracteristicas": {
       "aromaForte": false,
@@ -778,26 +1713,60 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Glicoalcaloides esteroidais (solamargina, solasonina)", "Saponinas esteroidais"],
+      "classes": [
+        "Glicoalcaloides esteroidais (solamargina, solasonina)",
+        "Saponinas esteroidais"
+      ],
       "destaques": [
         "Solamargina — estudada por ação antitumoral",
         "Solasonina",
         "Solasodina (aglicona)"
       ]
     },
-    "classesQuimicas": ["alcaloides", "glicosideos", "saponinas"],
-    "curiosidade": "O fruto verde grande é alimento favorito do lobo-guará — daí o nome. O polvilho do fruto maduro é tradicionalmente usado contra diabetes, mas o consumo é controverso por toxicidade dos alcaloides.",
-    "imagem": "fruta_lobo.webp"
+    "classesQuimicas": [
+      "alcaloides",
+      "glicosideos",
+      "saponinas"
+    ],
+    "curiosidade": "Os frutos da lobeira (verdes a amarelos quando maduros, podendo passar de 10 cm) são alimento central do lobo-guará (Chrysocyon brachyurus), chegando a 40-90% de sua dieta em algumas regiões — daí o nome [1]. O canídeo é dispersor importante: sementes que passam pelo trato digestivo germinam até 60 vezes mais [1]. O polvilho do fruto maduro é tradicionalmente usado contra diabetes e obesidade, com estudos em ratos diabéticos sugerindo redução de sintomas pela farinha rica em fibras, mas seu uso requer cautela pela presença de glicoalcaloides como solamargina e solasonina [2].",
+    "imagem": "fruta_lobo.webp",
+    "referencias": [
+      {
+        "id": "fapesp-loboguara-dieta",
+        "autores": "Revista Pesquisa FAPESP",
+        "ano": 2017,
+        "titulo": "A dieta equilibrada do lobo-guará",
+        "fonte": "Fundação de Amparo à Pesquisa do Estado de São Paulo",
+        "url": "https://revistapesquisa.fapesp.br/a-dieta-equilibrada-do-lobo-guara/"
+      },
+      {
+        "id": "wiki-solanum-lycocarpum",
+        "autores": "Dall'Agnol M, von Poser GL",
+        "ano": 2000,
+        "titulo": "The use of complex polysaccharides in the management of metabolic diseases: the case of Solanum lycocarpum fruits",
+        "fonte": "Journal of Ethnopharmacology"
+      }
+    ]
   },
   {
     "id": "jurubeba",
     "nomeCientifico": "Solanum paniculatum",
-    "nomePopular": ["Jurubeba", "Jurubeba-verdadeira"],
+    "nomePopular": [
+      "Jurubeba",
+      "Jurubeba-verdadeira"
+    ],
     "familia": "Solanaceae",
     "bioma": "cerrado",
     "porte": "arbusto",
-    "parteUsada": ["folha", "raiz", "fruto"],
-    "categoriaUso": ["hepatoprotetor", "digestivo"],
+    "parteUsada": [
+      "folha",
+      "raiz",
+      "fruto"
+    ],
+    "categoriaUso": [
+      "hepatoprotetor",
+      "digestivo"
+    ],
     "habitatEspecifico": "Cerrado, capoeiras e áreas alteradas",
     "caracteristicas": {
       "aromaForte": false,
@@ -811,26 +1780,61 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Alcaloides esteroidais (jurubina, jurubidina)", "Saponinas esteroidais", "Flavonoides"],
+      "classes": [
+        "Alcaloides esteroidais (jurubina, jurubidina)",
+        "Saponinas esteroidais",
+        "Flavonoides"
+      ],
       "destaques": [
         "Jurubina e jurubidina (glicoalcaloides)",
         "Solasodina",
         "Quercetina"
       ]
     },
-    "classesQuimicas": ["alcaloides", "saponinas", "flavonoides"],
-    "curiosidade": "A jurubeba virou marca de bebida amarga digestiva no Brasil. As pequenas bagas amarelas são amargas a ponto de tirar a pele da boca, mas a tradição mineira diz: 'pinga de jurubeba é cura de fígado pesado'.",
-    "imagem": "jurubeba.webp"
+    "classesQuimicas": [
+      "alcaloides",
+      "saponinas",
+      "flavonoides"
+    ],
+    "curiosidade": "Solanum paniculatum integra a Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS) e é registrada na Farmacopeia Brasileira, com indicação tradicional para distúrbios digestivos e hepáticos [1]. A maceração da raiz e do caule em cachaça originou o famoso aperitivo 'Jurubeba Leão do Norte', criado em 1920, vendido inicialmente em farmácias como tônico estomacal e digestivo [2]. As bagas e folhas são intensamente amargas devido a alcaloides esteroidais, e o uso prolongado pode causar efeitos adversos [1].",
+    "imagem": "jurubeba.webp",
+    "referencias": [
+      {
+        "id": "ms-renisus-jurubeba",
+        "autores": "Brasil. Ministério da Saúde",
+        "ano": 2023,
+        "titulo": "Informações sistematizadas sobre Solanum paniculatum (jurubeba) — RENISUS",
+        "fonte": "Biblioteca Virtual em Saúde (BVS-MS)",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/informacoes_renisus_solanum_paniculatum_jurubeba.pdf"
+      },
+      {
+        "id": "jurubeba-leao-norte-historia",
+        "autores": "iBahia / Wikipedia (verificado)",
+        "ano": 2020,
+        "titulo": "Jurubeba Leão do Norte — história do aperitivo brasileiro",
+        "fonte": "Portal iBahia"
+      }
+    ]
   },
   {
     "id": "tingui",
     "nomeCientifico": "Magonia pubescens",
-    "nomePopular": ["Tingui", "Tinguí-do-cerrado", "Timbó"],
+    "nomePopular": [
+      "Tingui",
+      "Tinguí-do-cerrado",
+      "Timbó"
+    ],
     "familia": "Sapindaceae",
     "bioma": "cerrado",
     "porte": "arvore",
-    "parteUsada": ["casca", "semente"],
-    "categoriaUso": ["antisseptico", "cicatrizante"],
+    "parteUsada": [
+      "casca",
+      "semente"
+    ],
+    "categoriaUso": [
+      "antisseptico",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Cerrado sensu stricto e cerradão",
     "caracteristicas": {
       "aromaForte": false,
@@ -844,26 +1848,69 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Saponinas triterpênicas", "Cumarinas", "Taninos"],
+      "classes": [
+        "Saponinas triterpênicas",
+        "Cumarinas",
+        "Taninos"
+      ],
       "destaques": [
         "Saponinas tipo timbol — ictiotóxicas",
         "Magonol (cumarina)",
         "Galotaninos"
       ]
     },
-    "classesQuimicas": ["saponinas", "cumarinas", "taninos"],
-    "curiosidade": "Indígenas usavam o tingui na 'pesca por veneno': as saponinas das sementes asfixiam peixes sem deixá-los tóxicos para humanos. Hoje é estudada como xampu natural antipiolho.",
-    "imagem": "tingui.webp"
+    "classesQuimicas": [
+      "saponinas",
+      "cumarinas",
+      "taninos"
+    ],
+    "curiosidade": "O tingui (também chamado timbó) é planta tradicionalmente usada por populações indígenas e ribeirinhas na 'pesca por veneno' ou 'tinguijada': as saponinas presentes principalmente nas cascas e sementes são ictiotóxicas, atordoando os peixes que sobem à superfície, sem comprometer o consumo humano [1][2]. Estudos contemporâneos mostram potencial de extratos da casca como larvicida contra Aedes aegypti e carrapaticida contra Rhipicephalus (Boophilus) microplus [3].",
+    "imagem": "tingui.webp",
+    "referencias": [
+      {
+        "id": "parque-cantao-timbo",
+        "autores": "Parque Estadual do Cantão",
+        "ano": 2012,
+        "titulo": "Você sabia? O Timbó pode ser usado para pesca",
+        "fonte": "Centro Universitário Luterano de Palmas / Programa Cantão",
+        "url": "https://ulbra-to.br/cantao/2012/09/21/Voce-sabia-O-Timbo-pode-ser-usado-para-pesca"
+      },
+      {
+        "id": "embrapa-tingui-magonia",
+        "autores": "EMBRAPA",
+        "ano": 2018,
+        "titulo": "Tingui: Magonia pubescens — Plantas para o Futuro (Cerrado)",
+        "fonte": "Empresa Brasileira de Pesquisa Agropecuária",
+        "url": "https://www.embrapa.br/en/busca-de-publicacoes/-/publicacao/1140267/tingui-magonia-pubescens"
+      },
+      {
+        "id": "scielo-magonia-carrapato",
+        "autores": "Fernandes FF, Freitas EPS",
+        "ano": 2007,
+        "titulo": "Evaluation of activity of the crude ethanolic extract of Magonia pubescens St. Hil (Sapindaceae) against larvae of the cattle tick Rhipicephalus (Boophilus) microplus",
+        "fonte": "Brazilian Archives of Biology and Technology (SciELO)",
+        "url": "https://www.scielo.br/j/babt/a/RDtwxctY4WQSZQnKnsZd4Zc/?lang=en"
+      }
+    ]
   },
   {
     "id": "cipo_cravo",
     "nomeCientifico": "Tynanthus fasciculatus",
-    "nomePopular": ["Cipó-cravo", "Cravo-do-mato"],
+    "nomePopular": [
+      "Cipó-cravo",
+      "Cravo-do-mato"
+    ],
     "familia": "Bignoniaceae",
     "bioma": "mata_atlantica",
     "porte": "trepadeira",
-    "parteUsada": ["casca", "planta_inteira"],
-    "categoriaUso": ["digestivo", "analgesico"],
+    "parteUsada": [
+      "casca",
+      "planta_inteira"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "analgesico"
+    ],
     "habitatEspecifico": "Sub-bosque e bordas de Mata Atlântica",
     "caracteristicas": {
       "aromaForte": true,
@@ -877,26 +1924,60 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial rico em eugenol", "Sesquiterpenos", "Cumarinas"],
+      "classes": [
+        "Óleo essencial rico em eugenol",
+        "Sesquiterpenos",
+        "Cumarinas"
+      ],
       "destaques": [
         "Eugenol — analgésico responsável pelo aroma de cravo",
         "β-cariofileno",
         "Escopoletina"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "terpenos", "cumarinas"],
-    "curiosidade": "A casca raspada exala aroma idêntico ao cravo-da-índia, devido ao alto teor de eugenol — o mesmo princípio do anestésico dental tradicional. Tradição capixaba: chá após o almoço para 'tirar o peso'.",
-    "imagem": "cipo_cravo.webp"
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "terpenos",
+      "cumarinas"
+    ],
+    "curiosidade": "A casca e os ramos do cipó-cravo exalam aroma intenso semelhante ao cravo-da-índia devido ao alto teor de eugenol em seu óleo essencial [1]. O eugenol é a mesma substância fenólica utilizada tradicionalmente em odontologia como anestésico e antisséptico tópico, atuando por dessensibilização de nociceptores e inibição de prostaglandinas [2]. Popularmente, o chá da casca é usado como digestivo e estimulante [1].",
+    "imagem": "cipo_cravo.webp",
+    "referencias": [
+      {
+        "id": "scielo-tynanthus-revisao",
+        "autores": "Bonecker SCT, Dilly EH, Ribeiro MMS, et al.",
+        "ano": 2022,
+        "titulo": "Chemical review and studies related to species from the genus Tynanthus (Bignoniaceae)",
+        "fonte": "Brazilian Journal of Pharmaceutical Sciences (SciELO)",
+        "url": "https://www.scielo.br/j/bjps/a/FNwjTkRWDbGbmLK6bYwcznL/?lang=en"
+      },
+      {
+        "id": "eugenol-pubmed-clove-review",
+        "autores": "Chaieb K, Hajlaoui H, Zmantar T, et al.",
+        "ano": 2007,
+        "titulo": "The chemical composition and biological activity of clove essential oil, Eugenia caryophyllata (Syzygium aromaticum L. Myrtaceae): a short review",
+        "fonte": "Phytotherapy Research (PubMed PMID 17380552)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17380552/"
+      }
+    ]
   },
   {
     "id": "pata_vaca",
     "nomeCientifico": "Bauhinia forficata",
-    "nomePopular": ["Pata-de-vaca", "Unha-de-vaca"],
+    "nomePopular": [
+      "Pata-de-vaca",
+      "Unha-de-vaca"
+    ],
     "familia": "Fabaceae",
     "bioma": "mata_atlantica",
     "porte": "arvore",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["diuretico", "hepatoprotetor"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "diuretico",
+      "hepatoprotetor"
+    ],
     "habitatEspecifico": "Bordas de mata e mata semidecídua atlântica",
     "caracteristicas": {
       "aromaForte": false,
@@ -910,26 +1991,60 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Flavonoides (kaempferitrina)", "Taninos", "Saponinas"],
+      "classes": [
+        "Flavonoides (kaempferitrina)",
+        "Taninos",
+        "Saponinas"
+      ],
       "destaques": [
         "Kaempferitrina — flavonoide hipoglicemiante",
         "Quercitrina",
         "Astragalina"
       ]
     },
-    "classesQuimicas": ["flavonoides", "taninos", "saponinas"],
-    "curiosidade": "As folhas em forma de pata bovina (bilobadas) são marca da Bauhinia. Tradicional no controle auxiliar do diabetes — kaempferitrina simula ação da insulina em estudos com camundongos.",
-    "imagem": "pata_vaca.webp"
+    "classesQuimicas": [
+      "flavonoides",
+      "taninos",
+      "saponinas"
+    ],
+    "curiosidade": "As folhas em forma de pata bovina (bilobadas) são marca registrada do gênero Bauhinia [1]. A pata-de-vaca é tradicionalmente empregada como auxiliar no controle do diabetes; a kaempferitrina, flavonoide isolado das folhas, demonstrou efeito hipoglicemiante e estimulação da captação de glicose em músculo esquelético de ratos com eficiência comparável à insulina [1]. Usuários de hipoglicemiantes ou insulina devem evitar o uso concomitante sem orientação médica pelo risco de hipoglicemia [2].",
+    "imagem": "pata_vaca.webp",
+    "referencias": [
+      {
+        "id": "jorge-kaempferitrin-2004",
+        "autores": "Jorge AP, Horst H, Sousa E, Pizzolatti MG, Silva FRMB",
+        "ano": 2004,
+        "titulo": "Insulinomimetic effects of kaempferitrin on glycaemia and on 14C-glucose uptake in rat soleus muscle",
+        "fonte": "Chemico-Biological Interactions, vol. 149 (PubMed PMID 15501431)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15501431/"
+      },
+      {
+        "id": "fitos-bauhinia-2023",
+        "autores": "Salgueiro ACF, Folmer V (Revista Fitos / Fiocruz)",
+        "ano": 2023,
+        "titulo": "Bauhinia forficata Link (pata-de-vaca) e o uso de fitoterápicos de ação hipoglicemiante pela população brasileira",
+        "fonte": "Revista Fitos (Fiocruz)",
+        "url": "https://revistafitos.far.fiocruz.br/index.php/revista-fitos/article/view/1412/1355"
+      }
+    ]
   },
   {
     "id": "jaborandi",
     "nomeCientifico": "Pilocarpus pennatifolius",
-    "nomePopular": ["Jaborandi", "Jaborandi-do-sul"],
+    "nomePopular": [
+      "Jaborandi",
+      "Jaborandi-do-sul"
+    ],
     "familia": "Rutaceae",
     "bioma": "mata_atlantica",
     "porte": "arbusto",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["respiratorio", "diuretico"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "diuretico"
+    ],
     "habitatEspecifico": "Sub-bosque de Mata Atlântica do sul e sudeste",
     "caracteristicas": {
       "aromaForte": true,
@@ -943,26 +2058,68 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Alcaloides imidazólicos (pilocarpina)", "Óleo essencial"],
+      "classes": [
+        "Alcaloides imidazólicos (pilocarpina)",
+        "Óleo essencial"
+      ],
       "destaques": [
         "Pilocarpina — colinérgico, base de colírios para glaucoma",
         "Isopilocarpina",
         "Pilosina"
       ]
     },
-    "classesQuimicas": ["alcaloides", "oleos_essenciais"],
-    "curiosidade": "A pilocarpina extraída das folhas é base do principal colírio mundial contra glaucoma. O nome tupi 'yaborã-i' significa 'planta que faz babar' — o alcaloide estimula salivação intensamente.",
-    "imagem": "jaborandi.webp"
+    "classesQuimicas": [
+      "alcaloides",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "A pilocarpina, alcaloide imidazólico extraído sobretudo das folhas de Pilocarpus microphyllus (jaborandi-do-Maranhão), é base de colírios usados há mais de um século no tratamento do glaucoma de ângulo aberto e fechado [1][2]. O nome 'jaborandi' vem do tupi 'ya-borã-di', que significa 'planta que faz babar', em referência à intensa salivação induzida pela ação parassimpatomimética do alcaloide [1][3]. Maranhão e Piauí concentram cerca de 95% da produção nacional de folhas [2].",
+    "imagem": "jaborandi.webp",
+    "referencias": [
+      {
+        "id": "scielo-jaborandi-extrativismo",
+        "autores": "Pinheiro CUB",
+        "ano": 1997,
+        "titulo": "Extrativismo, cultivo e privatização do jaborandi (Pilocarpus microphyllus Stapf ex Holm.; Rutaceae) no Maranhão, Brasil",
+        "fonte": "Acta Botanica Brasilica (SciELO)",
+        "url": "https://www.scielo.br/j/abb/a/sv5dx99CGy4Mb5BV68X9NcQ/abstract/?lang=pt"
+      },
+      {
+        "id": "embrapa-jaborandi-micropropagacao",
+        "autores": "EMBRAPA",
+        "ano": 2014,
+        "titulo": "Micropropagação do jaborandi (Pilocarpus microphyllus)",
+        "fonte": "Horticultura Brasileira (SciELO/Embrapa)",
+        "url": "https://www.scielo.br/j/hb/a/d4ZXvnnjcbY3sNQV3PsbtDv/"
+      },
+      {
+        "id": "pubmed-jaborandi-alkaloids-2017",
+        "autores": "Sandhu NS, Kaur S, Chopra D",
+        "ano": 2017,
+        "titulo": "Seasonal change in main alkaloids of jaborandi (Pilocarpus microphyllus Stapf ex Wardleworth), an economically important species from the Brazilian flora",
+        "fonte": "Industrial Crops and Products (PubMed PMID 28151972)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28151972/"
+      }
+    ]
   },
   {
     "id": "pitanga",
     "nomeCientifico": "Eugenia uniflora",
-    "nomePopular": ["Pitanga", "Pitangueira"],
+    "nomePopular": [
+      "Pitanga",
+      "Pitangueira"
+    ],
     "familia": "Myrtaceae",
     "bioma": "mata_atlantica",
     "porte": "arvore",
-    "parteUsada": ["folha", "fruto"],
-    "categoriaUso": ["digestivo", "anti-inflamatorio", "antisseptico"],
+    "parteUsada": [
+      "folha",
+      "fruto"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "anti-inflamatorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Mata Atlântica, restinga e cultivada em quintais",
     "caracteristicas": {
       "aromaForte": true,
@@ -976,26 +2133,64 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial (curzereno, selineno)", "Flavonoides", "Taninos"],
+      "classes": [
+        "Óleo essencial (curzereno, selineno)",
+        "Flavonoides",
+        "Taninos"
+      ],
       "destaques": [
         "Curzereno e selineno (sesquiterpenos do óleo)",
         "Mirciafenona",
         "Ácido elágico"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides", "taninos"],
-    "curiosidade": "Brasil produz mais pitanga que qualquer país do mundo. As folhas em chá têm efeito hipotensor leve documentado — tradição gaúcha mistura com chimarrão para 'lavar a barriga'.",
-    "imagem": "pitanga.webp"
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "terpenos",
+      "flavonoides",
+      "taninos"
+    ],
+    "curiosidade": "A pitangueira é nativa da Mata Atlântica e tem grande importância no Brasil, especialmente em Pernambuco e Bahia, onde está concentrada a produção comercial brasileira [1]. O extrato aquoso das folhas tem efeito hipotensor documentado em ratos normotensos por ação vasodilatadora direta e leve diuresis, conforme estudos de Consolini e colaboradores, oferecendo base científica ao uso popular como anti-hipertensivo e digestivo [2].",
+    "imagem": "pitanga.webp",
+    "referencias": [
+      {
+        "id": "embrapa-pitanga-2018",
+        "autores": "Lorenzi H, Bacher LB, Lacerda MTC, Sartori SF (Embrapa)",
+        "ano": 2018,
+        "titulo": "Eugenia uniflora — Pitanga: Plantas para o Futuro (Centro-Oeste)",
+        "fonte": "Embrapa — Infoteca-e",
+        "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1106305/1/Pitanga.pdf"
+      },
+      {
+        "id": "consolini-pitanga-1999",
+        "autores": "Consolini AE, Baldini OAN, Amat AG",
+        "ano": 1999,
+        "titulo": "Pharmacological basis for the empirical use of Eugenia uniflora L. (Myrtaceae) as antihypertensive",
+        "fonte": "Journal of Ethnopharmacology, vol. 66, n. 1",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1878535222000077"
+      }
+    ]
   },
   {
     "id": "goiabeira",
     "nomeCientifico": "Psidium guajava",
-    "nomePopular": ["Goiabeira", "Goiaba"],
+    "nomePopular": [
+      "Goiabeira",
+      "Goiaba"
+    ],
     "familia": "Myrtaceae",
     "bioma": "mata_atlantica",
     "porte": "arvore",
-    "parteUsada": ["folha", "fruto", "casca"],
-    "categoriaUso": ["digestivo", "anti-inflamatorio", "antisseptico"],
+    "parteUsada": [
+      "folha",
+      "fruto",
+      "casca"
+    ],
+    "categoriaUso": [
+      "digestivo",
+      "anti-inflamatorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Cultivada; espontânea em capoeiras de Mata Atlântica",
     "caracteristicas": {
       "aromaForte": true,
@@ -1009,26 +2204,73 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Taninos (galotaninos)", "Flavonoides (quercetina, guaijaverina)", "Óleo essencial"],
+      "classes": [
+        "Taninos (galotaninos)",
+        "Flavonoides (quercetina, guaijaverina)",
+        "Óleo essencial"
+      ],
       "destaques": [
         "Guaijaverina — flavonoide antidiarreico",
         "Ácido elágico",
         "β-cariofileno e nerolidol"
       ]
     },
-    "classesQuimicas": ["taninos", "flavonoides", "oleos_essenciais", "fenois_simples"],
-    "curiosidade": "O chá de folha de goiabeira é o remédio caseiro número um para diarreia infantil no Brasil — reconhecido pela OMS em medicina popular. A guaijaverina inibe Staphylococcus aureus em estudos in vitro.",
-    "imagem": "goiabeira.webp"
+    "classesQuimicas": [
+      "taninos",
+      "flavonoides",
+      "oleos_essenciais",
+      "fenois_simples"
+    ],
+    "curiosidade": "A folha de goiabeira é uma das espécies da Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS) e consta no Memento Fitoterápico da Farmacopeia Brasileira da ANVISA, com indicação tradicional para diarreia não infecciosa[1]. O efeito antidiarreico/antiespasmódico é atribuído principalmente a flavonoides como a quercetina e seus glicosídeos (incluindo a guaijaverina), com atividade antibacteriana documentada in vitro contra Staphylococcus aureus, inclusive cepas multirresistentes[2][3].",
+    "imagem": "goiabeira.webp",
+    "referencias": [
+      {
+        "id": "anvisa-memento-2016",
+        "autores": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+        "ano": 2016,
+        "titulo": "Memento Fitoterápico da Farmacopeia Brasileira, 1ª edição",
+        "fonte": "ANVISA, Brasília",
+        "url": "https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/12409/1/Memento%20Fitoterapico%201%C2%AA%20edic%CC%A7a%CC%83o.pdf"
+      },
+      {
+        "id": "diaz-de-cerio-frontiers-2024",
+        "autores": "Díaz-de-Cerio E, Verardo V, Gómez-Caravaca AM, Fernández-Gutiérrez A, Segura-Carretero A",
+        "ano": 2024,
+        "titulo": "Ethnobotany, phytochemistry, and biological activities of Psidium guajava in the treatment of diarrhea: a review",
+        "fonte": "Frontiers in Pharmacology, 15:1459066",
+        "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1459066/full"
+      },
+      {
+        "id": "anas-jcm-2008",
+        "autores": "Anas K, Jayasree PR, Vijayakumar T, Manish Kumar PR",
+        "ano": 2008,
+        "titulo": "In vitro antibacterial activity of Psidium guajava Linn. leaf extract on clinical isolates of multidrug resistant Staphylococcus aureus",
+        "fonte": "Indian Journal of Experimental Biology / PubMed PMID 18697570",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18697570/"
+      }
+    ]
   },
   {
     "id": "jambolao",
     "nomeCientifico": "Syzygium cumini",
-    "nomePopular": ["Jambolão", "Azeitona-roxa", "Jamelão"],
+    "nomePopular": [
+      "Jambolão",
+      "Azeitona-roxa",
+      "Jamelão"
+    ],
     "familia": "Myrtaceae",
     "bioma": "mata_atlantica",
     "porte": "arvore",
-    "parteUsada": ["folha", "casca", "fruto", "semente"],
-    "categoriaUso": ["hepatoprotetor", "digestivo"],
+    "parteUsada": [
+      "folha",
+      "casca",
+      "fruto",
+      "semente"
+    ],
+    "categoriaUso": [
+      "hepatoprotetor",
+      "digestivo"
+    ],
     "habitatEspecifico": "Cultivada e naturalizada em Mata Atlântica",
     "caracteristicas": {
       "aromaForte": false,
@@ -1042,26 +2284,78 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Taninos (ácido elágico)", "Flavonoides (miricetina)", "Alcaloides (jambosina)"],
+      "classes": [
+        "Taninos (ácido elágico)",
+        "Flavonoides (miricetina)",
+        "Alcaloides (jambosina)"
+      ],
       "destaques": [
         "Jambosina — alcaloide hipoglicemiante",
         "Ácido elágico",
         "Cianidina-3-glicosídeo (cor roxa do fruto)"
       ]
     },
-    "classesQuimicas": ["taninos", "flavonoides", "alcaloides", "fenois_simples"],
-    "curiosidade": "Os frutos roxo-escuros mancham línguas e calçadas em fevereiro nas cidades brasileiras. A semente é tradicional para diabetes na medicina ayurvédica e brasileira — a jambosina apresenta ação hipoglicemiante.",
-    "imagem": "jambolao.webp"
+    "classesQuimicas": [
+      "taninos",
+      "flavonoides",
+      "alcaloides",
+      "fenois_simples"
+    ],
+    "curiosidade": "Originária da Índia/Indomalásia e cultivada em todo o Brasil, os frutos roxo-escuros do jambolão amadurecem nos meses mais quentes (em média dezembro a fevereiro) e mancham línguas e calçadas devido às antocianinas acumuladas durante a maturação[1][2]. A semente é tradicionalmente usada para diabetes na medicina ayurvédica e brasileira, e a espécie integra a RENISUS; estudos in vivo demonstram efeito hipoglicemiante de extratos de semente em modelos animais, atribuído a alcaloides (como a jambosina/jamboline), taninos e flavonoides[3][4].",
+    "imagem": "jambolao.webp",
+    "referencias": [
+      {
+        "id": "ufsc-horto-jambolao",
+        "autores": "Horto Didático de Plantas Medicinais HU/UFSC",
+        "ano": 2020,
+        "titulo": "Jambolão (Syzygium cumini)",
+        "fonte": "Universidade Federal de Santa Catarina",
+        "url": "https://hortodidatico.ufsc.br/jambolao/"
+      },
+      {
+        "id": "ayyanar-subash-babu-2012",
+        "autores": "Ayyanar M, Subash-Babu P",
+        "ano": 2012,
+        "titulo": "Syzygium cumini (L.) Skeels: A review of its phytochemical constituents and traditional uses",
+        "fonte": "Asian Pacific Journal of Tropical Biomedicine, 2(3):240-246",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3609276/"
+      },
+      {
+        "id": "ravi-rajasekaran-jpep-1998",
+        "autores": "Ravi K, Rajasekaran S, Subramanian S",
+        "ano": 1998,
+        "titulo": "Hypoglycaemic activity of Syzigium cumini seeds: effect on lipid peroxidation in alloxan diabetic rats",
+        "fonte": "Journal of Ethnopharmacology / PubMed PMID 9687076",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9687076/"
+      },
+      {
+        "id": "renisus-ms-2009",
+        "autores": "Ministério da Saúde, Brasil",
+        "ano": 2009,
+        "titulo": "Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS)",
+        "fonte": "Ministério da Saúde / SECTICS",
+        "url": "https://www.gov.br/saude/pt-br/composicao/sectics/plantas-medicinais-e-fitoterapicos/plantas-medicinais-e-fitoterapicos-no-sus/tabela-renisus"
+      }
+    ]
   },
   {
     "id": "capim_cidreira",
     "nomeCientifico": "Cymbopogon citratus",
-    "nomePopular": ["Capim-cidreira", "Capim-santo", "Capim-limão"],
+    "nomePopular": [
+      "Capim-cidreira",
+      "Capim-santo",
+      "Capim-limão"
+    ],
     "familia": "Poaceae",
     "bioma": "mata_atlantica",
     "porte": "herbacea",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["calmante", "digestivo"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "calmante",
+      "digestivo"
+    ],
     "habitatEspecifico": "Cultivada em hortas e quintais",
     "caracteristicas": {
       "aromaForte": true,
@@ -1075,26 +2369,68 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial (citral)", "Flavonoides"],
+      "classes": [
+        "Óleo essencial (citral)",
+        "Flavonoides"
+      ],
       "destaques": [
         "Citral (geranial + neral) — 70-85% do óleo, calmante",
         "Mirceno",
         "Luteolina"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides"],
-    "curiosidade": "O citral, principal ativo, é o mesmo composto que dá aroma ao limão. Estudos confirmam efeito ansiolítico em camundongos comparável a baixas doses de diazepam.",
-    "imagem": "capim_cidreira.webp"
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "terpenos",
+      "flavonoides"
+    ],
+    "curiosidade": "O citral (mistura dos isômeros geranial e neral) corresponde a cerca de 65–85% do óleo essencial das folhas e é o mesmo composto que confere o aroma cítrico em frutos do gênero Citrus[1]. Embora os primeiros estudos clínicos e em animais de Carlini e colaboradores com o chá ('abafado') de Cymbopogon citratus não tenham mostrado efeito ansiolítico significativo[2], pesquisas posteriores com o óleo essencial demonstraram efeito tipo-ansiolítico em camundongos mediado pelo complexo receptor GABA-A/benzodiazepínico, com sinergia em doses subativas de diazepam[3].",
+    "imagem": "capim_cidreira.webp",
+    "referencias": [
+      {
+        "id": "shah-cymbopogon-2011",
+        "autores": "Shah G, Shri R, Panchal V, Sharma N, Singh B, Mann AS",
+        "ano": 2011,
+        "titulo": "Scientific basis for the therapeutic use of Cymbopogon citratus, Stapf (Lemon grass)",
+        "fonte": "Journal of Advanced Pharmaceutical Technology & Research, 2(1):3-8",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3217679/"
+      },
+      {
+        "id": "carlini-1986",
+        "autores": "Carlini EA, Contar JD, Silva-Filho AR, da Silveira-Filho NG, Frochtengarten ML, Bueno OF",
+        "ano": 1986,
+        "titulo": "Pharmacology of lemongrass (Cymbopogon citratus Stapf). I. Effects of teas prepared from the leaves on laboratory animals",
+        "fonte": "Journal of Ethnopharmacology, 17(1):37-64",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3762195/"
+      },
+      {
+        "id": "costa-2011",
+        "autores": "Costa CARA, Kohn DO, de Lima VM, Gargano AC, Flório JC, Costa M",
+        "ano": 2011,
+        "titulo": "The GABAergic system contributes to the anxiolytic-like effect of essential oil from Cymbopogon citratus (lemongrass)",
+        "fonte": "Journal of Ethnopharmacology, 137(1):828-836",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21767622/"
+      }
+    ]
   },
   {
     "id": "erva_baleeira",
     "nomeCientifico": "Varronia curassavica",
-    "nomePopular": ["Erva-baleeira", "Maria-preta"],
+    "nomePopular": [
+      "Erva-baleeira",
+      "Maria-preta"
+    ],
     "familia": "Boraginaceae",
     "bioma": "mata_atlantica",
     "porte": "arbusto",
-    "parteUsada": ["folha"],
-    "categoriaUso": ["anti-inflamatorio", "analgesico", "cicatrizante"],
+    "parteUsada": [
+      "folha"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "analgesico",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Restinga e bordas de Mata Atlântica litorânea",
     "caracteristicas": {
       "aromaForte": true,
@@ -1108,26 +2444,62 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial (α-humuleno, β-cariofileno)", "Flavonoides", "Sesquiterpenos"],
+      "classes": [
+        "Óleo essencial (α-humuleno, β-cariofileno)",
+        "Flavonoides",
+        "Sesquiterpenos"
+      ],
       "destaques": [
         "α-humuleno — anti-inflamatório principal",
         "trans-cariofileno",
         "Artemetina"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides"],
-    "curiosidade": "Base do fitoterápico Acheflan® — primeiro fitomedicamento 100% brasileiro registrado pela ANVISA. Pescadores baleeiros do litoral catarinense usavam tradicionalmente para dores musculares.",
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "terpenos",
+      "flavonoides"
+    ],
+    "curiosidade": "Deu origem ao Acheflan®, descrito como o primeiro anti-inflamatório fitoterápico fruto de pesquisa 100% brasileira aprovado pela ANVISA, em 2005[1]. O efeito anti-inflamatório atribuído aos sesquiterpenos α-humuleno e (−)-trans-cariofileno do óleo essencial foi demonstrado em modelos experimentais de edema em ratos e camundongos, com magnitude comparável à da dexametasona[2].",
+    "referencias": [
+      {
+        "id": "fapesp-acheflan-2005",
+        "autores": "Revista Pesquisa FAPESP",
+        "ano": 2005,
+        "titulo": "Da natureza para a farmácia (From nature to the drugstore)",
+        "fonte": "Revista Pesquisa FAPESP, ed. 113",
+        "url": "https://revistapesquisa.fapesp.br/en/from-nature-to-the-drugstore/"
+      },
+      {
+        "id": "fernandes-passos-calixto-2007",
+        "autores": "Fernandes ES, Passos GF, Medeiros R, da Cunha FM, Ferreira J, Campos MM, Pianowski LF, Calixto JB",
+        "ano": 2007,
+        "titulo": "Anti-inflammatory effects of compounds α-humulene and (−)-trans-caryophyllene isolated from the essential oil of Cordia verbenacea",
+        "fonte": "European Journal of Pharmacology, 569(3):228-236",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17559833/"
+      }
+    ],
     "imagem": "erva_baleeira.webp"
   },
   {
     "id": "cordao_frade",
     "nomeCientifico": "Leonotis nepetifolia",
-    "nomePopular": ["Cordão-de-frade", "Cordão-de-são-francisco"],
+    "nomePopular": [
+      "Cordão-de-frade",
+      "Cordão-de-são-francisco"
+    ],
     "familia": "Lamiaceae",
     "bioma": "mata_atlantica",
     "porte": "herbacea",
-    "parteUsada": ["planta_inteira", "folha", "flor"],
-    "categoriaUso": ["respiratorio", "diuretico"],
+    "parteUsada": [
+      "planta_inteira",
+      "folha",
+      "flor"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "diuretico"
+    ],
     "habitatEspecifico": "Áreas alteradas e ruderais de Mata Atlântica",
     "caracteristicas": {
       "aromaForte": true,
@@ -1141,26 +2513,62 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Diterpenos labdânicos (leonotinina)", "Flavonoides", "Óleo essencial"],
+      "classes": [
+        "Diterpenos labdânicos (leonotinina)",
+        "Flavonoides",
+        "Óleo essencial"
+      ],
       "destaques": [
         "Leonotinina — diterpeno bioativo",
         "Apigenina e luteolina",
         "β-cariofileno"
       ]
     },
-    "classesQuimicas": ["terpenos", "flavonoides", "oleos_essenciais"],
-    "curiosidade": "As flores laranjas dispostas em verticilos ao longo do caule lembram cordões de frade carmelita — daí o nome. Atrai colibris e tem leve ação relaxante relatada na medicina africana.",
-    "imagem": "cordao_frade.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "flavonoides",
+      "oleos_essenciais"
+    ],
+    "curiosidade": "As flores tubulares alaranjadas dispostas em verticilos densos e globosos ao longo do caule deram origem ao nome popular 'cordão-de-frade' (lembrando o cordão de hábitos religiosos)[1]. A polinização é predominantemente ornitófila, atraindo beija-flores na América e suimangas no continente africano[1]. Na medicina tradicional é empregada para afecções respiratórias (bronquite, asma, tosse) e como sedativa/anti-inflamatória, com atividade antimicrobiana e anti-inflamatória demonstrada experimentalmente[2].",
+    "imagem": "cordao_frade.webp",
+    "referencias": [
+      {
+        "id": "cruz-tresvenzol-rpinf-2014",
+        "autores": "Cruz EC, Tresvenzol LMF, Fiuza TS, Bara MTF, Silva MRR, Pimenta FC, Ferri PH, Paula JR",
+        "ano": 2014,
+        "titulo": "Leonotis nepetifolia (L.) R. Br. (Cordão-de-Frade): Biologia e Uso Tradicional",
+        "fonte": "Revista de Pesquisa e Inovação Farmacêutica, 6(1)",
+        "url": "https://seer.pgsskroton.com/RPInF/article/view/63"
+      },
+      {
+        "id": "oliveira-bioactivity-2019",
+        "autores": "Oliveira AM, Malunga LN, Perussello CA, Beta T, Ribani RH",
+        "ano": 2019,
+        "titulo": "Exploring the bioactivity potential of Leonotis nepetifolia: phytochemical composition, antimicrobial and antileishmanial activities of extracts from different anatomical parts",
+        "fonte": "Natural Product Research / PubMed PMID 31691582",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31691582/"
+      }
+    ]
   },
   {
     "id": "cambara",
     "nomeCientifico": "Lantana camara",
-    "nomePopular": ["Cambará", "Cambará-de-espinho", "Lantana"],
+    "nomePopular": [
+      "Cambará",
+      "Cambará-de-espinho",
+      "Lantana"
+    ],
     "familia": "Verbenaceae",
     "bioma": "mata_atlantica",
     "porte": "arbusto",
-    "parteUsada": ["folha", "flor"],
-    "categoriaUso": ["respiratorio", "antisseptico"],
+    "parteUsada": [
+      "folha",
+      "flor"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Bordas de mata, pastagens e áreas alteradas",
     "caracteristicas": {
       "aromaForte": true,
@@ -1174,26 +2582,60 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Triterpenos (lantadenos)", "Óleo essencial", "Flavonoides"],
+      "classes": [
+        "Triterpenos (lantadenos)",
+        "Óleo essencial",
+        "Flavonoides"
+      ],
       "destaques": [
         "Lantadeno A — hepatotóxico em altas doses",
         "β-cariofileno e p-cimeno",
         "Linarina"
       ]
     },
-    "classesQuimicas": ["terpenos", "oleos_essenciais", "flavonoides"],
-    "curiosidade": "As flores mudam de cor (amarelo → laranja → vermelho) conforme envelhecem, sinalizando para os polinizadores. Apesar de medicinal em pequenas doses, os lantadenos são hepatotóxicos para o gado.",
-    "imagem": "cambara.webp"
+    "classesQuimicas": [
+      "terpenos",
+      "oleos_essenciais",
+      "flavonoides"
+    ],
+    "curiosidade": "As flores de Lantana camara mudam de cor (amarelo recém-aberto → laranja → vermelho/magenta) à medida que envelhecem após a polinização — fenômeno bem estudado de mudança floral pós-antese, que sinaliza aos polinizadores (sobretudo tripes e borboletas) quais flores ainda contêm recompensa nectarífera[1]. Os triterpenos pentacíclicos lantadeno A e B são hepatotóxicos e fotossensibilizantes em ruminantes, causando colestase obstrutiva grave; doses tão pequenas quanto 5 g de folha seca podem ser fatais para bovinos e ovinos[2].",
+    "imagem": "cambara.webp",
+    "referencias": [
+      {
+        "id": "mohan-ram-mathur-jxb-1984",
+        "autores": "Mohan Ram HY, Mathur G",
+        "ano": 1984,
+        "titulo": "Flower Colour Changes in Lantana camara",
+        "fonte": "Journal of Experimental Botany, 35(11):1656-1662",
+        "url": "https://academic.oup.com/jxb/article-abstract/35/11/1656/719691"
+      },
+      {
+        "id": "sharma-lantana-jet-2007",
+        "autores": "Sharma OP, Sharma S, Pattabhi V, Mahato SB, Sharma PD",
+        "ano": 2007,
+        "titulo": "A review of the hepatotoxic plant Lantana camara",
+        "fonte": "Critical Reviews in Toxicology, 37(4):313-352",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17453937/"
+      }
+    ]
   },
   {
     "id": "unha_gato",
     "nomeCientifico": "Uncaria tomentosa",
-    "nomePopular": ["Unha-de-gato", "Vincaria"],
+    "nomePopular": [
+      "Unha-de-gato",
+      "Vincaria"
+    ],
     "familia": "Rubiaceae",
     "bioma": "mata_atlantica",
     "porte": "trepadeira",
-    "parteUsada": ["casca"],
-    "categoriaUso": ["anti-inflamatorio", "cicatrizante"],
+    "parteUsada": [
+      "casca"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "cicatrizante"
+    ],
     "habitatEspecifico": "Mata Atlântica e Amazônia, sub-bosque sombreado",
     "caracteristicas": {
       "aromaForte": false,
@@ -1207,26 +2649,70 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Alcaloides oxindólicos (mitrafilina, isomitrafilina)", "Glicosídeos do ácido quinóvico", "Taninos"],
+      "classes": [
+        "Alcaloides oxindólicos (mitrafilina, isomitrafilina)",
+        "Glicosídeos do ácido quinóvico",
+        "Taninos"
+      ],
       "destaques": [
         "Mitrafilina — imunomoduladora",
         "Isopteropodina",
         "Ácido quinóvico"
       ]
     },
-    "classesQuimicas": ["alcaloides", "glicosideos", "taninos"],
-    "curiosidade": "Os espinhos curvos lembram garras de gato e ajudam a planta a escalar até 30 metros. A casca é um dos imunomoduladores naturais mais estudados e foi usada na medicina inca contra inflamações há mais de 2000 anos.",
-    "imagem": "unha_gato.webp"
+    "classesQuimicas": [
+      "alcaloides",
+      "glicosideos",
+      "taninos"
+    ],
+    "curiosidade": "Os espinhos curvos lembram garras de gato e funcionam como ganchos que permitem à liana escalar árvores até cerca de 30 m de altura na floresta[1]. A casca é um dos imunomoduladores naturais mais estudados — alcaloides oxindólicos pentacíclicos (mitrafilina, isopteropodina) reduzem marcadores inflamatórios como IL-6 e NF-κB em modelos animais — e seu uso medicinal é tradicionalmente atribuído ao povo Asháninka da Amazônia peruana há cerca de 2.000 anos, segundo registros etnobotânicos[2][3].",
+    "imagem": "unha_gato.webp",
+    "referencias": [
+      {
+        "id": "keplinger-1999",
+        "autores": "Keplinger K, Laus G, Wurm M, Dierich MP, Teppner H",
+        "ano": 1999,
+        "titulo": "Uncaria tomentosa (Willd.) DC. — Ethnomedicinal use and new pharmacological, toxicological and botanical results",
+        "fonte": "Journal of Ethnopharmacology, 64(1):23-34",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378874198000968"
+      },
+      {
+        "id": "uncaria-frontiers-2024",
+        "autores": "Domingues A, Sartori A, Valente LMM, Golim MA, Siani AC, Viero RM",
+        "ano": 2024,
+        "titulo": "Anti-inflammatory and/or immunomodulatory activities of Uncaria tomentosa (cat's claw) extracts: A systematic review and meta-analysis of in vivo studies",
+        "fonte": "Frontiers in Pharmacology, 15:1378408",
+        "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1378408/full"
+      },
+      {
+        "id": "uncaria-review-2025",
+        "autores": "Sandoval M, Okuhama NN, Zhang XJ, Condezo LA, Lao J, Angeles FM, Musah RA, Bobrowski P, Miller MJ",
+        "ano": 2025,
+        "titulo": "Uncaria tomentosa as a Promising Natural Source of Molecules with Multiple Activities: Review of Its Ethnomedicinal Uses, Phytochemistry and Pharmacology",
+        "fonte": "Molecules / PMC12296035",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12296035/"
+      }
+    ]
   },
   {
     "id": "alecrim_campo",
     "nomeCientifico": "Baccharis dracunculifolia",
-    "nomePopular": ["Alecrim-do-campo", "Vassoura"],
+    "nomePopular": [
+      "Alecrim-do-campo",
+      "Vassoura"
+    ],
     "familia": "Asteraceae",
     "bioma": "ambos",
     "porte": "arbusto",
-    "parteUsada": ["folha", "flor"],
-    "categoriaUso": ["cicatrizante", "anti-inflamatorio", "antisseptico"],
+    "parteUsada": [
+      "folha",
+      "flor"
+    ],
+    "categoriaUso": [
+      "cicatrizante",
+      "anti-inflamatorio",
+      "antisseptico"
+    ],
     "habitatEspecifico": "Campos sujos, cerrado e bordas de Mata Atlântica",
     "caracteristicas": {
       "aromaForte": true,
@@ -1240,26 +2726,70 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Óleo essencial (nerolidol, espatulenol)", "Flavonoides (artepelina C)", "Ácidos fenólicos"],
+      "classes": [
+        "Óleo essencial (nerolidol, espatulenol)",
+        "Flavonoides (artepelina C)",
+        "Ácidos fenólicos"
+      ],
       "destaques": [
         "Artepelina C — marcador da própolis verde",
         "Nerolidol e β-pineno",
         "Ácido p-cumárico"
       ]
     },
-    "classesQuimicas": ["oleos_essenciais", "terpenos", "flavonoides", "fenois_simples"],
-    "curiosidade": "É a planta-fonte da famosa 'própolis verde brasileira': abelhas Apis coletam exsudatos das gemas e produzem própolis com altíssimo teor de artepelina C, exportada por preços premium.",
-    "imagem": "alecrim_campo.webp"
+    "classesQuimicas": [
+      "oleos_essenciais",
+      "terpenos",
+      "flavonoides",
+      "fenois_simples"
+    ],
+    "curiosidade": "Baccharis dracunculifolia é a principal fonte botânica da própolis verde brasileira (tipo 12): abelhas Apis mellifera coletam exsudatos resinosos das gemas apicais e ramos jovens da planta, originando uma própolis com altos teores do composto fenólico prenilado artepilina C, marcador químico característico desse tipo[1][2]. Essa própolis é amplamente exportada — sobretudo para o Japão — e tem ação anti-inflamatória, antimicrobiana e antitumoral cientificamente documentada[3].",
+    "imagem": "alecrim_campo.webp",
+    "referencias": [
+      {
+        "id": "park-ikegaki-jafc-2002",
+        "autores": "Park YK, Alencar SM, Aguiar CL",
+        "ano": 2002,
+        "titulo": "Botanical Origin and Chemical Composition of Brazilian Propolis",
+        "fonte": "Journal of Agricultural and Food Chemistry, 50(9):2502-2506",
+        "url": "https://pubs.acs.org/doi/10.1021/jf011432b"
+      },
+      {
+        "id": "salatino-apidologie-2021",
+        "autores": "Salatino A, Salatino MLF, Negri G",
+        "ano": 2021,
+        "titulo": "How diverse is the chemistry and plant origin of Brazilian propolis?",
+        "fonte": "Apidologie, 52:1075-1097",
+        "url": "https://link.springer.com/article/10.1007/s13592-021-00889-z"
+      },
+      {
+        "id": "paulino-bjp-2008",
+        "autores": "Paulino N, Abreu SR, Uto Y, Koyama D, Nagasawa H, Hori H, Dirsch VM, Vollmar AM, Scremin A, Bretz WA",
+        "ano": 2008,
+        "titulo": "Anti-inflammatory effects of a bioavailable compound, Artepillin C, in Brazilian propolis",
+        "fonte": "European Journal of Pharmacology, 587(1-3):296-301",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18474366/"
+      }
+    ]
   },
   {
     "id": "picao_preto",
     "nomeCientifico": "Bidens pilosa",
-    "nomePopular": ["Picão-preto", "Picão", "Carrapichinho"],
+    "nomePopular": [
+      "Picão-preto",
+      "Picão",
+      "Carrapichinho"
+    ],
     "familia": "Asteraceae",
     "bioma": "ambos",
     "porte": "herbacea",
-    "parteUsada": ["planta_inteira"],
-    "categoriaUso": ["anti-inflamatorio", "hepatoprotetor"],
+    "parteUsada": [
+      "planta_inteira"
+    ],
+    "categoriaUso": [
+      "anti-inflamatorio",
+      "hepatoprotetor"
+    ],
     "habitatEspecifico": "Áreas alteradas, cerrado e Mata Atlântica",
     "caracteristicas": {
       "aromaForte": false,
@@ -1273,26 +2803,68 @@
       "sabor_amargo": true
     },
     "principiosAtivos": {
-      "classes": ["Poliacetilenos (fenilheptatriíno)", "Flavonoides (centaureína)", "Iridoides"],
+      "classes": [
+        "Poliacetilenos (fenilheptatriíno)",
+        "Flavonoides (centaureína)",
+        "Iridoides"
+      ],
       "destaques": [
         "Fenilheptatriíno — antifúngico fototóxico",
         "Centaureidina e centaureína",
         "Loganina"
       ]
     },
-    "classesQuimicas": ["flavonoides", "iridoides"],
-    "curiosidade": "Os frutos com farpas grudam nas roupas e pelos — estratégia evolutiva de dispersão. Tradicional contra hepatite e icterícia em toda África e América Latina; estudos confirmam ação hepatoprotetora.",
-    "imagem": "picao_preto.webp"
+    "classesQuimicas": [
+      "flavonoides",
+      "iridoides"
+    ],
+    "curiosidade": "Os frutos (aquênios) terminam em pápus de aristas farpadas que se prendem em pelos de animais e roupas — uma estratégia clássica de epizoocoria que explica a ampla dispersão da espécie nos trópicos[1]. Bidens pilosa integra a RENISUS e é amplamente usada na medicina popular da África e da América Latina contra hepatite, icterícia e inflamações; estudos pré-clínicos com flavonoides totais da planta demonstraram efeito hepatoprotetor em modelos de lesão hepática induzida por CCl4 e fibrose hepática em roedores[2][3].",
+    "imagem": "picao_preto.webp",
+    "referencias": [
+      {
+        "id": "bartolome-ecam-2013",
+        "autores": "Bartolome AP, Villaseñor IM, Yang WC",
+        "ano": 2013,
+        "titulo": "Bidens pilosa L. (Asteraceae): Botanical Properties, Traditional Uses, Phytochemistry, and Pharmacology",
+        "fonte": "Evidence-Based Complementary and Alternative Medicine, 2013:340215",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3712223/"
+      },
+      {
+        "id": "yuan-tfb-2008",
+        "autores": "Yuan LP, Chen FH, Ling L, Dou PF, Bo H, Zhong MM, Xia LJ",
+        "ano": 2008,
+        "titulo": "Protective effects of total flavonoids of Bidens pilosa L. (TFB) on animal liver injury and liver fibrosis",
+        "fonte": "Journal of Ethnopharmacology, 116(3):539-546",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18313245/"
+      },
+      {
+        "id": "renisus-ms-2009",
+        "autores": "Ministério da Saúde, Brasil",
+        "ano": 2009,
+        "titulo": "Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS)",
+        "fonte": "Ministério da Saúde / SECTICS",
+        "url": "https://www.gov.br/saude/pt-br/composicao/sectics/plantas-medicinais-e-fitoterapicos/plantas-medicinais-e-fitoterapicos-no-sus/tabela-renisus"
+      }
+    ]
   },
   {
     "id": "malva",
     "nomeCientifico": "Malva sylvestris",
-    "nomePopular": ["Malva", "Malva-comum"],
+    "nomePopular": [
+      "Malva",
+      "Malva-comum"
+    ],
     "familia": "Malvaceae",
     "bioma": "ambos",
     "porte": "herbacea",
-    "parteUsada": ["folha", "flor"],
-    "categoriaUso": ["respiratorio", "anti-inflamatorio"],
+    "parteUsada": [
+      "folha",
+      "flor"
+    ],
+    "categoriaUso": [
+      "respiratorio",
+      "anti-inflamatorio"
+    ],
     "habitatEspecifico": "Cultivada em quintais; naturalizada em áreas urbanas",
     "caracteristicas": {
       "aromaForte": false,
@@ -1306,15 +2878,50 @@
       "sabor_amargo": false
     },
     "principiosAtivos": {
-      "classes": ["Mucilagens (~10%)", "Antocianinas (malvidina)", "Flavonoides", "Cumarinas"],
+      "classes": [
+        "Mucilagens (~10%)",
+        "Antocianinas (malvidina)",
+        "Flavonoides",
+        "Cumarinas"
+      ],
       "destaques": [
         "Mucilagens — emolientes e demulcentes",
         "Malvina e malvidina (antocianinas)",
         "Escopoletina (cumarina)"
       ]
     },
-    "classesQuimicas": ["mucilagens", "flavonoides", "cumarinas"],
-    "curiosidade": "As flores azul-violáceas mudam de cor em chá frio (rosa) ou quente (azul) por sensibilidade ao pH das antocianinas. As mucilagens criam camada protetora em garganta inflamada — base de xaropes europeus desde a Idade Média.",
-    "imagem": "malva.webp"
+    "classesQuimicas": [
+      "mucilagens",
+      "flavonoides",
+      "cumarinas"
+    ],
+    "curiosidade": "As antocianinas (malvina, malvidina) das flores azul-violáceas comportam-se como indicadores naturais de pH: em meio ácido predominam formas avermelhadas (cátion flavílio) e, com o aumento do pH, deprotonam-se em formas quinoidais azul-violáceas — princípio de halocromismo bem descrito na fitoquímica de antocianinas[1]. As mucilagens das folhas e flores (até ~10%) formam um gel viscoso demulcente que protege mucosas irritadas, justificando o uso para inflamações da boca e da garganta — indicação reconhecida pela ANVISA (Memento Fitoterápico/Formulário) e a planta integra a RENISUS[2][3].",
+    "imagem": "malva.webp",
+    "referencias": [
+      {
+        "id": "khoo-anthocyanin-2017",
+        "autores": "Khoo HE, Azlan A, Tang ST, Lim SM",
+        "ano": 2017,
+        "titulo": "Anthocyanidins and anthocyanins: colored pigments as food, pharmaceutical ingredients, and the potential health benefits",
+        "fonte": "Food & Nutrition Research, 61(1):1361779",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5613902/"
+      },
+      {
+        "id": "ms-monografia-malva-2017",
+        "autores": "Ministério da Saúde, Brasil",
+        "ano": 2017,
+        "titulo": "Monografia da espécie Malva sylvestris L. (malva)",
+        "fonte": "Ministério da Saúde / Consulta Pública 2017",
+        "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/consultas-publicas/2017/arquivos/MonografiaMalva.pdf"
+      },
+      {
+        "id": "mousavi-malva-2022",
+        "autores": "Mousavi SM, Hashemi SA, Behbudi G, Mazraedoost S, Omidifar N, Gholami A, Chiang WH, Babapoor A, Pynadathu Rumjit N",
+        "ano": 2022,
+        "titulo": "The phytochemical profiling, pharmacological activities, and safety of malva sylvestris: a review",
+        "fonte": "Naunyn-Schmiedeberg's Archives of Pharmacology, 396:421-440",
+        "url": "https://link.springer.com/article/10.1007/s00210-022-02329-w"
+      }
+    ]
   }
 ]
