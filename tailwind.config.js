@@ -4,20 +4,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        papel: '#F5F0E8',
-        papelEscuro: '#EAE0CC',
-        tinta: '#3D2B1F',
-        folha: '#4A7C59',
-        folhaEscura: '#2F5438',
-        sepia: '#B8860B',
-        terracota: '#C75B39'
+        papel: '#f5efe4',
+        papelEscuro: '#ede5d4',
+        tinta: '#1f1a14',
+        tintaSuave: '#6b5d4f',
+        folha: '#2b3d2f',
+        folhaEscura: '#1f2c22',
+        folhaSuave: '#5e7a64',
+        sepia: '#d88058',
+        terracota: '#b8573a',
+        linha: '#d4c8b1'
       },
       fontFamily: {
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
-        serif: ['Lora', 'Georgia', 'serif']
+        display: ['Fraunces', 'Georgia', 'serif'],
+        serif: ['Fraunces', 'Georgia', 'serif'],
+        sans: ['"IBM Plex Sans"', 'system-ui', 'sans-serif']
       },
       boxShadow: {
-        caderno: '0 1px 0 rgba(61,43,31,0.08), 0 8px 24px -12px rgba(61,43,31,0.25)'
+        caderno: '0 1px 0 rgba(31,26,20,0.06), 0 8px 24px -12px rgba(31,26,20,0.22)'
       }
     }
   },

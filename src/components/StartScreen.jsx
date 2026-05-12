@@ -1,3 +1,5 @@
+import { Sprig, Lens, Divider, Book, Compass } from './Icons.jsx';
+
 export default function StartScreen({
   onStart,
   onCatalog,
@@ -5,36 +7,46 @@ export default function StartScreen({
   onReferences,
   total
 }) {
+  const deckHref = `${import.meta.env.BASE_URL}apresentacao.html`;
   return (
     <section className="fade-in flex min-h-[80vh] flex-col items-center justify-center text-center">
-      <div className="mb-4 text-5xl">🌿</div>
-      <h1 className="font-display text-4xl sm:text-5xl font-bold text-tinta">
+      <div className="mb-2 text-folha">
+        <Sprig size={88} />
+      </div>
+      <h1 className="font-display text-4xl sm:text-5xl font-normal tracking-tight text-tinta">
         Herbário Vivo
       </h1>
-      <p className="mt-3 font-serif italic text-tinta/80">
+      <p className="mt-2 font-serif italic text-tintaSuave">
         das plantas medicinais de Minas Gerais
       </p>
-      <div className="mx-auto my-6 h-[2px] w-24 bg-folha/50" />
-      <p className="max-w-sm font-serif text-tinta/90">
+      <div className="my-5 text-folha/60">
+        <Divider width={200} />
+      </div>
+      <p className="max-w-sm font-sans text-[0.95rem] leading-relaxed text-tinta/85">
         Pense em uma planta medicinal mineira. Responda a algumas perguntas e
-        deixe que eu a descubra — como um naturalista em campo, pergunta a
-        pergunta.
+        deixe que o naturalista a descubra, pergunta a pergunta.
       </p>
-      <div className="mt-8 w-full max-w-sm space-y-3">
+      <div className="mt-7 w-full max-w-sm space-y-3">
         <button className="btn-primary" onClick={onStart}>
           Começar a adivinhação
         </button>
-        <button className="btn-option" onClick={onChallenge}>
-          🎯 Modo Desafio — escolha a planta-alvo
+        <button className="btn-option flex items-center gap-3" onClick={onChallenge}>
+          <span className="text-folha"><Lens size={20} /></span>
+          <span>Modo Desafio — escolha a planta-alvo</span>
         </button>
-        <button className="btn-ghost" onClick={onCatalog}>
-          Ver catálogo das {total} plantas
+        <button className="btn-ghost inline-flex items-center justify-center gap-2" onClick={onCatalog}>
+          <Compass size={16} />
+          <span>Ver catálogo das {total} plantas</span>
         </button>
-        <button className="btn-ghost" onClick={onReferences}>
-          Referências bibliográficas
+        <button className="btn-ghost inline-flex items-center justify-center gap-2" onClick={onReferences}>
+          <Book size={16} />
+          <span>Referências bibliográficas</span>
         </button>
+        <a className="btn-ghost inline-flex items-center justify-center gap-2" href={deckHref}>
+          <span>Como funciona · apresentação</span>
+        </a>
       </div>
-      <p className="mt-4 max-w-sm font-serif text-xs italic text-tinta/60">
+      <p className="mt-5 max-w-sm font-serif text-xs italic text-tinta/55">
         No Desafio você escolhe uma planta em segredo, responde como se ela
         estivesse na sua cabeça e vê se o naturalista chega na mesma.
       </p>

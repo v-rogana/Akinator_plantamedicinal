@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { parseFootnotes, formatReferencia } from '../utils/parseFootnotes.js';
+import { Leaf } from './Icons.jsx';
 
 const BIOMA_LABEL = {
   cerrado: 'Cerrado',
@@ -18,8 +19,8 @@ function PlantImage({ plant }) {
   const [erro, setErro] = useState(false);
   if (!plant.imagem || erro) {
     return (
-      <div className="flex h-48 w-full items-center justify-center rounded-xl border-2 border-dashed border-tinta/20 bg-papelEscuro/40 text-5xl text-tinta/40">
-        🌿
+      <div className="flex h-48 w-full items-center justify-center rounded-xl border border-dashed border-linha bg-papelEscuro/50 text-folha/55">
+        <Leaf size={72} />
       </div>
     );
   }

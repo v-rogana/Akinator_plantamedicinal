@@ -14,12 +14,13 @@ body,
 
 body {
   margin: 0;
-  font-family: 'Lora', Georgia, serif;
-  color: #3d2b1f;
-  background-color: #f5f0e8;
+  font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  color: #1f1a14;
+  background-color: #f5efe4;
   background-image:
-    radial-gradient(rgba(61, 43, 31, 0.05) 1px, transparent 1px),
-    radial-gradient(rgba(61, 43, 31, 0.035) 1px, transparent 1px);
+    radial-gradient(rgba(31, 26, 20, 0.045) 1px, transparent 1px),
+    radial-gradient(rgba(31, 26, 20, 0.03) 1px, transparent 1px);
   background-size: 24px 24px, 48px 48px;
   background-position: 0 0, 12px 12px;
   -webkit-font-smoothing: antialiased;
@@ -31,23 +32,26 @@ body {
            shadow-caderno transition active:scale-[0.98] active:bg-folhaEscura hover:bg-folhaEscura;
   }
   .btn-option {
-    @apply w-full min-h-[56px] rounded-xl border-2 border-tinta/20 bg-papel px-5 py-3
+    @apply w-full min-h-[56px] rounded-xl border border-linha bg-papel/85 px-5 py-3
            text-left font-serif text-base text-tinta shadow-caderno transition
            active:scale-[0.98] active:border-folha hover:border-folha;
   }
   .btn-ghost {
     @apply w-full min-h-[48px] rounded-xl px-4 py-2 font-serif italic text-tinta/70
-           underline underline-offset-4 decoration-tinta/30 transition active:text-tinta;
+           underline underline-offset-4 decoration-tinta/25 transition active:text-tinta hover:text-tinta;
   }
   .card-paper {
-    @apply rounded-2xl bg-papel/80 backdrop-blur border border-tinta/10 shadow-caderno p-5;
+    @apply rounded-2xl bg-papel/80 backdrop-blur border border-linha/80 shadow-caderno p-5;
   }
   .chip {
     @apply inline-block rounded-full border border-folha/40 bg-folha/10 px-3 py-1
-           text-xs font-serif text-folhaEscura;
+           text-xs font-sans tracking-wide text-folhaEscura;
   }
   .scientific {
     @apply italic font-serif;
+  }
+  .eyebrow-label {
+    @apply font-sans text-[0.7rem] uppercase tracking-[0.22em] text-folha font-medium;
   }
 }
 

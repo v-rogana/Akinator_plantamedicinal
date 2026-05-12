@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herbário Vivo · Uma chave taxonômica que aprende a perguntar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #f5efe4;
+      --cream-soft: #ede5d4;
+      --forest: #2b3d2f;
+      --forest-deep: #1f2c22;
+      --terracotta: #b8573a;
+      --terracotta-soft: #d88058;
+      --ink: #1f1a14;
+      --ink-soft: #6b5d4f;
+      --line: #d4c8b1;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      background: var(--cream);
+      font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .serif {
+      font-family: 'Fraunces', Georgia, serif;
+      font-feature-settings: "ss01", "ss02";
+    }
+    .italic { font-style: italic; }
+
+    .deck {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5vh 8vw;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      background: var(--cream);
+    }
+
+    .slide.dark {
+      background: var(--forest);
+      color: var(--cream);
+    }
+
+    .slide.terra {
+      background: var(--terracotta);
+      color: var(--cream);
+    }
+
+    .slide.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .slide.active .animate {
+      animation: riseIn 800ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+      opacity: 0;
+      transform: translateY(16px);
+    }
+
+    .slide.active .animate:nth-child(1) { animation-delay: 150ms; }
+    .slide.active .animate:nth-child(2) { animation-delay: 300ms; }
+    .slide.active .animate:nth-child(3) { animation-delay: 450ms; }
+    .slide.active .animate:nth-child(4) { animation-delay: 600ms; }
+    .slide.active .animate:nth-child(5) { animation-delay: 750ms; }
+    .slide.active .animate:nth-child(6) { animation-delay: 900ms; }
+
+    @keyframes riseIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .eyebrow {
+      font-size: clamp(0.75rem, 1vw, 0.95rem);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-weight: 500;
+      color: var(--ink-soft);
+      margin-bottom: 2rem;
+    }
+    .slide.dark .eyebrow, .slide.terra .eyebrow { color: rgba(245, 239, 228, 0.7); }
+
+    .display {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(2.5rem, 6.5vw, 6rem);
+      line-height: 1.02;
+      letter-spacing: -0.02em;
+    }
+
+    .display-mid {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(2rem, 4.8vw, 4.2rem);
+      line-height: 1.08;
+      letter-spacing: -0.015em;
+    }
+
+    .body-large {
+      font-size: clamp(1.1rem, 1.6vw, 1.5rem);
+      line-height: 1.55;
+      font-weight: 300;
+      color: var(--ink-soft);
+      max-width: 56ch;
+    }
+    .slide.dark .body-large, .slide.terra .body-large { color: rgba(245, 239, 228, 0.82); }
+
+    .body-medium {
+      font-size: clamp(1rem, 1.3vw, 1.2rem);
+      line-height: 1.6;
+      font-weight: 400;
+      color: var(--ink-soft);
+      max-width: 56ch;
+    }
+    .slide.dark .body-medium, .slide.terra .body-medium { color: rgba(245, 239, 228, 0.82); }
+
+    .attribution {
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: var(--ink-soft);
+      margin-top: 2rem;
+    }
+    .slide.dark .attribution, .slide.terra .attribution { color: rgba(245, 239, 228, 0.6); }
+
+    .pilar-frame {
+      display: flex;
+      align-items: baseline;
+      gap: 2.5rem;
+    }
+
+    .pilar-num {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: clamp(6rem, 14vw, 14rem);
+      line-height: 0.9;
+      color: var(--terracotta);
+      letter-spacing: -0.04em;
+    }
+    .slide.dark .pilar-num { color: var(--terracotta-soft); }
+
+    .pilar-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      color: var(--ink-soft);
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+    .slide.dark .pilar-label { color: rgba(245, 239, 228, 0.6); }
+
+    .item-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+      max-width: 64ch;
+    }
+
+    .item {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .slide.dark .item { border-bottom-color: rgba(245, 239, 228, 0.15); }
+    .item:last-child { border-bottom: none; }
+
+    .item-num {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 1.8rem;
+      color: var(--terracotta);
+      min-width: 2rem;
+      line-height: 1;
+    }
+    .slide.dark .item-num { color: var(--terracotta-soft); }
+
+    .item-text {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.15rem, 1.7vw, 1.6rem);
+      font-weight: 400;
+      line-height: 1.35;
+    }
+
+    .pullquote {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: clamp(2rem, 4.5vw, 4rem);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      max-width: 22ch;
+    }
+
+    .quote-mark {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(4rem, 8vw, 8rem);
+      line-height: 0.5;
+      color: var(--terracotta);
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+    .slide.dark .quote-mark { color: var(--terracotta-soft); }
+
+    .cover-ornament {
+      position: absolute;
+      top: 8vh;
+      right: 8vw;
+      width: 120px;
+      height: 120px;
+      border: 1px solid rgba(245, 239, 228, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cover-ornament::before {
+      content: '';
+      width: 40px;
+      height: 1px;
+      background: rgba(245, 239, 228, 0.4);
+      transform: rotate(45deg);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 2.5vh;
+      left: 5vw;
+      right: 5vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--ink-soft);
+      font-weight: 500;
+    }
+    .slide.dark .footer, .slide.terra .footer { color: rgba(245, 239, 228, 0.5); }
+
+    .footer-mark {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 1rem;
+    }
+
+    .controls {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      display: flex;
+      gap: 0.5rem;
+      z-index: 100;
+    }
+
+    .ctrl {
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--line);
+      background: rgba(245, 239, 228, 0.9);
+      backdrop-filter: blur(10px);
+      color: var(--ink);
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 200ms;
+      border-radius: 0;
+    }
+
+    .ctrl:hover {
+      background: var(--forest);
+      color: var(--cream);
+      border-color: var(--forest);
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: var(--terracotta);
+      transition: width 400ms ease;
+      z-index: 100;
+    }
+
+    .hint {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--ink-soft);
+      font-weight: 500;
+      opacity: 0.6;
+      z-index: 100;
+    }
+
+    .back-home {
+      position: fixed;
+      top: 1.2rem;
+      left: 1.2rem;
+      z-index: 110;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-weight: 500;
+      color: var(--ink);
+      background: rgba(245, 239, 228, 0.92);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--line);
+      padding: 0.55rem 0.95rem;
+      text-decoration: none;
+      transition: all 200ms;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .back-home:hover {
+      background: var(--forest);
+      color: var(--cream);
+      border-color: var(--forest);
+    }
+    .back-home .arrow {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    .stress { color: var(--terracotta); }
+    .slide.dark .stress { color: var(--terracotta-soft); }
+
+    .icebreaker-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      max-width: 34ch;
+    }
+    .icebreaker-question {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+      font-weight: 300;
+      line-height: 1.2;
+    }
+    .icebreaker-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      color: var(--terracotta);
+      font-weight: 500;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .two-col .col-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      font-weight: 500;
+      color: var(--terracotta);
+      margin-bottom: 1.5rem;
+    }
+
+    .demo-link {
+      font-family: 'Fraunces', serif;
+      font-weight: 300;
+      font-size: clamp(1.4rem, 2.5vw, 2.2rem);
+      letter-spacing: 0.01em;
+      word-break: break-all;
+      max-width: 22ch;
+    }
+
+    .demo-layout {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      max-width: 72rem;
+    }
+    .demo-text { min-width: 0; }
+    .demo-qr {
+      background: var(--cream);
+      padding: 1.1rem 1.1rem 0.9rem;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.7rem;
+      max-width: 18rem;
+      justify-self: center;
+      box-shadow: 0 18px 40px -22px rgba(0, 0, 0, 0.45);
+    }
+    .demo-qr img {
+      width: 100%;
+      height: auto;
+      display: block;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+    .demo-qr-label {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    .formula {
+      font-family: 'Fraunces', Georgia, serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: clamp(1.8rem, 3.8vw, 3.2rem);
+      line-height: 1.2;
+      letter-spacing: 0.01em;
+      color: var(--ink);
+      margin: 1.8rem 0;
+      padding: 1.4rem 1.8rem;
+      border-left: 2px solid var(--terracotta);
+      background: var(--cream-soft);
+      max-width: 28ch;
+    }
+    .formula .var { color: var(--terracotta); font-style: italic; }
+    .formula sub { font-size: 0.65em; vertical-align: -0.2em; font-style: normal; }
+
+    .scenario-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.4rem;
+      margin-top: 1.5rem;
+      max-width: 70ch;
+    }
+    .scenario {
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+    }
+    .scenario-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--terracotta);
+      font-weight: 500;
+      margin-bottom: 0.6rem;
+    }
+    .scenario-title {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+      line-height: 1.3;
+      margin-bottom: 0.9rem;
+      font-weight: 400;
+    }
+    .scenario-calc {
+      font-family: 'IBM Plex Sans', monospace;
+      font-size: clamp(0.85rem, 1.05vw, 1rem);
+      line-height: 1.7;
+      color: var(--ink-soft);
+      font-feature-settings: "tnum";
+    }
+    .scenario-result {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+      color: var(--terracotta);
+      margin-top: 0.6rem;
+      font-weight: 400;
+    }
+    @media (max-width: 768px) {
+      .scenario-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    }
+
+    @media print {
+      .slide {
+        opacity: 1 !important;
+        position: relative !important;
+        page-break-after: always;
+        height: 100vh;
+      }
+      .controls, .hint, .progress { display: none; }
+    }
+
+    @media (max-width: 768px) {
+      .slide { padding: 4vh 6vw; }
+      .two-col { grid-template-columns: 1fr; gap: 2rem; }
+      .pilar-frame { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+      .demo-layout {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        align-items: start;
+      }
+      .demo-qr {
+        max-width: 11rem;
+        padding: 0.85rem 0.85rem 0.7rem;
+        justify-self: start;
+      }
+      .demo-qr-label { font-size: 0.65rem; letter-spacing: 0.18em; }
+      .demo-link { font-size: 1.15rem; }
+
+      .math-slide {
+        justify-content: flex-start;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .math-slide .eyebrow { margin-bottom: 1rem; }
+      .math-slide .display-mid {
+        font-size: clamp(1.7rem, 7vw, 2.1rem);
+        max-width: none;
+      }
+      .math-slide .formula {
+        font-size: clamp(1.1rem, 5.2vw, 1.5rem);
+        padding: 0.9rem 1rem;
+        margin: 1rem 0 0.4rem;
+        max-width: none;
+        line-height: 1.3;
+      }
+      .math-slide .body-medium { font-size: 0.92rem; }
+      .scenario-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 1rem;
+        max-width: none;
+      }
+      .scenario { padding-top: 0.8rem; }
+      .scenario-label { font-size: 0.68rem; letter-spacing: 0.18em; }
+      .scenario-title { font-size: 0.95rem; margin-bottom: 0.6rem; }
+      .scenario-calc { font-size: 0.78rem; line-height: 1.6; }
+      .scenario-result { font-size: 0.95rem; margin-top: 0.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="deck" id="deck">
+
+    <!-- 01 · Capa -->
+    <section class="slide dark active">
+      <div class="cover-ornament animate"></div>
+      <div class="eyebrow animate">Plantas Medicinais de MG · Pós-graduação em Biologia</div>
+      <h1 class="display serif animate">
+        Herbário Vivo.<br />
+        <span class="italic">Uma chave que aprende a perguntar.</span>
+      </h1>
+      <p class="body-large animate" style="margin-top: 3rem;">
+        Um app que adivinha a planta medicinal mineira que você está pensando, escolhendo cada pergunta pelo ganho de informação.
+      </p>
+      <div class="footer">
+        <span>Apresentação · 2026</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 02 · Tese -->
+    <section class="slide">
+      <div class="eyebrow animate">A ideia central</div>
+      <h2 class="display-mid serif animate">
+        Uma chave taxonômica que <span class="italic stress">se reorganiza</span> a cada resposta, escolhendo sempre a pergunta que mais separa o conjunto.
+      </h2>
+      <p class="body-large animate" style="margin-top: 2.5rem;">
+        Quarenta espécies medicinais de Minas Gerais. Cerrado e Mata Atlântica. Funciona no celular.
+      </p>
+      <div class="footer">
+        <span>01 · Tese</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 03 · Mapa -->
+    <section class="slide">
+      <div class="eyebrow animate">Em 9 minutos</div>
+      <div class="item-list">
+        <div class="item animate">
+          <span class="item-num">I</span>
+          <span class="item-text">Como o app decide a próxima pergunta.</span>
+        </div>
+        <div class="item animate">
+          <span class="item-num">II</span>
+          <span class="item-text">Demo ao vivo, com o link aberto no celular de vocês.</span>
+        </div>
+        <div class="item animate">
+          <span class="item-num">III</span>
+          <span class="item-text">O que a construção da base ensinou.</span>
+        </div>
+      </div>
+      <div class="footer">
+        <span>02 · Mapa</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 04 · Abertura Pilar 1 -->
+    <section class="slide dark">
+      <div class="pilar-frame animate">
+        <div class="pilar-num italic">01</div>
+        <div>
+          <div class="pilar-label">Pilar primeiro</div>
+          <h2 class="display-mid serif">Como o app pensa.</h2>
+        </div>
+      </div>
+      <div class="footer">
+        <span>03 · Pilar 1</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 05 · Conceito: ganho de informação -->
+    <section class="slide">
+      <div class="eyebrow animate">Shannon · 1948</div>
+      <h2 class="display-mid serif animate">
+        A próxima pergunta é a que mais reduz a <span class="italic stress">entropia</span> do conjunto restante.
+      </h2>
+      <p class="body-large animate" style="margin-top: 2rem;">
+        Em cada rodada, o algoritmo calcula a entropia esperada de cada pergunta possível e escolhe a de maior ganho de informação. É a mesma lógica de uma árvore de decisão, em modo interativo.
+      </p>
+      <p class="attribution animate">
+        <em class="italic serif">A Mathematical Theory of Communication</em>, 1948
+      </p>
+      <div class="footer">
+        <span>04 · Algoritmo</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 06 · Matemática: entropia e ganho de informação -->
+    <section class="slide math-slide">
+      <div class="eyebrow animate">A conta por trás</div>
+      <h2 class="display-mid serif animate" style="max-width: 18ch;">
+        Entropia de Shannon.
+      </h2>
+      <div class="formula animate">
+        H(<span class="var">X</span>) = &minus; &Sigma; <em>p</em><sub>i</sub> log<sub>2</sub> <em>p</em><sub>i</sub>
+      </div>
+      <p class="body-medium animate" style="margin-top: 0.4rem; max-width: 60ch;">
+        Sobraram 4 plantas. Entropia atual: log<sub>2</sub>(4) = <strong>2 bits</strong>. Duas perguntas possíveis, dois cortes diferentes.
+      </p>
+      <div class="scenario-grid animate">
+        <div class="scenario">
+          <div class="scenario-label">Pergunta A · corta 3 / 1</div>
+          <div class="scenario-title">"A planta é do Cerrado?"</div>
+          <div class="scenario-calc">
+            H = (3/4)·log<sub>2</sub>(3) + (1/4)·log<sub>2</sub>(1)<br/>
+            H = 0,75 · 1,585 + 0<br/>
+            H ≈ <strong>1,19 bits</strong>
+          </div>
+          <div class="scenario-result">Ganho: 0,81 bit</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-label">Pergunta B · corta 2 / 2</div>
+          <div class="scenario-title">"O porte é arbóreo?"</div>
+          <div class="scenario-calc">
+            H = (2/4)·log<sub>2</sub>(2) + (2/4)·log<sub>2</sub>(2)<br/>
+            H = 0,5 · 1 + 0,5 · 1<br/>
+            H = <strong>1,00 bit</strong>
+          </div>
+          <div class="scenario-result">Ganho: 1,00 bit · vencedora</div>
+        </div>
+      </div>
+      <div class="footer">
+        <span>05 · Matemática</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 07 · Duas regras práticas -->
+    <section class="slide">
+      <div class="eyebrow animate">Dois detalhes que ressoam com a prática</div>
+      <h2 class="display-mid serif animate">Duas escolhas de design.</h2>
+      <div class="item-list animate">
+        <div class="item">
+          <span class="item-num">i</span>
+          <span class="item-text"><span class="italic stress">"Não sei"</span> não elimina nada. Trata dado faltante como em chave dicotômica.</span>
+        </div>
+        <div class="item">
+          <span class="item-num">ii</span>
+          <span class="item-text">Bioma e porte vêm antes da fitoquímica. Do <span class="italic stress">contexto pro detalhe</span>, como um botânico faria.</span>
+        </div>
+      </div>
+      <div class="footer">
+        <span>06 · Algoritmo</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 08 · Demo: chamada com link -->
+    <section class="slide terra">
+      <div class="eyebrow animate">Demo ao vivo</div>
+      <div class="demo-layout">
+        <div class="demo-text">
+          <h2 class="display-mid serif animate">
+            Pega o celular.<br/>
+            <span class="italic">Tenta confundir o app.</span>
+          </h2>
+          <p class="demo-link animate" style="margin-top: 1.8rem;">
+            v-rogana.github.io/<br/>Akinator_plantamedicinal
+          </p>
+          <p class="body-medium animate" style="margin-top: 1.4rem; color: rgba(245, 239, 228, 0.9);">
+            Pensa em uma planta. Responde. Em algum momento, marca "Não sei" só pra ver o que acontece.
+          </p>
+        </div>
+        <div class="demo-qr animate">
+          <img src="qrcode-akinator.png" alt="QR code do Herbário Vivo" />
+          <span class="demo-qr-label">aponte a câmera</span>
+        </div>
+      </div>
+      <div class="footer">
+        <span>07 · Demo</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 09 · Abertura Pilar 2 -->
+    <section class="slide dark">
+      <div class="pilar-frame animate">
+        <div class="pilar-num italic">02</div>
+        <div>
+          <div class="pilar-label">Pilar segundo</div>
+          <h2 class="display-mid serif">O que a base ensina.</h2>
+        </div>
+      </div>
+      <div class="footer">
+        <span>08 · Pilar 2</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 10 · Três aprendizados -->
+    <section class="slide">
+      <div class="eyebrow animate">Quarenta espécies, três lições</div>
+      <h2 class="display-mid serif animate">O que aparece quando você alimenta a chave.</h2>
+      <div class="item-list animate">
+        <div class="item">
+          <span class="item-num">i</span>
+          <span class="item-text"><span class="italic stress">Fitoquímica é um discriminador potente.</span> Taninos resolvem o Barbatimão. Lactonas sesquiterpênicas, a Arnica do Cerrado.</span>
+        </div>
+        <div class="item">
+          <span class="item-num">ii</span>
+          <span class="item-text">A chave é sobre <span class="italic stress">diferenças</span>, não sobre espécies. Sem diferença na base, o algoritmo não tem o que perguntar.</span>
+        </div>
+        <div class="item">
+          <span class="item-num">iii</span>
+          <span class="item-text">Codificar é escolher. Cada campo ganha precisão e perde nuance. É o trade-off de qualquer digitalização.</span>
+        </div>
+      </div>
+      <div class="footer">
+        <span>09 · Aprendizados</span>
+        <span class="footer-mark italic">Herbário Vivo</span>
+      </div>
+    </section>
+
+    <!-- 11 · Encerramento -->
+    <section class="slide dark">
+      <div class="eyebrow animate">Obrigado pela escuta</div>
+      <h2 class="display serif animate">
+        Perguntas<br/>
+        <em class="italic">são bem-vindas.</em>
+      </h2>
+      <p class="body-large animate" style="margin-top: 3rem;">
+        v-rogana.github.io/Akinator_plantamedicinal<br/>
+        Quarenta espécies. Cerrado e Mata Atlântica. Código aberto.
+      </p>
+      <div class="footer">
+        <span>10 · Fim</span>
+        <span class="footer-mark italic">Herbário Vivo · 2026</span>
+      </div>
+    </section>
+
+  </div>
+
+  <a href="./" id="back-home-link" class="back-home"><span class="arrow">←</span> Voltar</a>
+
+  <div class="hint">setas para navegar</div>
+
+  <div class="controls">
+    <button class="ctrl" id="prev" aria-label="Anterior">&larr;</button>
+    <button class="ctrl" id="next" aria-label="Próximo">&rarr;</button>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const total = slides.length;
+    let current = 0;
+    const progress = document.getElementById('progress');
+    const hint = document.querySelector('.hint');
+
+    function go(index) {
+      if (index < 0 || index >= total) return;
+      slides[current].classList.remove('active');
+      current = index;
+      slides[current].classList.add('active');
+      const animated = slides[current].querySelectorAll('.animate');
+      animated.forEach(el => {
+        el.style.animation = 'none';
+        el.offsetHeight;
+        el.style.animation = '';
+      });
+      progress.style.width = ((current + 1) / total * 100) + '%';
+
+      const slide = slides[current];
+      if (slide.classList.contains('dark') || slide.classList.contains('terra')) {
+        hint.style.color = 'rgba(245, 239, 228, 0.6)';
+      } else {
+        hint.style.color = 'var(--ink-soft)';
+      }
+
+      if (index > 0) hint.style.display = 'none';
+    }
+
+    document.getElementById('next').addEventListener('click', () => go(current + 1));
+    document.getElementById('prev').addEventListener('click', () => go(current - 1));
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+        e.preventDefault(); go(current + 1);
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        e.preventDefault(); go(current - 1);
+      } else if (e.key === 'Home') { go(0); }
+      else if (e.key === 'End') { go(total - 1); }
+    });
+
+    progress.style.width = (1 / total * 100) + '%';
+
+    const backLink = document.getElementById('back-home-link');
+    if (backLink) {
+      backLink.addEventListener('click', (e) => {
+        if (document.referrer && document.referrer.startsWith(location.origin)) {
+          e.preventDefault();
+          history.back();
+        }
+      });
+    }
+
+    let touchStartX = 0;
+    document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; });
+    document.addEventListener('touchend', e => {
+      const touchEndX = e.changedTouches[0].screenX;
+      const diff = touchStartX - touchEndX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) go(current + 1);
+        else go(current - 1);
+      }
+    });
+  </script>
+</body>
+</html>
