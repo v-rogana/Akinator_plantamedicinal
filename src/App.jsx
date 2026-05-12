@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import plantsData from './data/plants.json';
 import {
   createGame,
@@ -15,10 +15,45 @@ import ChallengeResultScreen from './components/ChallengeResultScreen.jsx';
 import ReferencesScreen from './components/ReferencesScreen.jsx';
 
 export default function App() {
-  const [screen, setScreen] = useState('start');
+  const [screen, _setScreen] = useState('start');
   const [state, setState] = useState(() => createGame(plantsData));
   const [mode, setMode] = useState('normal');
   const [targetPlant, setTargetPlant] = useState(null);
+
+  // navegação para frente: empurra entrada no histórico do navegador
+  const setScreen = (next) => {
+    if (next === screen) return;
+    window.history.pushState({ screen: next }, '');
+    _setScreen(next);
+  };
+
+  // transição automática (ex.: question → result): substitui entrada em vez de empurrar
+  const replaceScreen = (next) => {
+    _setScreen(next);
+    window.history.replaceState({ screen: next }, '');
+  };
+
+  // botão "voltar" da UI: anda um passo atrás no histórico do navegador
+  const goBack = () => {
+    if (window.history.state && window.history.state.screen && window.history.state.screen !== 'start') {
+      window.history.back();
+    } else {
+      _setScreen('start');
+    }
+  };
+
+  useEffect(() => {
+    // marca a entrada inicial como 'start' caso ainda não tenha state associado
+    if (!window.history.state || !window.history.state.screen) {
+      window.history.replaceState({ screen: 'start' }, '');
+    }
+    const onPopState = (e) => {
+      const next = (e.state && e.state.screen) || 'start';
+      _setScreen(next);
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
 
   const question = useMemo(
     () => (screen === 'question' ? getNextQuestion(state) : null),
@@ -45,7 +80,8 @@ export default function App() {
     const nextQ = getNextQuestion(next);
     setState(next);
     if (!nextQ || next.candidates.length <= 1) {
-      setScreen('result');
+      // substitui 'question' por 'result' para que back não caia em tela em branco
+      replaceScreen('result');
     }
   };
 
@@ -70,7 +106,7 @@ export default function App() {
         <ChallengeSelectScreen
           plants={plantsData}
           onPick={startChallenge}
-          onBack={goHome}
+          onBack={goBack}
         />
       )}
       {screen === 'question' && question && (
@@ -99,10 +135,10 @@ export default function App() {
         />
       )}
       {screen === 'catalog' && (
-        <CatalogScreen plants={plantsData} onBack={goHome} />
+        <CatalogScreen plants={plantsData} onBack={goBack} />
       )}
       {screen === 'references' && (
-        <ReferencesScreen plants={plantsData} onBack={goHome} />
+        <ReferencesScreen plants={plantsData} onBack={goBack} />
       )}
     </main>
   );
